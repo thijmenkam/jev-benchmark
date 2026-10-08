@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jev Benchmark — results</title>
+<style>
+  :root { --fg:#111; --muted:#6b7280; --line:#e5e7eb; --bg:#fff; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:56px 24px 80px; }
+  h1 { font-size:32px; line-height:1.15; letter-spacing:-0.02em; margin:0 0 8px; }
+  .sub { color:var(--muted); margin:0 0 40px; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:0.08em; color:var(--muted);
+    margin:48px 0 16px; font-weight:600; }
+  .row { padding:16px 0; border-top:1px solid var(--line); }
+  .row:last-child { border-bottom:1px solid var(--line); }
+  .top { display:flex; justify-content:space-between; align-items:baseline; gap:12px; }
+  .name { font-weight:650; }
+  .name small { font-weight:400; color:var(--muted); }
+  .big { font-size:22px; font-weight:700; font-variant-numeric:tabular-nums; }
+  .bar { height:6px; background:#f3f4f6; border-radius:99px; margin-top:10px; overflow:hidden; }
+  .bar i { display:block; height:100%; background:#111; border-radius:99px; }
+  .meta { color:var(--muted); font-size:14px; margin-top:8px; }
+  .pick { background:#111; color:#fff; border-radius:12px; padding:20px 22px; margin-top:12px; }
+  .pick strong { display:block; margin-bottom:4px; }
+  .pick p { margin:0; color:#d1d5db; font-size:14px; }
+  ul.rec { list-style:none; padding:0; margin:0; }
+  ul.rec li { padding:12px 0; border-top:1px solid var(--line); font-size:15px; }
+  ul.rec li:last-child { border-bottom:1px solid var(--line); }
+  footer { margin-top:56px; color:var(--muted); font-size:13px; }
+  a { color:inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Jev Benchmark</h1>
+  <p class="sub">300 cases × 4 models · 1,200 calls · Oct 2026</p>
+
+  <h2>Accuracy — out of 100, how many right</h2>
+  <div>
+    <div class="row">
+      <div class="top"><span class="name">OpenAI <small>gpt-6-luna</small></span><span class="big">87.6%</span></div>
+      <div class="bar"><i style="width:87.6%"></i></div>
+    </div>
+    <div class="row">
+      <div class="top"><span class="name">Jev <small>jev-latest</small></span><span class="big">85.6%</span></div>
+      <div class="bar"><i style="width:85.6%"></i></div>
+    </div>
+    <div class="row">
+      <div class="top"><span class="name">Clef <small>27B</small></span><span class="big">84.7%</span></div>
+      <div class="bar"><i style="width:84.7%"></i></div>
+    </div>
+    <div class="row">
+      <div class="top"><span class="name">Flash <small>9B</small></span><span class="big">82.4%</span></div>
+      <div class="bar"><i style="width:82.4%"></i></div>
+    </div>
+  </div>
+
+  <h2>Cost — per 1,000 cases</h2>
+  <div>
+    <div class="row"><div class="top"><span class="name">Jev</span><span class="big">$0.04</span></div><div class="meta">Cheapest per correct answer too.</div></div>
+    <div class="row"><div class="top"><span class="name">OpenAI</span><span class="big">$0.08</span></div></div>
+    <div class="row"><div class="top"><span class="name">Flash</span><span class="big">$0.08</span></div></div>
+    <div class="row"><div class="top"><span class="name">Clef</span><span class="big">$0.22</span></div><div class="meta">~5× Jev.</div></div>
+  </div>
+
+  <h2>Speed — typical wait</h2>
+  <div>
+    <div class="row"><div class="top"><span class="name">OpenAI</span><span class="big">192 ms</span></div></div>
+    <div class="row"><div class="top"><span class="name">Jev</span><span class="big">272 ms</span></div><div class="meta">Most predictable — rarely slower than 340 ms.</div></div>
+    <div class="row"><div class="top"><span class="name">Flash</span><span class="big">325 ms</span></div></div>
+    <div class="row"><div class="top"><span class="name">Clef</span><span class="big">460 ms</span></div><div class="meta">1 in 20 takes over 3 seconds.</div></div>
+  </div>
+
+  <h2>Verdict</h2>
+  <div class="pick">
+    <strong>Default to Jev. Upgrade to OpenAI for graded scores.</strong>
+    <p>Jev is within 2 points of the best, at half the cost and steadier latency. OpenAI pulls ahead clearly on 1–4 severity scales and ambiguous cases.</p>
+  </div>
+  <ul class="rec">
+    <li><strong>Jev</strong> — best value. Best at yes/no questions.</li>
+    <li><strong>OpenAI</strong> — most accurate, most honest confidence. Best at scores.</li>
+    <li><strong>Clef</strong> — close to Jev, but 5× the price and spiky latency.</li>
+    <li><strong>Flash</strong> — best at routing, weakest overall. Only one that says “not sure”.</li>
+  </ul>
+
+  <footer>Full data: <a href="https://github.com/thijmenkam/jev-benchmark">github.com/thijmenkam/jev-benchmark</a> · <code>results/full-v2-summary.json</code></footer>
+</main>
+</body>
+</html>
