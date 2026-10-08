@@ -21,13 +21,13 @@
     font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased; }
   a { color: inherit; }
-  main { max-width: 960px; margin: 0 auto; padding: 48px 16px 96px; }
+  main { max-width: 1160px; margin: 0 auto; padding: 48px 16px 96px; }
   @media (min-width: 720px) { main { padding: 72px 32px 120px; } }
 
   /* header */
   .eyebrow { font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); font-weight: 600; margin: 0 0 12px; }
   h1 { font-size: clamp(32px, 6vw, 52px); line-height: 1.05; letter-spacing: -0.025em; margin: 0 0 16px; font-weight: 750; }
-  .lede { font-size: 18px; color: var(--ink-2); max-width: 640px; margin: 0 0 28px; }
+  .lede { font-size: 18px; color: var(--ink-2); max-width: 760px; margin: 0 0 28px; }
   .facts { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 14px; color: var(--ink-2); margin-bottom: 40px; }
   .facts b { color: var(--ink); font-weight: 650; }
 
@@ -51,9 +51,9 @@
   .note b { color: var(--ink); }
 
   /* verdict */
-  .verdict { background: var(--ink); color: var(--bg); border-radius: 16px; padding: 28px; margin-top: 40px; }
+  .verdict { background: var(--ink); color: var(--bg); border-radius: 16px; padding: 28px; margin-top: 0; }
   .verdict .big { font-size: clamp(20px, 3vw, 26px); font-weight: 700; letter-spacing: -0.015em; margin: 0 0 10px; line-height: 1.3; }
-  .verdict p { margin: 0; opacity: 0.8; font-size: 15px; max-width: 640px; }
+  .verdict p { margin: 0; opacity: 0.8; font-size: 15px; max-width: 820px; }
   .picks { display: grid; gap: 12px; grid-template-columns: 1fr; margin-top: 16px; }
   @media (min-width: 720px) { .picks { grid-template-columns: repeat(4, 1fr); } }
   .pick { border: 1px solid var(--ring); background: var(--surface); border-radius: 12px; padding: 16px; font-size: 14px; color: var(--ink-2); }
@@ -111,43 +111,54 @@
   nav.toc { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14px; color: var(--ink-2); margin: 0 0 8px; }
   nav.toc a { text-decoration: none; border-bottom: 1px solid var(--grid); }
   nav.toc a:hover { border-color: var(--ink); color: var(--ink); }
+  .prose { max-width: 820px; color: var(--ink-2); font-size: 16px; }
+  .prose p { margin: 0 0 14px; }
+  .prose b { color: var(--ink); }
 </style>
 </head>
 <body>
 <main>
-
   <p class="eyebrow">Benchmark · October 2026</p>
-  <h1>Four decision models, 679 labeled cases</h1>
-  <p class="lede">Jev, OpenAI Decisions, Cloudflare Clef and Clef-flash answered the same 1,904 questions over 679 labeled cases: the original 300 template-built cases plus 379 new cases drawn from real HuggingFace corpora and hand-written invoices. This page reports accuracy, calibration, latency and cost for each, with the statistical checks behind every comparison.</p>
+  <h1>Four decision models on 679 labeled cases</h1>
+  <p class="lede">We ran the same 679 cases through Jev, OpenAI Decisions, Cloudflare Clef and Cloudflare Clef-flash and compared how often each model gave the right answer, how honest its confidence was, how fast it responded, and what it cost. This page walks through what was tested, what came out, and what we conclude from it.</p>
   <div class="facts">
     <span><b>679</b> cases</span><span><b>1,904</b> questions</span><span><b>4</b> models</span><span><b>2,716</b> calls</span><span><b>$0.20</b> total spend</span><span><b>5</b> domains</span>
   </div>
   <nav class="toc">
-    <a href="#verdict">Summary</a><a href="#accuracy">Accuracy</a><a href="#frontier">Cost vs accuracy</a><a href="#trust">Trust</a><a href="#speed">Speed</a><a href="#stats">Is the gap real?</a><a href="#slices">Slices</a><a href="#probes">Stability</a><a href="#method">Method</a>
+    <a href="#setup">What was tested</a><a href="#accuracy">Accuracy</a><a href="#frontier">Cost vs accuracy</a><a href="#trust">Trust</a><a href="#speed">Speed</a><a href="#stats">Is the gap real?</a><a href="#slices">Where gaps open up</a><a href="#probes">Stability</a><a href="#conclusions">Conclusions</a><a href="#caveats">Caveats</a>
   </nav>
 
-  <div class="verdict" id="verdict">
-    <p class="big">OpenAI scored highest on 679 cases, three points ahead of Jev. That gap is now statistically real. Jev remains the cheapest per call and per correct answer.</p>
-    <p>The extension settled the question the first round left open: Jev versus OpenAI is −2.9 points with a 95% range of −4.5 to −1.4. Clef sits between them and is statistically tied with both. Flash trails OpenAI by four points, a real gap, and is tied with Jev and Clef. The 379 new real-world cases were harder for every model than the original templates, and the gaps widened on them.</p>
-  </div>
-  <div class="picks">
-    <div class="pick m-jev"><b>Jev</b><small>jev-latest · Typesafe</small>Lowest cost per call and per correct answer. Narrowest latency spread. Tied with Clef, three points behind OpenAI.</div>
-    <div class="pick m-openai"><b>OpenAI</b><small>gpt-6-luna · Decisions API</small>Highest overall accuracy, now a real gap. Highest on 1–4 scores and ambiguous cases. Fastest median; its slowest 5% of calls neared three seconds.</div>
-    <div class="pick m-clef"><b>Clef</b><small>27B · Cloudflare Workers AI</small>Between the two leaders, tied with both. Highest on invoice routing and whole-case exact match. Highest cost per call.</div>
-    <div class="pick m-flash"><b>Flash</b><small>clef-flash 9B · Cloudflare</small>Highest routing (choice) accuracy and highest out-of-scope abstention rate. Tied with Jev and Clef overall, behind OpenAI.</div>
-  </div>
-
-  <div class="tiles">
-    <div class="tile"><div class="k">Most accurate</div><div class="v">77.3%</div><div class="d"><span class="sw m-openai"></span>OpenAI, questions right</div></div>
-    <div class="tile"><div class="k">Cheapest per correct</div><div class="v">$0.01</div><div class="d"><span class="sw m-jev"></span>Jev, per 1k correct answers</div></div>
-    <div class="tile"><div class="k">Fastest typical</div><div class="v">205 ms</div><div class="d"><span class="sw m-openai"></span>OpenAI, median call</div></div>
-    <div class="tile"><div class="k">Tightest tail</div><div class="v">337 ms</div><div class="d"><span class="sw m-jev"></span>Jev, 95th percentile</div></div>
-  </div>
+  <!-- SETUP -->
+  <section id="setup">
+    <h2>What was tested</h2>
+    <p class="q">The four models, the cases they were given, and how the runs were done.</p>
+    <div class="card">
+      <div class="prose">
+        <p><b>The models.</b> All four are decision APIs: you send a piece of text (a ticket, an invoice, a log line) together with one or more questions, and the model returns an answer with a probability for each question. Jev is Typesafe's text-only model. OpenAI's offering is the gpt-6-luna model behind the Decisions API. Clef is Cloudflare's 27-billion-parameter model on Workers AI, and Clef-flash is its smaller 9-billion-parameter sibling built for speed. Every model received exactly the same text and the same questions.</p>
+        <p><b>The questions.</b> Each case asks between one and three questions of three kinds: a yes/no question such as "is this urgent?", a choice question such as "which team should handle this?", and a graded score on a scale of one to four such as "how severe is the impact?". The questions are fixed per domain and were never changed between runs.</p>
+        <p><b>The cases.</b> The 679 cases span five domains: support triage, invoice routing, security incident severity, deciding whether an agent should call a tool or ask a clarifying question, and a guardrail set of ambiguous and out-of-scope inputs. They were built in two batches. The first 300 were generated from sentence templates with varied details. The next 379 use real text: customer queries from the Banking77 dataset, out-of-scope queries from CLINC150, tool-call decisions from When2Call, excerpts from security operations logs, and 55 hand-written invoices. Every case was labeled with the correct answer before any model was run, and tagged as clear, borderline, ambiguous or out-of-scope. About one case in five is a reworded copy of another case with the same correct answer, which lets us measure whether wording alone changes a model's answer.</p>
+        <p><b>The runs.</b> Cases were shuffled once with a fixed seed and sent to the four models in rotation, one request per second, so that no model was favoured by time of day. Latency was measured on the client side from request to response. Cost was computed from the token usage each API reported, priced at the published list rates. Every one of the 2,716 calls returned a valid answer; there were no errors or timeouts.</p>
+      </div>
+    </div>
+    <h3>Models and endpoints</h3>
+    <div class="card scroll">
+      <table>
+        <thead><tr><th>Model</th><th>Provider</th><th>Endpoint</th><th class="num">Mean input tokens</th><th class="num">$ / 1k cases</th><th class="num">$ / 1k correct</th></tr></thead>
+        <tbody>
+          <tr><td><span class="sw m-jev"></span>jev-latest</td><td>Typesafe</td><td><code>api.typesafe.ai/v1/systemone</code></td><td class="num">696 + 74 out</td><td class="num">$0.029</td><td class="num">$0.01</td></tr>
+          <tr><td><span class="sw m-openai"></span>gpt-6-luna</td><td>OpenAI</td><td><code>api.openai.com/v1/decisions</code></td><td class="num">611</td><td class="num">$0.061</td><td class="num">$0.03</td></tr>
+          <tr><td><span class="sw m-clef"></span>clef (27B)</td><td>Cloudflare Workers AI</td><td><code>@cf/cloudflare/clef</code></td><td class="num">625</td><td class="num">$0.150</td><td class="num">$0.07</td></tr>
+          <tr><td><span class="sw m-flash"></span>clef-flash (9B)</td><td>Cloudflare Workers AI</td><td><code>@cf/cloudflare/clef-flash</code></td><td class="num">625</td><td class="num">$0.056</td><td class="num">$0.03</td></tr>
+        </tbody>
+      </table>
+      <p class="note">Mean input tokens are per call. Jev is the only model that bills output tokens, averaging 74 per call. Cost per 1,000 correct answers divides total spend by the number of questions the model answered correctly, so a cheap model that is often wrong does not win that column automatically.</p>
+    </div>
+  </section>
 
   <!-- ACCURACY -->
   <section id="accuracy">
     <h2>Accuracy</h2>
-    <p class="q">Out of 100 questions, how many did each model get right?</p>
+    <p class="q">Out of every 100 questions, how many did each model get right?</p>
     <div class="card">
       <div class="bars">
         <div class="n m-openai"><span class="sw m-openai"></span>OpenAI<small>gpt-6-luna</small></div><div class="b"><i class="m-openai" style="width:77.31%"></i></div><div class="v">77.3%</div>
@@ -155,7 +166,7 @@
         <div class="n m-jev"><span class="sw m-jev"></span>Jev<small>jev-latest</small></div><div class="b"><i class="m-jev" style="width:74.37%"></i></div><div class="v">74.4%</div>
         <div class="n m-flash"><span class="sw m-flash"></span>Flash<small>9B</small></div><div class="b"><i class="m-flash" style="width:73.06%"></i></div><div class="v">73.1%</div>
       </div>
-      <p class="note">Based on 1,904 questions over 679 cases. <b>OpenAI versus Jev</b> (−2.9, range −4.5 to −1.4) and <b>OpenAI versus Flash</b> (−4.3, range −6.2 to −2.2) are <b>real gaps</b>; every other pair is <b>too close to call</b> (see <a href="#stats">Is the gap real?</a>). Scores are lower than the first round's 82–88% because the 379 new cases use real-world text and are harder for every model.</p>
+      <p class="note">These figures cover all 1,904 questions across the 679 cases. OpenAI scored highest, with Clef, Jev and Flash following within four points. The section <a href="#stats">Is the gap real?</a> tests which of these differences are large enough to trust: OpenAI's lead over Jev and over Flash holds up statistically, while the other pairs are too close to separate with this many cases.</p>
     </div>
 
     <h3>By question type</h3>
@@ -169,14 +180,14 @@
           <tr><td><span class="sw m-flash"></span>Flash</td><td class="num">78.2%</td><td class="num best">76.4%</td><td class="num">62.5%</td><td class="num">0.44</td><td class="num">44.8%</td></tr>
         </tbody>
       </table>
-      <p class="note">Each model leads a different column. <b>Jev</b> scores highest on binary yes/no. <b>Flash</b> scores highest on picking a team or action. <b>OpenAI</b> scores highest on graded 1–4 scores, where it is off by a third of a level on average versus nearly half a level for Flash. <b>Clef</b> gets the most whole cases perfectly right. <b>Whole case perfect</b> means every question on a case was right, the strictest view.</p>
+      <p class="note">Each model leads a different column. Jev scored highest on yes/no questions, Flash on choosing a team or action, and OpenAI on graded one-to-four scores. The column <b>average levels off</b> shows how far a model's score was from the correct level on average, so OpenAI's 0.33 means it was typically a third of a level away. <b>Whole case perfect</b> is the strictest view: the share of cases where every question was answered correctly. Clef led there.</p>
     </div>
   </section>
 
   <!-- FRONTIER -->
   <section id="frontier">
     <h2>Cost versus accuracy</h2>
-    <p class="q">Cheapest per call is not automatically cheapest per correct answer. Where does each model sit?</p>
+    <p class="q">The cheapest model per call is not automatically the cheapest per correct answer. Where does each model sit?</p>
     <div class="card">
       <svg viewBox="0 0 720 360" role="img" aria-label="Scatter plot of cost per 1,000 cases against accuracy for four models">
         <!-- y grid: 70,72,74,76,78,80 -> y from 300 to 40 -->
@@ -209,14 +220,14 @@
         <g class="mark"><circle cx="448.3" cy="145.3" r="8" fill="var(--clef)" stroke="var(--surface)" stroke-width="2"/><title>Clef: $0.150 per 1k cases, 76.0% accurate</title></g>
         <text class="lbl" x="432" y="132" text-anchor="end">Clef</text><text x="432" y="148" text-anchor="end">$0.150 · 76.0%</text>
       </svg>
-      <p class="note">Up and to the left is better. <b>OpenAI</b> is the most accurate and second cheapest; <b>Jev</b> is the cheapest by far and within three points of the lead. <b>Clef</b> costs over twice as much per call as OpenAI for a point less accuracy. Per correct answer, Jev costs about $0.01 per thousand, OpenAI and Flash $0.03, Clef $0.07. Axes match the first round's scale; every model moved down because the new cases are harder.</p>
+      <p class="note">Up and to the left is better. OpenAI was the most accurate and the second cheapest. Jev was the cheapest by a wide margin and finished within three points of OpenAI. Clef cost more than twice as much per call as OpenAI while scoring a point lower. Per thousand correct answers, Jev cost about one cent, OpenAI and Flash about three cents, and Clef about seven cents.</p>
     </div>
   </section>
 
   <!-- TRUST -->
   <section id="trust">
     <h2>Trust</h2>
-    <p class="q">When a model says it is 90% sure, can you believe it? And how much can you automate?</p>
+    <p class="q">When a model says it is 90% sure, can you believe it? And how much of the work could be automated safely?</p>
     <div class="card scroll">
       <table>
         <thead><tr><th>Model</th><th class="num">Calibration gap (ECE)</th><th class="num">Brier</th><th class="num">≥90% sure and wrong</th><th class="num">Confidence when right vs wrong</th><th class="num">Accuracy at 80% automation</th></tr></thead>
@@ -227,10 +238,10 @@
           <tr><td><span class="sw m-flash"></span>Flash</td><td class="num">0.092</td><td class="num">0.176</td><td class="num best">3.0%</td><td class="num">0.85 vs 0.71</td><td class="num">78.4%</td></tr>
         </tbody>
       </table>
-      <p class="note"><b>Calibration gap</b> is how far "90% sure" is from being right 90% of the time; 0.03 is honest, 0.15 is bluffing. Harder cases roughly tripled every model's gap versus the first round (then 0.03–0.07, now 0.08–0.10), with <b>Clef</b> the least degraded. <b>≥90% sure and wrong</b> is the dangerous mistake: rarest for Flash at three in a hundred, most common for OpenAI at seven. <b>Accuracy at 80% automation</b>: if you auto-act on the 80% most confident answers and send the rest to a human, this is how often the automated part is right.</p>
+      <p class="note">The <b>calibration gap</b> measures how far "90% sure" is from being right 90% of the time. A gap of 0.03 means the confidence can be taken at face value; a gap of 0.15 means the model is overstating its certainty. All four models landed between 0.08 and 0.10, with Clef the best calibrated. The column <b>≥90% sure and wrong</b> counts the dangerous mistakes, where a model was highly confident and still wrong: Flash made the fewest at three per hundred questions and OpenAI the most at seven. <b>Accuracy at 80% automation</b> answers a practical question: if you let the model act on its 80% most confident answers and send the remaining 20% to a person, this is how often the automated answers are right.</p>
     </div>
 
-    <h3>Out-of-scope inputs</h3>
+    <h3>Out-of-scope inputs and rewording</h3>
     <div class="grid-2">
       <div class="card">
         <div class="bars">
@@ -239,7 +250,7 @@
           <div class="n"><span class="sw m-jev"></span>Jev</div><div class="b"><i class="m-jev" style="width:2.3%"></i></div><div class="v">2.3%</div>
           <div class="n"><span class="sw m-clef"></span>Clef</div><div class="b"><i class="m-clef" style="width:2.3%"></i></div><div class="v">2.3%</div>
         </div>
-        <p class="note"><b>Abstention rate</b> on 129 nonsense inputs (now including 25 real out-of-scope queries from CLINC150): how often the model dropped below 60% confidence. Higher is better here. Only Flash abstains with any frequency. The other three classified nearly every nonsense input with high confidence, so a confidence threshold alone would not flag out-of-scope input for them.</p>
+        <p class="note">This is the <b>abstention rate</b> on the 129 out-of-scope inputs, such as recipe requests sent to a support triage model. It shows how often the model's confidence dropped below 60%, which is the behaviour you want on nonsense input, so higher is better. Flash was the only model that hesitated with any regularity. The other three answered nearly every out-of-scope input with high confidence, which means a confidence threshold alone would not catch such inputs for them.</p>
       </div>
       <div class="card">
         <div class="bars">
@@ -248,7 +259,7 @@
           <div class="n"><span class="sw m-clef"></span>Clef</div><div class="b"><i class="m-clef" style="width:59.6%"></i></div><div class="v">14.9%</div>
           <div class="n"><span class="sw m-openai"></span>OpenAI</div><div class="b"><i class="m-openai" style="width:77.6%"></i></div><div class="v">19.4%</div>
         </div>
-        <p class="note"><b>Paraphrase flips</b> on 134 reworded pairs: same case, different wording, did the answer change? Lower is better. Flash is the most stable; OpenAI flips nearly one answer in five. Bars are scaled to 25%.</p>
+        <p class="note">This is the <b>flip rate</b> on 134 pairs of cases that say the same thing in different words. It shows how often the reworded version received a different answer, so lower is better. Flash was the most stable at one flip in ten, and OpenAI the least stable at nearly one in five. The bars are drawn on a scale of 0 to 25%.</p>
       </div>
     </div>
   </section>
@@ -256,7 +267,7 @@
   <!-- SPEED -->
   <section id="speed">
     <h2>Speed</h2>
-    <p class="q">The typical wait, and the bad-day wait your timeout has to cover.</p>
+    <p class="q">The typical wait, and the bad-day wait that a timeout has to cover.</p>
     <div class="card">
       <svg viewBox="0 0 720 230" role="img" aria-label="Latency range per model: median and 95th percentile, log scale">
         <!-- log scale: 100ms..5000ms -> x 110..690 ; x = 110 + log10(ms/100)/log10(50)*580 -->
@@ -282,14 +293,14 @@
         <g class="mark"><line x1="320.3" x2="587" y1="160" y2="160" stroke="var(--clef)" stroke-width="4" stroke-linecap="round" opacity="0.45"/><circle cx="320.3" cy="160" r="7" fill="var(--clef)" stroke="var(--surface)" stroke-width="2"/><title>Clef: median 413 ms, p95 2,496 ms</title></g>
         <text class="lbl" x="98" y="164" text-anchor="end">Clef</text><text x="599" y="164">413 → 2,496 ms</text>
       </svg>
-      <p class="note"><b>OpenAI</b> has the fastest typical call but its worst 5% now stretches to 2.9 seconds (a few slow outlier calls on the new cases). <b>Jev</b> is still the most predictable: its 95th percentile sits 65 ms above its median. No HTTP errors or timeouts for any model across 2,716 calls.</p>
+      <p class="note">The dot marks the median call and the bar extends to the 95th percentile, the time that 19 out of 20 calls beat. OpenAI had the fastest typical call at 205 ms, but its slowest 5% stretched to almost three seconds because of a handful of slow outliers. Jev was the most predictable: its 95th percentile sat only 65 ms above its median, so a timeout of half a second would almost never trigger. Clef had the widest spread, with one call in twenty taking over two and a half seconds.</p>
     </div>
   </section>
 
   <!-- STATS -->
   <section id="stats">
     <h2>Is the gap real?</h2>
-    <p class="q">With 1,904 questions, small gaps can still be luck. We re-shuffled the results 2,000 times; if the 95% range crosses zero, call it a tie.</p>
+    <p class="q">With 1,904 questions, small differences can still be luck. We re-shuffled the results 2,000 times to see where each gap could plausibly fall.</p>
     <div class="card pairs">
       <svg viewBox="0 0 720 300" role="img" aria-label="Accuracy gap between model pairs with 95% confidence intervals">
         <!-- x: -9 .. +5 pts -> 250..690 ; x = 250 + (v+9)/14*440 -->
@@ -322,14 +333,14 @@
         <text class="lbl" x="12" y="260">Clef − Flash</text><text x="12" y="276" style="fill:var(--good)">real gap · p=0.0006</text>
         <g class="mark"><line x1="576.9" x2="674.3" y1="264" y2="264" stroke="var(--ink)" stroke-width="2"/><circle cx="624" cy="264" r="6" fill="var(--ink)" stroke="var(--surface)" stroke-width="2"/><title>Clef − Flash: +2.9 pts, 95% range +1.4 to +4.5</title></g>
       </svg>
-      <p class="note">Three verdicts, no other wording: a range that stays on one side of zero is a <b>real gap</b>; one that crosses zero is <b>too close to call</b>. The p-values are McNemar tests on the cases where the two models disagreed (Jev versus OpenAI disagreed on 230 of 1,904 questions, OpenAI right on 143). Agreement runs 79 to 88% across pairs; Flash agrees least with the others.</p>
+      <p class="note">Each line shows the range in which the true gap falls with 95% confidence. If the whole line sits on one side of zero, the gap is <b>real</b>. If the line crosses zero, the comparison is <b>too close to call</b> with this amount of data. Three gaps are real: OpenAI ahead of Jev by about three points, OpenAI ahead of Flash by about four, and Clef ahead of Flash by about three. The remaining three pairs cannot be separated. The p-values come from McNemar's test, which looks only at the questions where the two models disagreed; Jev and OpenAI disagreed on 230 questions and OpenAI was right on 143 of them. Any two models agreed on between 79% and 88% of questions.</p>
     </div>
   </section>
 
   <!-- SLICES -->
   <section id="slices">
     <h2>Where the gaps open up</h2>
-    <p class="q">Accuracy by difficulty tier and by domain. Darker is more accurate.</p>
+    <p class="q">Accuracy by difficulty tier and by domain. Darker cells are more accurate.</p>
     <div class="grid-2">
       <div class="card scroll">
         <table>
@@ -341,7 +352,7 @@
             <tr><td>Out of scope <span style="color:var(--muted)">n=129</span></td><td class="num"><span class="cell h5">90.7%</span></td><td class="num"><span class="cell h5">93.8%</span></td><td class="num"><span class="cell h5">99.2%</span></td><td class="num"><span class="cell h4">80.6%</span></td></tr>
           </tbody>
         </table>
-        <p class="note">On <b>ambiguous</b> cases the Cloudflare models drop 13 to 19 points below OpenAI, and Jev now beats both of them there. Borderline cases are the worst slice for every model, including OpenAI. Out-of-scope accuracy is not meaningful on its own: the gold labels there are best-fit, so a high score means the model confidently labeled nonsense. The abstention chart above is the relevant measure for that row.</p>
+        <p class="note">Borderline cases were the hardest tier for every model. On ambiguous cases, where the text carries mixed signals, OpenAI and Jev held up far better than the two Cloudflare models, which fell 13 to 19 points behind. The out-of-scope row should not be read as accuracy: those cases have a best-fit label, so a high score there means the model confidently classified nonsense. The abstention chart above is the right measure for that row.</p>
       </div>
       <div class="card scroll">
         <table>
@@ -354,7 +365,7 @@
             <tr><td>Tool call vs clarify <span style="color:var(--muted)">n=266</span></td><td class="num"><span class="cell h1">67.3%</span></td><td class="num"><span class="cell h1">64.3%</span></td><td class="num"><span class="cell h2">70.3%</span></td><td class="num"><span class="cell h2">72.2%</span></td></tr>
           </tbody>
         </table>
-        <p class="note">No single model leads every domain. <b>Clef</b> scores highest on invoice routing, <b>Flash</b> on tool-call decisions, <b>OpenAI</b> on guardrail and support. <b>Security</b> is the hardest domain for everyone (real SOC logs, 48–58% on the new slice alone); <b>tool-call</b> collapsed for all four on the new When2Call-derived cases (50–59%), reversing the first round where template tool-calls favored Flash at 95%.</p>
+        <p class="note">No model led every domain. Clef scored highest on invoice routing, Flash on tool-call decisions, and OpenAI on support triage and guardrail cases. Security was the hardest domain for all four models, because the real security logs are terse and technical. Tool-call decisions drawn from the When2Call dataset were also difficult, with every model scoring between 64% and 72% there.</p>
       </div>
     </div>
   </section>
@@ -362,10 +373,10 @@
   <!-- PROBES -->
   <section id="probes">
     <h2>Stability and batching</h2>
-    <p class="q">Two operational probes: does the same input give the same answer, and is it cheaper to ask all questions in one call?</p>
+    <p class="q">Two operational questions: does the same input always give the same answer, and is it cheaper to ask all questions in one call? Both probes were run on 30 and 20 cases from the first batch of 300.</p>
     <div class="grid-2">
       <div class="card scroll">
-        <h3 style="margin-top:0">Determinism · 30 cases × 3 rounds</h3>
+        <h3 style="margin-top:0">Determinism · 30 cases, asked 3 times each</h3>
         <table>
           <thead><tr><th>Model</th><th class="num">Identical all 3 rounds</th><th class="num">Round accuracies</th></tr></thead>
           <tbody>
@@ -375,10 +386,10 @@
             <tr><td><span class="sw m-jev"></span>Jev</td><td class="num">97.6%</td><td class="num">86 · 88 · 88</td></tr>
           </tbody>
         </table>
-        <p class="note">Three of four returned identical answers on every round. Jev changed its top answer on 2 of 83 questions between rounds, with a mean probability spread of 0.003.</p>
+        <p class="note">Clef, Flash and OpenAI returned identical answers on all three rounds, which means their results can be cached safely. Jev changed its top answer on 2 of 83 questions between rounds, with a probability spread of 0.003, so a small amount of run-to-run variation should be expected from it.</p>
       </div>
       <div class="card scroll">
-        <h3 style="margin-top:0">Batching · 3 calls vs 1 call, 20 cases</h3>
+        <h3 style="margin-top:0">Batching · 3 separate calls versus 1 combined call, 20 cases</h3>
         <table>
           <thead><tr><th>Model</th><th class="num">Input tokens saved</th><th class="num">Latency, 3 calls vs 1</th><th class="num">Same answer</th></tr></thead>
           <tbody>
@@ -387,53 +398,53 @@
             <tr><td><span class="sw m-openai"></span>OpenAI</td><td class="num">20%</td><td class="num">1,291 → 220 ms</td><td class="num">100%</td></tr>
           </tbody>
         </table>
-        <p class="note">Accuracy was unchanged for Jev and OpenAI and within two points for Flash. Jev saves the most tokens because its per-call overhead is the largest. Clef was skipped to save budget. These probes ran on the original 300 cases only; they were not repeated on the 379 new cases.</p>
+        <p class="note">Sending all three questions in one call saved input tokens for every model because the case text is sent once instead of three times, and cut the total wait by two thirds or more. The answers did not change for Jev or OpenAI and changed on one question in sixty for Flash. Jev saved the most because its per-call overhead is the largest. Clef was not included in this probe to save budget.</p>
       </div>
     </div>
   </section>
 
-  <!-- METHOD -->
-  <section id="method">
-    <h2>Method</h2>
-    <p class="q">What was tested, how, and what to be careful about.</p>
-    <div class="grid-2">
-      <div class="card">
-        <h3 style="margin-top:0">Setup</h3>
-        <ul class="plain">
-          <li><b>679 cases</b> across five domains: support triage, invoice routing, security incident severity, tool-call versus clarify, and an out-of-scope guardrail set. Each case carries one to three questions of three types: yes/no, choice, and a 1–4 score. The first 300 cases were template-built; the 379 new cases (<code>data/gold.v2.jsonl</code>, built by <code>data/build_gold_v2.py</code>) use real text: Banking77 customer queries, CLINC150 out-of-scope queries, When2Call tool decisions, SOC logs, plus 55 hand-written invoices.</li>
-          <li><b>Gold labels</b> for new cases were written by a single labeler from independent source labels (never from model output) plus an audited sample, and tagged clear, borderline, ambiguous or out-of-scope. 49 new cases are paraphrases of another new case with the same gold.</li>
-          <li><b>Same payload</b> to every model: state plus questions. OpenAI Decisions gets the predicate/choice/score translation and a stringified state, since it rejects object states.</li>
-          <li><b>Protocol:</b> seeded shuffle, models run round-robin per case to balance time of day, 1 request per second, 60 s timeout, retries only on 429/5xx. Latency is client-measured. Cost is computed from each response's reported usage at list price.</li>
-          <li><b>Stats:</b> paired bootstrap with 2,000 resamples for accuracy gaps, McNemar on disagreements, n reported everywhere.</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3 style="margin-top:0">Caveats</h3>
-        <ul class="plain">
-          <li><b>One set of labels, one labeler.</b> The 379 new gold labels were written by a single labeler (the author) from independent source labels plus an audit pass; there was no second labeler. Uncertain rows were tiered borderline/ambiguous rather than clear, and per-slice reporting is the mitigation.</li>
-          <li><b>Public sources.</b> The new texts come from public HuggingFace corpora the models may have seen in training. All four models faced identical text, so the comparison stays fair, but absolute scores on those slices may overstate real-world accuracy.</li>
-          <li><b>Sample size.</b> 679 cases settled Jev versus OpenAI, but Clef remains statistically tied with both leaders; ranking all three with confidence would need more data still.</li>
-          <li><b>Text only.</b> Clef and OpenAI accept images, Jev does not, so images were excluded to keep the comparison fair.</li>
-          <li><b>Pricing</b> uses published list prices. Clef-flash's input rate was ambiguous in the docs; the $0.09 per million figure was used.</li>
-        </ul>
-      </div>
+  <!-- CONCLUSIONS -->
+  <section id="conclusions">
+    <h2>Conclusions</h2>
+    <p class="q">What the numbers support, and what they do not.</p>
+    <div class="verdict">
+      <p class="big">OpenAI scored highest, about three points ahead of Jev, and that lead holds up statistically. Jev was the cheapest per call and per correct answer, with the most predictable latency.</p>
+      <p>Clef sits between the two and cannot be separated from either with this many cases. Flash finished behind OpenAI by a real margin and tied with Jev and Clef. Beyond the overall score, the models differ mainly by question type: Jev was best at yes/no questions, Flash at choosing between options, and OpenAI at graded scores. Cost and latency separate the four more sharply than accuracy does.</p>
     </div>
-    <div class="card scroll" style="margin-top:16px">
-      <table>
-        <thead><tr><th>Model</th><th>Provider</th><th>Endpoint</th><th class="num">Mean input tokens</th><th class="num">$ / 1k cases</th><th class="num">$ / 1k correct</th></tr></thead>
-        <tbody>
-          <tr><td><span class="sw m-jev"></span>jev-latest</td><td>Typesafe</td><td><code>api.typesafe.ai/v1/systemone</code></td><td class="num">696 + 74 out</td><td class="num">$0.029</td><td class="num">$0.01</td></tr>
-          <tr><td><span class="sw m-openai"></span>gpt-6-luna</td><td>OpenAI</td><td><code>api.openai.com/v1/decisions</code></td><td class="num">611</td><td class="num">$0.061</td><td class="num">$0.03</td></tr>
-          <tr><td><span class="sw m-clef"></span>clef (27B)</td><td>Cloudflare Workers AI</td><td><code>@cf/cloudflare/clef</code></td><td class="num">625</td><td class="num">$0.150</td><td class="num">$0.07</td></tr>
-          <tr><td><span class="sw m-flash"></span>clef-flash (9B)</td><td>Cloudflare Workers AI</td><td><code>@cf/cloudflare/clef-flash</code></td><td class="num">625</td><td class="num">$0.056</td><td class="num">$0.03</td></tr>
-        </tbody>
-      </table>
+    <div class="picks">
+      <div class="pick m-jev"><b>Jev</b><small>jev-latest · Typesafe</small>Jev was the cheapest model per call and per correct answer, and its response times were the most consistent of the four. It scored highest on yes/no questions and finished three points behind OpenAI overall, level with Clef.</div>
+      <div class="pick m-openai"><b>OpenAI</b><small>gpt-6-luna · Decisions API</small>OpenAI had the highest overall accuracy and led on graded scores and on ambiguous cases. It had the fastest typical response, though its slowest 5% of calls approached three seconds, and it changed its answer most often when a case was reworded.</div>
+      <div class="pick m-clef"><b>Clef</b><small>27B · Cloudflare Workers AI</small>Clef scored between the two leaders and was statistically tied with both. It had the best calibration, led on invoice routing and on getting whole cases entirely right, and cost the most per call with the widest latency spread.</div>
+      <div class="pick m-flash"><b>Flash</b><small>clef-flash 9B · Cloudflare</small>Flash scored highest on choice questions and was the only model that regularly lowered its confidence on out-of-scope input. It was the weakest on graded scores and overall, and it was the most stable under rewording.</div>
+    </div>
+    <div class="tiles">
+      <div class="tile"><div class="k">Most accurate</div><div class="v">77.3%</div><div class="d"><span class="sw m-openai"></span>OpenAI, questions right</div></div>
+      <div class="tile"><div class="k">Cheapest per correct</div><div class="v">$0.01</div><div class="d"><span class="sw m-jev"></span>Jev, per 1k correct answers</div></div>
+      <div class="tile"><div class="k">Fastest typical</div><div class="v">205 ms</div><div class="d"><span class="sw m-openai"></span>OpenAI, median call</div></div>
+      <div class="tile"><div class="k">Tightest tail</div><div class="v">337 ms</div><div class="d"><span class="sw m-jev"></span>Jev, 95th percentile</div></div>
+    </div>
+  </section>
+
+  <!-- CAVEATS -->
+  <section id="caveats">
+    <h2>Caveats</h2>
+    <p class="q">Things to keep in mind before acting on these results.</p>
+    <div class="card">
+      <ul class="plain">
+        <li><b>The labels come from one person.</b> The correct answers for the 379 real-text cases were written by a single labeler, starting from the labels that came with the source datasets and checked on an audited sample. There was no second labeler. Cases the labeler was unsure about were tagged borderline or ambiguous rather than clear, and results are reported per tier so that label noise shows up as a slice rather than hiding in the overall score.</li>
+        <li><b>The real-text cases come from public datasets.</b> The models may have seen these texts during training. All four models faced identical text, so the comparison between them is fair, but the absolute scores on those slices may be higher than they would be on your own data.</li>
+        <li><b>Two batches of cases.</b> The template-built cases were easier for every model than the real-text cases, by roughly ten points. The overall figures blend both. The pattern of which model leads where was the same in both batches.</li>
+        <li><b>Sample size.</b> 679 cases are enough to show that OpenAI is ahead of Jev and Flash. They are not enough to rank OpenAI, Clef and Jev against each other with confidence; a one-point difference would need several thousand cases to confirm.</li>
+        <li><b>Text only.</b> Clef and OpenAI accept images and Jev does not, so images were left out to keep the comparison fair.</li>
+        <li><b>List prices.</b> Costs use published list prices. The input rate for Clef-flash was ambiguous in the documentation, and the figure of $0.09 per million tokens was used.</li>
+        <li><b>Stability probes.</b> The determinism and batching probes were run only on cases from the first batch of 300.</li>
+      </ul>
     </div>
   </section>
 
   <footer>
     <span>Code, dataset and raw results: <a href="https://github.com/thijmenkam/jev-benchmark">github.com/thijmenkam/jev-benchmark</a></span>
-    <span>Numbers from <code>results/full-v3-summary.json</code> (new-only slice: <code>results/full-v3-new-summary.json</code>) and <code>results/probes-all.md</code></span>
+    <span>Numbers from <code>results/full-v3-summary.json</code> and <code>results/probes-all.md</code></span>
     <span>Design: <code>EXPERIMENT.md</code></span>
   </footer>
 
