@@ -126,14 +126,14 @@
   </nav>
 
   <div class="verdict" id="verdict">
-    <p class="big">OpenAI leads by three points on 679 cases — a real gap. Jev stays the value pick at half the cost per correct answer.</p>
-    <p>The extension settled the question the first round left open: Jev versus OpenAI is now −2.9 points with a 95% range of −4.5 to −1.4, so OpenAI's lead is no longer noise. Clef sits between them, statistically tied with both. Flash trails OpenAI by four points (real) and is tied with Jev and Clef. The new real-world cases were harder for every model than the original templates, and the gaps widened on them.</p>
+    <p class="big">OpenAI scored highest on 679 cases, three points ahead of Jev. That gap is now statistically real. Jev remains the cheapest per call and per correct answer.</p>
+    <p>The extension settled the question the first round left open: Jev versus OpenAI is −2.9 points with a 95% range of −4.5 to −1.4. Clef sits between them and is statistically tied with both. Flash trails OpenAI by four points, a real gap, and is tied with Jev and Clef. The 379 new real-world cases were harder for every model than the original templates, and the gaps widened on them.</p>
   </div>
   <div class="picks">
-    <div class="pick m-jev"><b>Jev</b><small>jev-latest · Typesafe</small>Cheapest per call and per correct answer. Narrowest latency spread. Tied with Clef, three points behind OpenAI.</div>
-    <div class="pick m-openai"><b>OpenAI</b><small>gpt-6-luna · Decisions API</small>Highest overall accuracy, now a real gap. Best on 1–4 scores and ambiguous cases. Fastest median, but its worst 5% of calls neared three seconds.</div>
-    <div class="pick m-clef"><b>Clef</b><small>27B · Cloudflare Workers AI</small>Between the two leaders, tied with both. Best on invoice routing and whole-case exact match. Highest cost per call.</div>
-    <div class="pick m-flash"><b>Flash</b><small>clef-flash 9B · Cloudflare</small>Best routing (choice) accuracy and best out-of-scope abstention. Tied with Jev and Clef overall, clearly behind OpenAI.</div>
+    <div class="pick m-jev"><b>Jev</b><small>jev-latest · Typesafe</small>Lowest cost per call and per correct answer. Narrowest latency spread. Tied with Clef, three points behind OpenAI.</div>
+    <div class="pick m-openai"><b>OpenAI</b><small>gpt-6-luna · Decisions API</small>Highest overall accuracy, now a real gap. Highest on 1–4 scores and ambiguous cases. Fastest median; its slowest 5% of calls neared three seconds.</div>
+    <div class="pick m-clef"><b>Clef</b><small>27B · Cloudflare Workers AI</small>Between the two leaders, tied with both. Highest on invoice routing and whole-case exact match. Highest cost per call.</div>
+    <div class="pick m-flash"><b>Flash</b><small>clef-flash 9B · Cloudflare</small>Highest routing (choice) accuracy and highest out-of-scope abstention rate. Tied with Jev and Clef overall, behind OpenAI.</div>
   </div>
 
   <div class="tiles">
@@ -334,10 +334,10 @@
         <table>
           <thead><tr><th>Tier</th><th class="num">Jev</th><th class="num">OpenAI</th><th class="num">Clef</th><th class="num">Flash</th></tr></thead>
           <tbody>
-            <tr><td>Clear <span style="color:var(--muted)">n=1,046</span></td><td class="num"><span class="cell h1">77.0%</span></td><td class="num"><span class="cell h2">78.8%</span></td><td class="num"><span class="cell h2">80.2%</span></td><td class="num"><span class="cell h2">79.5%</span></td></tr>
-            <tr><td>Borderline <span style="color:var(--muted)">n=513</span></td><td class="num"><span class="cell h1">65.3%</span></td><td class="num"><span class="cell h1">70.4%</span></td><td class="num"><span class="cell h1">67.8%</span></td><td class="num"><span class="cell h1">64.5%</span></td></tr>
-            <tr><td>Ambiguous <span style="color:var(--muted)">n=216</span></td><td class="num"><span class="cell h1">73.6%</span></td><td class="num"><span class="cell h1">76.8%</span></td><td class="num"><span class="cell h1">60.7%</span></td><td class="num"><span class="cell h1">57.9%</span></td></tr>
-            <tr><td>Out of scope <span style="color:var(--muted)">n=129</span></td><td class="num"><span class="cell h4">90.7%</span></td><td class="num"><span class="cell h4">93.8%</span></td><td class="num"><span class="cell h5">99.2%</span></td><td class="num"><span class="cell h2">80.6%</span></td></tr>
+            <tr><td>Clear <span style="color:var(--muted)">n=1,046</span></td><td class="num"><span class="cell h3">77.0%</span></td><td class="num"><span class="cell h3">78.8%</span></td><td class="num"><span class="cell h4">80.2%</span></td><td class="num"><span class="cell h3">79.5%</span></td></tr>
+            <tr><td>Borderline <span style="color:var(--muted)">n=513</span></td><td class="num"><span class="cell h1">65.3%</span></td><td class="num"><span class="cell h2">70.4%</span></td><td class="num"><span class="cell h1">67.8%</span></td><td class="num"><span class="cell h1">64.5%</span></td></tr>
+            <tr><td>Ambiguous <span style="color:var(--muted)">n=216</span></td><td class="num"><span class="cell h2">73.6%</span></td><td class="num"><span class="cell h3">76.8%</span></td><td class="num"><span class="cell h1">60.7%</span></td><td class="num"><span class="cell h1">57.9%</span></td></tr>
+            <tr><td>Out of scope <span style="color:var(--muted)">n=129</span></td><td class="num"><span class="cell h5">90.7%</span></td><td class="num"><span class="cell h5">93.8%</span></td><td class="num"><span class="cell h5">99.2%</span></td><td class="num"><span class="cell h4">80.6%</span></td></tr>
           </tbody>
         </table>
         <p class="note">On <b>ambiguous</b> cases the Cloudflare models drop 13 to 19 points below OpenAI, and Jev now beats both of them there. Borderline cases are the worst slice for every model, including OpenAI. Out-of-scope accuracy is not meaningful on its own: the gold labels there are best-fit, so a high score means the model confidently labeled nonsense. The abstention chart above is the relevant measure for that row.</p>
@@ -346,11 +346,11 @@
         <table>
           <thead><tr><th>Domain</th><th class="num">Jev</th><th class="num">OpenAI</th><th class="num">Clef</th><th class="num">Flash</th></tr></thead>
           <tbody>
-            <tr><td>Support triage <span style="color:var(--muted)">n=534</span></td><td class="num"><span class="cell h2">79.8%</span></td><td class="num"><span class="cell h2">82.8%</span></td><td class="num"><span class="cell h2">78.5%</span></td><td class="num"><span class="cell h1">75.8%</span></td></tr>
-            <tr><td>Security severity <span style="color:var(--muted)">n=435</span></td><td class="num"><span class="cell h1">66.0%</span></td><td class="num"><span class="cell h1">72.0%</span></td><td class="num"><span class="cell h1">69.0%</span></td><td class="num"><span class="cell h1">69.2%</span></td></tr>
-            <tr><td>Invoice routing <span style="color:var(--muted)">n=369</span></td><td class="num"><span class="cell h1">77.0%</span></td><td class="num"><span class="cell h2">79.7%</span></td><td class="num"><span class="cell h3">86.7%</span></td><td class="num"><span class="cell h2">80.8%</span></td></tr>
-            <tr><td>Guardrail / OOS <span style="color:var(--muted)">n=300</span></td><td class="num"><span class="cell h2">80.0%</span></td><td class="num"><span class="cell h3">84.0%</span></td><td class="num"><span class="cell h1">73.3%</span></td><td class="num"><span class="cell h1">65.0%</span></td></tr>
-            <tr><td>Tool call vs clarify <span style="color:var(--muted)">n=266</span></td><td class="num"><span class="cell h1">67.3%</span></td><td class="num"><span class="cell h1">64.3%</span></td><td class="num"><span class="cell h1">70.3%</span></td><td class="num"><span class="cell h1">72.2%</span></td></tr>
+            <tr><td>Support triage <span style="color:var(--muted)">n=534</span></td><td class="num"><span class="cell h3">79.8%</span></td><td class="num"><span class="cell h4">82.8%</span></td><td class="num"><span class="cell h3">78.5%</span></td><td class="num"><span class="cell h3">75.8%</span></td></tr>
+            <tr><td>Security severity <span style="color:var(--muted)">n=435</span></td><td class="num"><span class="cell h1">66.0%</span></td><td class="num"><span class="cell h2">72.0%</span></td><td class="num"><span class="cell h2">69.0%</span></td><td class="num"><span class="cell h2">69.2%</span></td></tr>
+            <tr><td>Invoice routing <span style="color:var(--muted)">n=369</span></td><td class="num"><span class="cell h3">77.0%</span></td><td class="num"><span class="cell h3">79.7%</span></td><td class="num"><span class="cell h4">86.7%</span></td><td class="num"><span class="cell h4">80.8%</span></td></tr>
+            <tr><td>Guardrail / OOS <span style="color:var(--muted)">n=300</span></td><td class="num"><span class="cell h4">80.0%</span></td><td class="num"><span class="cell h4">84.0%</span></td><td class="num"><span class="cell h2">73.3%</span></td><td class="num"><span class="cell h1">65.0%</span></td></tr>
+            <tr><td>Tool call vs clarify <span style="color:var(--muted)">n=266</span></td><td class="num"><span class="cell h1">67.3%</span></td><td class="num"><span class="cell h1">64.3%</span></td><td class="num"><span class="cell h2">70.3%</span></td><td class="num"><span class="cell h2">72.2%</span></td></tr>
           </tbody>
         </table>
         <p class="note">No single model leads every domain. <b>Clef</b> scores highest on invoice routing, <b>Flash</b> on tool-call decisions, <b>OpenAI</b> on guardrail and support. <b>Security</b> is the hardest domain for everyone (real SOC logs, 48–58% on the new slice alone); <b>tool-call</b> collapsed for all four on the new When2Call-derived cases (50–59%), reversing the first round where template tool-calls favored Flash at 95%.</p>
