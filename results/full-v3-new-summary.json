@@ -1,0 +1,497 @@
+{
+  "providers": {
+    "clef": {
+      "n_questions": 1062,
+      "n_states": 379,
+      "accuracy": 0.6902,
+      "noul": {
+        "n": 379,
+        "acc": 0.715,
+        "f1": 0.6766,
+        "auc": 0.7891,
+        "brier": 0.2358,
+        "ece": 0.508
+      },
+      "choice": {
+        "n": 379,
+        "acc": 0.6992,
+        "macro_f1": 0.5749
+      },
+      "score": {
+        "n": 304,
+        "acc": 0.648,
+        "mae": 0.503,
+        "within1": 0.8684,
+        "qwk": 0.616,
+        "spearman": 0.635
+      },
+      "ece_all": 0.1269,
+      "brier_all": 0.2099,
+      "overconf90": 0.0885,
+      "meanconf_ok": 0.855,
+      "meanconf_bad": 0.732,
+      "acc_at_80cov": 0.7456,
+      "by_tier": {
+        "ambiguous": {
+          "n": 111,
+          "acc": 0.5315
+        },
+        "borderline": {
+          "n": 310,
+          "acc": 0.529
+        },
+        "clear": {
+          "n": 551,
+          "acc": 0.7641
+        },
+        "oos": {
+          "n": 90,
+          "acc": 0.9889
+        }
+      },
+      "by_domain": {
+        "guardrail": {
+          "n": 180,
+          "acc": 0.7278
+        },
+        "invoice": {
+          "n": 186,
+          "acc": 0.8226
+        },
+        "security": {
+          "n": 243,
+          "acc": 0.535
+        },
+        "support": {
+          "n": 303,
+          "acc": 0.7591
+        },
+        "toolcall": {
+          "n": 150,
+          "acc": 0.5933
+        }
+      },
+      "by_variant": {
+        "paraphrase": {
+          "n": 137,
+          "acc": 0.6642
+        },
+        "text": {
+          "n": 925,
+          "acc": 0.6941
+        }
+      },
+      "exact_match": 0.4248,
+      "latency": {
+        "n": 379,
+        "mean": 452.7,
+        "p50": 398.1,
+        "p95": 927.1,
+        "err_rate": 0.0
+      },
+      "cost": {
+        "total_usd": 0.03455,
+        "per_1k_states": 0.0912,
+        "per_correct_q": 5e-05
+      },
+      "tokens": {
+        "mean_in": 379.7,
+        "mean_out": 0.0
+      },
+      "oos_abstain60": 0.033
+    },
+    "flash": {
+      "n_questions": 1062,
+      "n_states": 379,
+      "accuracy": 0.6563,
+      "noul": {
+        "n": 379,
+        "acc": 0.7018,
+        "f1": 0.6544,
+        "auc": 0.7797,
+        "brier": 0.2133,
+        "ece": 0.4284
+      },
+      "choice": {
+        "n": 379,
+        "acc": 0.6834,
+        "macro_f1": 0.5434
+      },
+      "score": {
+        "n": 304,
+        "acc": 0.5658,
+        "mae": 0.556,
+        "within1": 0.9112,
+        "qwk": 0.569,
+        "spearman": 0.559
+      },
+      "ece_all": 0.1257,
+      "brier_all": 0.2181,
+      "overconf90": 0.0348,
+      "meanconf_ok": 0.819,
+      "meanconf_bad": 0.701,
+      "acc_at_80cov": 0.7008,
+      "by_tier": {
+        "ambiguous": {
+          "n": 111,
+          "acc": 0.5225
+        },
+        "borderline": {
+          "n": 310,
+          "acc": 0.5097
+        },
+        "clear": {
+          "n": 551,
+          "acc": 0.7441
+        },
+        "oos": {
+          "n": 90,
+          "acc": 0.7889
+        }
+      },
+      "by_domain": {
+        "guardrail": {
+          "n": 180,
+          "acc": 0.6389
+        },
+        "invoice": {
+          "n": 186,
+          "acc": 0.7849
+        },
+        "security": {
+          "n": 243,
+          "acc": 0.5473
+        },
+        "support": {
+          "n": 303,
+          "acc": 0.7294
+        },
+        "toolcall": {
+          "n": 150,
+          "acc": 0.5467
+        }
+      },
+      "by_variant": {
+        "paraphrase": {
+          "n": 137,
+          "acc": 0.7007
+        },
+        "text": {
+          "n": 925,
+          "acc": 0.6497
+        }
+      },
+      "exact_match": 0.3325,
+      "latency": {
+        "n": 379,
+        "mean": 373.4,
+        "p50": 307.2,
+        "p95": 892.2,
+        "err_rate": 0.0
+      },
+      "cost": {
+        "total_usd": 0.01295,
+        "per_1k_states": 0.0342,
+        "per_correct_q": 2e-05
+      },
+      "tokens": {
+        "mean_in": 379.7,
+        "mean_out": 0.0
+      },
+      "oos_abstain60": 0.144
+    },
+    "jev": {
+      "n_questions": 1062,
+      "n_states": 379,
+      "accuracy": 0.6544,
+      "noul": {
+        "n": 379,
+        "acc": 0.7177,
+        "f1": 0.6708,
+        "auc": 0.7901,
+        "brier": 0.1862,
+        "ece": 0.3608
+      },
+      "choice": {
+        "n": 379,
+        "acc": 0.6755,
+        "macro_f1": 0.5282
+      },
+      "score": {
+        "n": 304,
+        "acc": 0.5493,
+        "mae": 0.592,
+        "within1": 0.9046,
+        "qwk": 0.525,
+        "spearman": 0.52
+      },
+      "ece_all": 0.1512,
+      "brier_all": 0.216,
+      "overconf90": 0.08,
+      "meanconf_ok": 0.853,
+      "meanconf_bad": 0.715,
+      "acc_at_80cov": 0.7256,
+      "by_tier": {
+        "ambiguous": {
+          "n": 111,
+          "acc": 0.6577
+        },
+        "borderline": {
+          "n": 310,
+          "acc": 0.5484
+        },
+        "clear": {
+          "n": 551,
+          "acc": 0.6788
+        },
+        "oos": {
+          "n": 90,
+          "acc": 0.8667
+        }
+      },
+      "by_domain": {
+        "guardrail": {
+          "n": 180,
+          "acc": 0.7556
+        },
+        "invoice": {
+          "n": 186,
+          "acc": 0.7419
+        },
+        "security": {
+          "n": 243,
+          "acc": 0.4774
+        },
+        "support": {
+          "n": 303,
+          "acc": 0.7393
+        },
+        "toolcall": {
+          "n": 150,
+          "acc": 0.54
+        }
+      },
+      "by_variant": {
+        "paraphrase": {
+          "n": 137,
+          "acc": 0.6569
+        },
+        "text": {
+          "n": 925,
+          "acc": 0.6541
+        }
+      },
+      "exact_match": 0.3245,
+      "latency": {
+        "n": 379,
+        "mean": 277.8,
+        "p50": 272.3,
+        "p95": 333.5,
+        "err_rate": 0.0
+      },
+      "cost": {
+        "total_usd": 0.00715,
+        "per_1k_states": 0.0189,
+        "per_correct_q": 1e-05
+      },
+      "tokens": {
+        "mean_in": 450.5,
+        "mean_out": 73.38
+      },
+      "oos_abstain60": 0.033
+    },
+    "openai": {
+      "n_questions": 1062,
+      "n_states": 379,
+      "accuracy": 0.6911,
+      "noul": {
+        "n": 379,
+        "acc": 0.723,
+        "f1": 0.6557,
+        "auc": 0.7938,
+        "brier": 0.2122,
+        "ece": 0.4613
+      },
+      "choice": {
+        "n": 379,
+        "acc": 0.6992,
+        "macro_f1": 0.5296
+      },
+      "score": {
+        "n": 304,
+        "acc": 0.6414,
+        "mae": 0.474,
+        "within1": 0.9211,
+        "qwk": 0.564,
+        "spearman": 0.614
+      },
+      "ece_all": 0.1681,
+      "brier_all": 0.2206,
+      "overconf90": 0.0998,
+      "meanconf_ok": 0.885,
+      "meanconf_bad": 0.782,
+      "acc_at_80cov": 0.7432,
+      "by_tier": {
+        "ambiguous": {
+          "n": 111,
+          "acc": 0.6306
+        },
+        "borderline": {
+          "n": 310,
+          "acc": 0.6484
+        },
+        "clear": {
+          "n": 551,
+          "acc": 0.6915
+        },
+        "oos": {
+          "n": 90,
+          "acc": 0.9111
+        }
+      },
+      "by_domain": {
+        "guardrail": {
+          "n": 180,
+          "acc": 0.7667
+        },
+        "invoice": {
+          "n": 186,
+          "acc": 0.7634
+        },
+        "security": {
+          "n": 243,
+          "acc": 0.5761
+        },
+        "support": {
+          "n": 303,
+          "acc": 0.7888
+        },
+        "toolcall": {
+          "n": 150,
+          "acc": 0.5
+        }
+      },
+      "by_variant": {
+        "paraphrase": {
+          "n": 137,
+          "acc": 0.6715
+        },
+        "text": {
+          "n": 925,
+          "acc": 0.6941
+        }
+      },
+      "exact_match": 0.3879,
+      "latency": {
+        "n": 379,
+        "mean": 596.3,
+        "p50": 210.6,
+        "p95": 3596.9,
+        "err_rate": 0.0
+      },
+      "cost": {
+        "total_usd": 0.01681,
+        "per_1k_states": 0.0444,
+        "per_correct_q": 2e-05
+      },
+      "tokens": {
+        "mean_in": 443.2,
+        "mean_out": 0.0
+      },
+      "oos_abstain60": 0.067
+    }
+  },
+  "pairs": {
+    "clef_vs_flash": {
+      "n": 1062,
+      "gap": 0.034,
+      "ci95": [
+        0.01,
+        0.058
+      ],
+      "mcnemar_p": 0.0078,
+      "disagree_a_right": 105,
+      "disagree_b_right": 69,
+      "agree_rate": 0.836
+    },
+    "clef_vs_jev": {
+      "n": 1062,
+      "gap": 0.036,
+      "ci95": [
+        0.009,
+        0.062
+      ],
+      "mcnemar_p": 0.0113,
+      "disagree_a_right": 126,
+      "disagree_b_right": 88,
+      "agree_rate": 0.798
+    },
+    "clef_vs_openai": {
+      "n": 1062,
+      "gap": -0.001,
+      "ci95": [
+        -0.029,
+        0.026
+      ],
+      "mcnemar_p": 1.0,
+      "disagree_a_right": 111,
+      "disagree_b_right": 112,
+      "agree_rate": 0.79
+    },
+    "flash_vs_jev": {
+      "n": 1062,
+      "gap": 0.002,
+      "ci95": [
+        -0.024,
+        0.028
+      ],
+      "mcnemar_p": 0.9442,
+      "disagree_a_right": 103,
+      "disagree_b_right": 101,
+      "agree_rate": 0.808
+    },
+    "flash_vs_openai": {
+      "n": 1062,
+      "gap": -0.035,
+      "ci95": [
+        -0.064,
+        -0.007
+      ],
+      "mcnemar_p": 0.0172,
+      "disagree_a_right": 96,
+      "disagree_b_right": 133,
+      "agree_rate": 0.784
+    },
+    "jev_vs_openai": {
+      "n": 1062,
+      "gap": -0.037,
+      "ci95": [
+        -0.06,
+        -0.013
+      ],
+      "mcnemar_p": 0.002,
+      "disagree_a_right": 57,
+      "disagree_b_right": 96,
+      "agree_rate": 0.856
+    }
+  },
+  "flips": {
+    "clef": {
+      "n_pairs": 49,
+      "flip_rate": 0.184
+    },
+    "flash": {
+      "n_pairs": 49,
+      "flip_rate": 0.082
+    },
+    "jev": {
+      "n_pairs": 49,
+      "flip_rate": 0.184
+    },
+    "openai": {
+      "n_pairs": 49,
+      "flip_rate": 0.245
+    }
+  },
+  "n_records": 1516
+}
