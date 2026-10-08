@@ -1,0 +1,529 @@
+{
+  "providers": {
+    "clef": {
+      "n_questions": 837,
+      "n_states": 298,
+      "accuracy": 0.8459,
+      "noul": {
+        "n": 298,
+        "acc": 0.906,
+        "f1": 0.9054,
+        "auc": 0.9674,
+        "brier": 0.0822,
+        "ece": 0.4407
+      },
+      "choice": {
+        "n": 298,
+        "acc": 0.8356,
+        "macro_f1": 0.8798
+      },
+      "score": {
+        "n": 241,
+        "acc": 0.7842,
+        "mae": 0.216,
+        "within1": 1.0,
+        "qwk": 0.891,
+        "spearman": 0.865
+      },
+      "ece_all": 0.0373,
+      "brier_all": 0.1074,
+      "overconf90": 0.0251,
+      "meanconf_ok": 0.895,
+      "meanconf_bad": 0.719,
+      "acc_at_80cov": 0.9013,
+      "by_tier": {
+        "ambiguous": {
+          "n": 102,
+          "acc": 0.6765
+        },
+        "borderline": {
+          "n": 201,
+          "acc": 0.9055
+        },
+        "clear": {
+          "n": 495,
+          "acc": 0.8444
+        },
+        "oos": {
+          "n": 39,
+          "acc": 1.0
+        }
+      },
+      "by_domain": {
+        "guardrail": {
+          "n": 120,
+          "acc": 0.7417
+        },
+        "invoice": {
+          "n": 183,
+          "acc": 0.9126
+        },
+        "security": {
+          "n": 192,
+          "acc": 0.8854
+        },
+        "support": {
+          "n": 228,
+          "acc": 0.8158
+        },
+        "toolcall": {
+          "n": 114,
+          "acc": 0.8421
+        }
+      },
+      "by_variant": {
+        "json": {
+          "n": 87,
+          "acc": 0.8966
+        },
+        "long": {
+          "n": 25,
+          "acc": 0.92
+        },
+        "paraphrase": {
+          "n": 125,
+          "acc": 0.84
+        },
+        "text": {
+          "n": 600,
+          "acc": 0.8367
+        }
+      },
+      "exact_match": 0.6544,
+      "latency": {
+        "n": 298,
+        "mean": 1002.9,
+        "p50": 459.9,
+        "p95": 3459.7,
+        "err_rate": 0.0067
+      },
+      "cost": {
+        "total_usd": 0.06717,
+        "per_1k_states": 0.2239,
+        "per_correct_q": 9e-05
+      },
+      "tokens": {
+        "mean_in": 938.9,
+        "mean_out": 0.0
+      },
+      "oos_abstain60": 0.0
+    },
+    "flash": {
+      "n_questions": 834,
+      "n_states": 297,
+      "accuracy": 0.8237,
+      "noul": {
+        "n": 297,
+        "acc": 0.8822,
+        "f1": 0.8727,
+        "auc": 0.956,
+        "brier": 0.0884,
+        "ece": 0.4962
+      },
+      "choice": {
+        "n": 297,
+        "acc": 0.8653,
+        "macro_f1": 0.907
+      },
+      "score": {
+        "n": 240,
+        "acc": 0.7,
+        "mae": 0.3,
+        "within1": 1.0,
+        "qwk": 0.852,
+        "spearman": 0.829
+      },
+      "ece_all": 0.0675,
+      "brier_all": 0.1221,
+      "overconf90": 0.024,
+      "meanconf_ok": 0.881,
+      "meanconf_bad": 0.722,
+      "acc_at_80cov": 0.8966,
+      "by_tier": {
+        "ambiguous": {
+          "n": 99,
+          "acc": 0.6263
+        },
+        "borderline": {
+          "n": 201,
+          "acc": 0.8507
+        },
+        "clear": {
+          "n": 495,
+          "acc": 0.8505
+        },
+        "oos": {
+          "n": 39,
+          "acc": 0.8462
+        }
+      },
+      "by_domain": {
+        "guardrail": {
+          "n": 120,
+          "acc": 0.6667
+        },
+        "invoice": {
+          "n": 183,
+          "acc": 0.8306
+        },
+        "security": {
+          "n": 192,
+          "acc": 0.875
+        },
+        "support": {
+          "n": 225,
+          "acc": 0.7956
+        },
+        "toolcall": {
+          "n": 114,
+          "acc": 0.9474
+        }
+      },
+      "by_variant": {
+        "json": {
+          "n": 87,
+          "acc": 0.8391
+        },
+        "long": {
+          "n": 25,
+          "acc": 0.88
+        },
+        "paraphrase": {
+          "n": 125,
+          "acc": 0.824
+        },
+        "text": {
+          "n": 597,
+          "acc": 0.8191
+        }
+      },
+      "exact_match": 0.5926,
+      "latency": {
+        "n": 297,
+        "mean": 398.9,
+        "p50": 324.1,
+        "p95": 1015.3,
+        "err_rate": 0.01
+      },
+      "cost": {
+        "total_usd": 0.02516,
+        "per_1k_states": 0.0839,
+        "per_correct_q": 4e-05
+      },
+      "tokens": {
+        "mean_in": 940.7,
+        "mean_out": 0.0
+      },
+      "oos_abstain60": 0.256
+    },
+    "jev": {
+      "n_questions": 842,
+      "n_states": 300,
+      "accuracy": 0.8563,
+      "noul": {
+        "n": 300,
+        "acc": 0.9433,
+        "f1": 0.9457,
+        "auc": 0.9802,
+        "brier": 0.073,
+        "ece": 0.3879
+      },
+      "choice": {
+        "n": 300,
+        "acc": 0.82,
+        "macro_f1": 0.8569
+      },
+      "score": {
+        "n": 242,
+        "acc": 0.7934,
+        "mae": 0.227,
+        "within1": 0.9793,
+        "qwk": 0.863,
+        "spearman": 0.831
+      },
+      "ece_all": 0.0377,
+      "brier_all": 0.102,
+      "overconf90": 0.0261,
+      "meanconf_ok": 0.895,
+      "meanconf_bad": 0.717,
+      "acc_at_80cov": 0.9138,
+      "by_tier": {
+        "ambiguous": {
+          "n": 105,
+          "acc": 0.819
+        },
+        "borderline": {
+          "n": 203,
+          "acc": 0.8128
+        },
+        "clear": {
+          "n": 495,
+          "acc": 0.8707
+        },
+        "oos": {
+          "n": 39,
+          "acc": 1.0
+        }
+      },
+      "by_domain": {
+        "guardrail": {
+          "n": 120,
+          "acc": 0.8667
+        },
+        "invoice": {
+          "n": 183,
+          "acc": 0.7978
+        },
+        "security": {
+          "n": 192,
+          "acc": 0.8906
+        },
+        "support": {
+          "n": 231,
+          "acc": 0.8745
+        },
+        "toolcall": {
+          "n": 116,
+          "acc": 0.8448
+        }
+      },
+      "by_variant": {
+        "json": {
+          "n": 87,
+          "acc": 0.8506
+        },
+        "long": {
+          "n": 25,
+          "acc": 0.84
+        },
+        "paraphrase": {
+          "n": 125,
+          "acc": 0.816
+        },
+        "text": {
+          "n": 605,
+          "acc": 0.8661
+        }
+      },
+      "exact_match": 0.6133,
+      "latency": {
+        "n": 300,
+        "mean": 278.3,
+        "p50": 272.4,
+        "p95": 339.6,
+        "err_rate": 0.0
+      },
+      "cost": {
+        "total_usd": 0.01268,
+        "per_1k_states": 0.0423,
+        "per_correct_q": 2e-05
+      },
+      "tokens": {
+        "mean_in": 1005.9,
+        "mean_out": 73.86
+      },
+      "oos_abstain60": 0.0
+    },
+    "openai": {
+      "n_questions": 842,
+      "n_states": 300,
+      "accuracy": 0.8765,
+      "noul": {
+        "n": 300,
+        "acc": 0.92,
+        "f1": 0.9216,
+        "auc": 0.9752,
+        "brier": 0.0678,
+        "ece": 0.4227
+      },
+      "choice": {
+        "n": 300,
+        "acc": 0.84,
+        "macro_f1": 0.8094
+      },
+      "score": {
+        "n": 242,
+        "acc": 0.8678,
+        "mae": 0.14,
+        "within1": 0.9917,
+        "qwk": 0.917,
+        "spearman": 0.906
+      },
+      "ece_all": 0.0308,
+      "brier_all": 0.0932,
+      "overconf90": 0.0344,
+      "meanconf_ok": 0.915,
+      "meanconf_bad": 0.752,
+      "acc_at_80cov": 0.9302,
+      "by_tier": {
+        "ambiguous": {
+          "n": 105,
+          "acc": 0.9143
+        },
+        "borderline": {
+          "n": 203,
+          "acc": 0.7882
+        },
+        "clear": {
+          "n": 495,
+          "acc": 0.8949
+        },
+        "oos": {
+          "n": 39,
+          "acc": 1.0
+        }
+      },
+      "by_domain": {
+        "guardrail": {
+          "n": 120,
+          "acc": 0.95
+        },
+        "invoice": {
+          "n": 183,
+          "acc": 0.8306
+        },
+        "security": {
+          "n": 192,
+          "acc": 0.901
+        },
+        "support": {
+          "n": 231,
+          "acc": 0.8788
+        },
+        "toolcall": {
+          "n": 116,
+          "acc": 0.8276
+        }
+      },
+      "by_variant": {
+        "json": {
+          "n": 87,
+          "acc": 0.8851
+        },
+        "long": {
+          "n": 25,
+          "acc": 0.84
+        },
+        "paraphrase": {
+          "n": 125,
+          "acc": 0.864
+        },
+        "text": {
+          "n": 605,
+          "acc": 0.8793
+        }
+      },
+      "exact_match": 0.6533,
+      "latency": {
+        "n": 300,
+        "mean": 296.8,
+        "p50": 192.3,
+        "p95": 451.4,
+        "err_rate": 0.0
+      },
+      "cost": {
+        "total_usd": 0.02466,
+        "per_1k_states": 0.0822,
+        "per_correct_q": 3e-05
+      },
+      "tokens": {
+        "mean_in": 822.3,
+        "mean_out": 0.0
+      },
+      "oos_abstain60": 0.0
+    }
+  },
+  "pairs": {
+    "clef_vs_flash": {
+      "n": 834,
+      "gap": 0.023,
+      "ci95": [
+        0.002,
+        0.043
+      ],
+      "mcnemar_p": 0.037,
+      "disagree_a_right": 47,
+      "disagree_b_right": 28,
+      "agree_rate": 0.91
+    },
+    "clef_vs_jev": {
+      "n": 837,
+      "gap": -0.01,
+      "ci95": [
+        -0.029,
+        0.011
+      ],
+      "mcnemar_p": 0.416,
+      "disagree_a_right": 33,
+      "disagree_b_right": 41,
+      "agree_rate": 0.912
+    },
+    "clef_vs_openai": {
+      "n": 837,
+      "gap": -0.03,
+      "ci95": [
+        -0.055,
+        -0.004
+      ],
+      "mcnemar_p": 0.0356,
+      "disagree_a_right": 53,
+      "disagree_b_right": 78,
+      "agree_rate": 0.843
+    },
+    "flash_vs_jev": {
+      "n": 834,
+      "gap": -0.032,
+      "ci95": [
+        -0.058,
+        -0.007
+      ],
+      "mcnemar_p": 0.0177,
+      "disagree_a_right": 47,
+      "disagree_b_right": 74,
+      "agree_rate": 0.855
+    },
+    "flash_vs_openai": {
+      "n": 834,
+      "gap": -0.053,
+      "ci95": [
+        -0.082,
+        -0.024
+      ],
+      "mcnemar_p": 0.0008,
+      "disagree_a_right": 61,
+      "disagree_b_right": 105,
+      "agree_rate": 0.801
+    },
+    "jev_vs_openai": {
+      "n": 842,
+      "gap": -0.02,
+      "ci95": [
+        -0.04,
+        0.001
+      ],
+      "mcnemar_p": 0.0675,
+      "disagree_a_right": 30,
+      "disagree_b_right": 47,
+      "agree_rate": 0.909
+    }
+  },
+  "flips": {
+    "clef": {
+      "n_pairs": 84,
+      "flip_rate": 0.131
+    },
+    "flash": {
+      "n_pairs": 83,
+      "flip_rate": 0.12
+    },
+    "jev": {
+      "n_pairs": 85,
+      "flip_rate": 0.129
+    },
+    "openai": {
+      "n_pairs": 85,
+      "flip_rate": 0.165
+    }
+  },
+  "n_records": 1200
+}

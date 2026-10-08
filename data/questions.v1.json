@@ -1,0 +1,116 @@
+{
+  "support": {
+    "is_urgent": {
+      "type": "noul",
+      "instructions": "Does this convey urgency or time-sensitivity?"
+    },
+    "team": {
+      "type": "choice",
+      "instructions": "Which team should handle this request?",
+      "criteria": {
+        "billing": "Payments, invoices, and refunds",
+        "technical": "Outages, errors, and configuration",
+        "sales": "Plans and upgrades"
+      }
+    },
+    "frustration": {
+      "type": "score",
+      "instructions": "How frustrated is the customer?",
+      "criteria": [
+        "Calm, just stating facts",
+        "Frustrated but civil",
+        "Very angry, strong language"
+      ]
+    }
+  },
+  "invoice": {
+    "needs_human": {
+      "type": "noul",
+      "instructions": "Does this invoice need human review before approval?"
+    },
+    "route": {
+      "type": "choice",
+      "instructions": "What should happen to this invoice?",
+      "criteria": {
+        "approve": "All fields present, PO matches, approve for payment",
+        "request_info": "Missing fields, ask vendor for more info",
+        "escalate": "Suspicious amount or duplicate, escalate to finance lead",
+        "reject": "Invalid or fraudulent, reject outright"
+      }
+    },
+    "completeness": {
+      "type": "score",
+      "instructions": "How complete is this invoice record?",
+      "criteria": [
+        "Missing critical fields",
+        "Partial, needs follow-up",
+        "Complete but unverified",
+        "Complete and verified"
+      ]
+    }
+  },
+  "security": {
+    "is_critical": {
+      "type": "noul",
+      "instructions": "Is this a critical security incident needing immediate response?"
+    },
+    "team": {
+      "type": "choice",
+      "instructions": "Which team should handle this incident?",
+      "criteria": {
+        "secops": "Active threats, breaches, malware",
+        "platform": "Infra errors, config, uptime",
+        "support": "General questions, how-to, account help"
+      }
+    },
+    "severity": {
+      "type": "score",
+      "instructions": "How severe is the impact?",
+      "criteria": [
+        "No impact",
+        "Minor",
+        "Major",
+        "Critical"
+      ]
+    }
+  },
+  "toolcall": {
+    "should_call_tool": {
+      "type": "noul",
+      "instructions": "Should the agent call a tool now rather than ask a clarifying question or answer directly?"
+    },
+    "action": {
+      "type": "choice",
+      "instructions": "What should the agent do next?",
+      "criteria": {
+        "call_tool": "Enough detail to act via API or tool",
+        "ask_clarify": "Too vague, must ask a follow-up question",
+        "answer_directly": "General knowledge question, answer without tools"
+      }
+    }
+  },
+  "guardrail": {
+    "is_urgent": {
+      "type": "noul",
+      "instructions": "Does this convey urgency or time-sensitivity?"
+    },
+    "team": {
+      "type": "choice",
+      "instructions": "Which team should handle this request?",
+      "criteria": {
+        "billing": "Payments, invoices, and refunds",
+        "technical": "Outages, errors, and configuration",
+        "sales": "Plans and upgrades"
+      }
+    },
+    "frustration": {
+      "type": "score",
+      "instructions": "How frustrated is the customer?",
+      "criteria": [
+        "Calm, just stating facts",
+        "Frustrated but civil",
+        "Very angry, strong language"
+      ]
+    }
+  }
+}

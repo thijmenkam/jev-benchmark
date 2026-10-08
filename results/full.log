@@ -1,0 +1,1202 @@
+rows=300 models=['jev', 'openai', 'clef', 'flash'] planned_calls=1200
+[1/1200] toolcall-036 jev lat=275.3 usage={'input_tokens': 388, 'output_tokens': 67} cost=1.6e-05 err=None
+[2/1200] toolcall-036 openai lat=151.4 usage={'input_tokens': 320, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 320} cost=3.2e-05 err=None
+[3/1200] toolcall-036 clef lat=1452.9 usage={'input_tokens': 278, 'output_tokens': 0} cost=6.7e-05 err=None
+[4/1200] toolcall-036 flash lat=331.8 usage={'input_tokens': 278, 'output_tokens': 0} cost=2.5e-05 err=None
+[5/1200] invoice-011 jev lat=254.1 usage={'input_tokens': 465, 'output_tokens': 85} cost=2e-05 err=None
+[6/1200] invoice-011 openai lat=157.1 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[7/1200] invoice-011 clef lat=8135.8 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[8/1200] invoice-011 flash lat=366.8 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[9/1200] support-045-para jev lat=270.7 usage={'input_tokens': 472, 'output_tokens': 73} cost=2e-05 err=None
+[10/1200] support-045-para openai lat=302.4 usage={'input_tokens': 487, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 487} cost=4.9e-05 err=None
+[11/1200] support-045-para clef lat=4592.5 usage={'input_tokens': 405, 'output_tokens': 0} cost=9.7e-05 err=None
+[12/1200] support-045-para flash lat=366.6 usage={'input_tokens': 405, 'output_tokens': 0} cost=3.6e-05 err=None
+[13/1200] security-026 jev lat=285.9 usage={'input_tokens': 428, 'output_tokens': 72} cost=1.8e-05 err=None
+[14/1200] security-026 openai lat=210.5 usage={'input_tokens': 437, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 437} cost=4.4e-05 err=None
+[15/1200] security-026 clef lat=512.3 usage={'input_tokens': 374, 'output_tokens': 0} cost=9e-05 err=None
+[16/1200] security-026 flash lat=242.3 usage={'input_tokens': 374, 'output_tokens': 0} cost=3.4e-05 err=None
+[17/1200] support-008 jev lat=275.5 usage={'input_tokens': 449, 'output_tokens': 73} cost=1.9e-05 err=None
+[18/1200] support-008 openai lat=148.3 usage={'input_tokens': 468, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 468} cost=4.7e-05 err=None
+[19/1200] support-008 clef lat=511.0 usage={'input_tokens': 384, 'output_tokens': 0} cost=9.2e-05 err=None
+[20/1200] support-008 flash lat=509.2 usage={'input_tokens': 384, 'output_tokens': 0} cost=3.5e-05 err=None
+[21/1200] security-015 jev lat=270.5 usage={'input_tokens': 424, 'output_tokens': 72} cost=1.8e-05 err=None
+[22/1200] security-015 openai lat=148.3 usage={'input_tokens': 435, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 435} cost=4.4e-05 err=None
+[23/1200] security-015 clef lat=573.7 usage={'input_tokens': 369, 'output_tokens': 0} cost=8.9e-05 err=None
+[24/1200] security-015 flash lat=201.4 usage={'input_tokens': 369, 'output_tokens': 0} cost=3.3e-05 err=None
+[25/1200] support-029 jev lat=248.3 usage={'input_tokens': 456, 'output_tokens': 73} cost=1.9e-05 err=None
+[26/1200] support-029 openai lat=154.7 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[27/1200] support-029 clef lat=336.5 usage={'input_tokens': 391, 'output_tokens': 0} cost=9.4e-05 err=None
+[28/1200] support-029 flash lat=306.9 usage={'input_tokens': 391, 'output_tokens': 0} cost=3.5e-05 err=None
+[29/1200] toolcall-027 jev lat=267.0 usage={'input_tokens': 390, 'output_tokens': 68} cost=1.6e-05 err=None
+[30/1200] toolcall-027 openai lat=4935.3 usage={'input_tokens': 322, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 322} cost=3.2e-05 err=None
+[31/1200] toolcall-027 clef lat=253.4 usage={'input_tokens': 280, 'output_tokens': 0} cost=6.7e-05 err=None
+[32/1200] toolcall-027 flash lat=380.2 usage={'input_tokens': 280, 'output_tokens': 0} cost=2.5e-05 err=None
+[33/1200] security-040 jev lat=268.5 usage={'input_tokens': 423, 'output_tokens': 73} cost=1.8e-05 err=None
+[34/1200] security-040 openai lat=3759.1 usage={'input_tokens': 433, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 433} cost=4.3e-05 err=None
+[35/1200] security-040 clef lat=605.4 usage={'input_tokens': 368, 'output_tokens': 0} cost=8.8e-05 err=None
+[36/1200] security-040 flash lat=477.7 usage={'input_tokens': 368, 'output_tokens': 0} cost=3.3e-05 err=None
+[37/1200] invoice-041 jev lat=296.9 usage={'input_tokens': 483, 'output_tokens': 83} cost=2e-05 err=None
+[38/1200] invoice-041 openai lat=155.4 usage={'input_tokens': 485, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 485} cost=4.9e-05 err=None
+[39/1200] invoice-041 clef lat=7183.5 usage={'input_tokens': 429, 'output_tokens': 0} cost=0.000103 err=None
+[40/1200] invoice-041 flash lat=333.6 usage={'input_tokens': 429, 'output_tokens': 0} cost=3.9e-05 err=None
+[41/1200] support-004-para jev lat=244.2 usage={'input_tokens': 464, 'output_tokens': 73} cost=1.9e-05 err=None
+[42/1200] support-004-para openai lat=4304.4 usage={'input_tokens': 479, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 479} cost=4.8e-05 err=None
+[43/1200] support-004-para clef lat=950.3 usage={'input_tokens': 398, 'output_tokens': 0} cost=9.6e-05 err=None
+[44/1200] support-004-para flash lat=479.0 usage={'input_tokens': 398, 'output_tokens': 0} cost=3.6e-05 err=None
+[45/1200] support-039 jev lat=262.7 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[46/1200] support-039 openai lat=151.2 usage={'input_tokens': 472, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 472} cost=4.7e-05 err=None
+[47/1200] support-039 clef lat=481.0 usage={'input_tokens': 388, 'output_tokens': 0} cost=9.3e-05 err=None
+[48/1200] support-039 flash lat=509.6 usage={'input_tokens': 388, 'output_tokens': 0} cost=3.5e-05 err=None
+[49/1200] toolcall-003 jev lat=314.2 usage={'input_tokens': 389, 'output_tokens': 68} cost=1.6e-05 err=None
+[50/1200] toolcall-003 openai lat=678.2 usage={'input_tokens': 322, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 322} cost=3.2e-05 err=None
+[51/1200] toolcall-003 clef lat=317.8 usage={'input_tokens': 279, 'output_tokens': 0} cost=6.7e-05 err=None
+[52/1200] toolcall-003 flash lat=217.6 usage={'input_tokens': 279, 'output_tokens': 0} cost=2.5e-05 err=None
+[53/1200] invoice-039 jev lat=271.2 usage={'input_tokens': 465, 'output_tokens': 85} cost=2e-05 err=None
+[54/1200] invoice-039 openai lat=188.3 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[55/1200] invoice-039 clef lat=312.6 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[56/1200] invoice-039 flash lat=545.3 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[57/1200] guardrail-013-para jev lat=273.3 usage={'input_tokens': 438, 'output_tokens': 73} cost=1.8e-05 err=None
+[58/1200] guardrail-013-para openai lat=206.7 usage={'input_tokens': 454, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 454} cost=4.5e-05 err=None
+[59/1200] guardrail-013-para clef lat=382.1 usage={'input_tokens': 373, 'output_tokens': 0} cost=9e-05 err=None
+[60/1200] guardrail-013-para flash lat=648.3 usage={'input_tokens': 373, 'output_tokens': 0} cost=3.4e-05 err=None
+[61/1200] security-007-para jev lat=270.2 usage={'input_tokens': 424, 'output_tokens': 72} cost=1.8e-05 err=None
+[62/1200] security-007-para openai lat=180.8 usage={'input_tokens': 436, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 436} cost=4.4e-05 err=None
+[63/1200] security-007-para clef lat=352.2 usage={'input_tokens': 369, 'output_tokens': 0} cost=8.9e-05 err=None
+[64/1200] security-007-para flash lat=494.0 usage={'input_tokens': 369, 'output_tokens': 0} cost=3.3e-05 err=None
+[65/1200] support-042 jev lat=292.6 usage={'input_tokens': 454, 'output_tokens': 73} cost=1.9e-05 err=None
+[66/1200] support-042 openai lat=237.9 usage={'input_tokens': 471, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 471} cost=4.7e-05 err=None
+[67/1200] support-042 clef lat=1258.5 usage={'input_tokens': 389, 'output_tokens': 0} cost=9.3e-05 err=None
+[68/1200] support-042 flash lat=696.6 usage={'input_tokens': 389, 'output_tokens': 0} cost=3.5e-05 err=None
+[69/1200] support-038 jev lat=310.1 usage={'input_tokens': 458, 'output_tokens': 73} cost=1.9e-05 err=None
+[70/1200] support-038 openai lat=156.6 usage={'input_tokens': 475, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 475} cost=4.8e-05 err=None
+[71/1200] support-038 clef lat=434.2 usage={'input_tokens': 393, 'output_tokens': 0} cost=9.4e-05 err=None
+[72/1200] support-038 flash lat=235.6 usage={'input_tokens': 393, 'output_tokens': 0} cost=3.5e-05 err=None
+[73/1200] invoice-004 jev lat=339.6 usage={'input_tokens': 465, 'output_tokens': 83} cost=2e-05 err=None
+[74/1200] invoice-004 openai lat=230.0 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[75/1200] invoice-004 clef lat=3455.4 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[76/1200] invoice-004 flash lat=303.8 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[77/1200] invoice-028 jev lat=267.2 usage={'input_tokens': 465, 'output_tokens': 83} cost=2e-05 err=None
+[78/1200] invoice-028 openai lat=205.8 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[79/1200] invoice-028 clef lat=1545.2 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[80/1200] invoice-028 flash lat=1168.4 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[81/1200] security-035 jev lat=262.7 usage={'input_tokens': 416, 'output_tokens': 72} cost=1.7e-05 err=None
+[82/1200] security-035 openai lat=161.0 usage={'input_tokens': 426, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 426} cost=4.3e-05 err=None
+[83/1200] security-035 clef lat=338.2 usage={'input_tokens': 362, 'output_tokens': 0} cost=8.7e-05 err=None
+[84/1200] security-035 flash lat=322.2 usage={'input_tokens': 362, 'output_tokens': 0} cost=3.3e-05 err=None
+[85/1200] support-009 jev lat=262.8 usage={'input_tokens': 466, 'output_tokens': 73} cost=2e-05 err=None
+[86/1200] support-009 openai lat=145.9 usage={'input_tokens': 481, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 481} cost=4.8e-05 err=None
+[87/1200] support-009 clef lat=1191.6 usage={'input_tokens': 398, 'output_tokens': 0} cost=9.6e-05 err=None
+[88/1200] support-009 flash lat=183.8 usage={'input_tokens': 398, 'output_tokens': 0} cost=3.6e-05 err=None
+[89/1200] toolcall-024-para jev lat=250.8 usage={'input_tokens': 396, 'output_tokens': 67} cost=1.7e-05 err=None
+[90/1200] toolcall-024-para openai lat=255.5 usage={'input_tokens': 328, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 328} cost=3.3e-05 err=None
+[91/1200] toolcall-024-para clef lat=894.3 usage={'input_tokens': 286, 'output_tokens': 0} cost=6.9e-05 err=None
+[92/1200] toolcall-024-para flash lat=223.0 usage={'input_tokens': 286, 'output_tokens': 0} cost=2.6e-05 err=None
+[93/1200] security-006 jev lat=245.0 usage={'input_tokens': 424, 'output_tokens': 72} cost=1.8e-05 err=None
+[94/1200] security-006 openai lat=234.3 usage={'input_tokens': 433, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 433} cost=4.3e-05 err=None
+[95/1200] security-006 clef lat=465.4 usage={'input_tokens': 369, 'output_tokens': 0} cost=8.9e-05 err=None
+[96/1200] security-006 flash lat=230.9 usage={'input_tokens': 369, 'output_tokens': 0} cost=3.3e-05 err=None
+[97/1200] toolcall-018 jev lat=309.0 usage={'input_tokens': 395, 'output_tokens': 65} cost=1.7e-05 err=None
+[98/1200] toolcall-018 openai lat=161.1 usage={'input_tokens': 325, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 325} cost=3.2e-05 err=None
+[99/1200] toolcall-018 clef lat=651.8 usage={'input_tokens': 285, 'output_tokens': 0} cost=6.8e-05 err=None
+[100/1200] toolcall-018 flash lat=216.4 usage={'input_tokens': 285, 'output_tokens': 0} cost=2.6e-05 err=None
+[101/1200] security-035-para jev lat=288.6 usage={'input_tokens': 424, 'output_tokens': 72} cost=1.8e-05 err=None
+[102/1200] security-035-para openai lat=222.2 usage={'input_tokens': 434, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 434} cost=4.3e-05 err=None
+[103/1200] security-035-para clef lat=434.8 usage={'input_tokens': 370, 'output_tokens': 0} cost=8.9e-05 err=None
+[104/1200] security-035-para flash lat=198.7 usage={'input_tokens': 370, 'output_tokens': 0} cost=3.3e-05 err=None
+[105/1200] security-033 jev lat=290.3 usage={'input_tokens': 423, 'output_tokens': 73} cost=1.8e-05 err=None
+[106/1200] security-033 openai lat=155.0 usage={'input_tokens': 431, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 431} cost=4.3e-05 err=None
+[107/1200] security-033 clef lat=319.8 usage={'input_tokens': 366, 'output_tokens': 0} cost=8.8e-05 err=None
+[108/1200] security-033 flash lat=400.5 usage={'input_tokens': 366, 'output_tokens': 0} cost=3.3e-05 err=None
+[109/1200] security-027 jev lat=281.0 usage={'input_tokens': 424, 'output_tokens': 72} cost=1.8e-05 err=None
+[110/1200] security-027 openai lat=246.9 usage={'input_tokens': 435, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 435} cost=4.4e-05 err=None
+[111/1200] security-027 clef lat=481.9 usage={'input_tokens': 369, 'output_tokens': 0} cost=8.9e-05 err=None
+[112/1200] security-027 flash lat=713.3 usage={'input_tokens': 369, 'output_tokens': 0} cost=3.3e-05 err=None
+[113/1200] toolcall-012 jev lat=302.9 usage={'input_tokens': 388, 'output_tokens': 67} cost=1.6e-05 err=None
+[114/1200] toolcall-012 openai lat=240.6 usage={'input_tokens': 320, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 320} cost=3.2e-05 err=None
+[115/1200] toolcall-012 clef lat=1178.9 usage={'input_tokens': 278, 'output_tokens': 0} cost=6.7e-05 err=None
+[116/1200] toolcall-012 flash lat=583.4 usage={'input_tokens': 278, 'output_tokens': 0} cost=2.5e-05 err=None
+[117/1200] security-032 jev lat=244.3 usage={'input_tokens': 419, 'output_tokens': 73} cost=1.8e-05 err=None
+[118/1200] security-032 openai lat=231.6 usage={'input_tokens': 430, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 430} cost=4.3e-05 err=None
+[119/1200] security-032 clef lat=1899.2 usage={'input_tokens': 364, 'output_tokens': 0} cost=8.7e-05 err=None
+[120/1200] security-032 flash lat=251.7 usage={'input_tokens': 364, 'output_tokens': 0} cost=3.3e-05 err=None
+[121/1200] security-012 jev lat=325.3 usage={'input_tokens': 419, 'output_tokens': 73} cost=1.8e-05 err=None
+[122/1200] security-012 openai lat=227.8 usage={'input_tokens': 430, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 430} cost=4.3e-05 err=None
+[123/1200] security-012 clef lat=5309.0 usage={'input_tokens': 363, 'output_tokens': 0} cost=8.7e-05 err=None
+[124/1200] security-012 flash lat=292.2 usage={'input_tokens': 363, 'output_tokens': 0} cost=3.3e-05 err=None
+[125/1200] security-001 jev lat=243.4 usage={'input_tokens': 422, 'output_tokens': 73} cost=1.8e-05 err=None
+[126/1200] security-001 openai lat=260.4 usage={'input_tokens': 431, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 431} cost=4.3e-05 err=None
+[127/1200] security-001 clef lat=901.3 usage={'input_tokens': 365, 'output_tokens': 0} cost=8.8e-05 err=None
+[128/1200] security-001 flash lat=659.7 usage={'input_tokens': 365, 'output_tokens': 0} cost=3.3e-05 err=None
+[129/1200] invoice-032 jev lat=272.0 usage={'input_tokens': 465, 'output_tokens': 84} cost=2e-05 err=None
+[130/1200] invoice-032 openai lat=279.8 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[131/1200] invoice-032 clef lat=3459.8 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[132/1200] invoice-032 flash lat=638.9 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[133/1200] support-054 jev lat=289.1 usage={'input_tokens': 466, 'output_tokens': 73} cost=2e-05 err=None
+[134/1200] support-054 openai lat=157.1 usage={'input_tokens': 481, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 481} cost=4.8e-05 err=None
+[135/1200] support-054 clef lat=756.2 usage={'input_tokens': 398, 'output_tokens': 0} cost=9.6e-05 err=None
+[136/1200] support-054 flash lat=493.5 usage={'input_tokens': 398, 'output_tokens': 0} cost=3.6e-05 err=None
+[137/1200] invoice-024-json jev lat=289.6 usage={'input_tokens': 496, 'output_tokens': 84} cost=2.1e-05 err=None
+[138/1200] invoice-024-json openai lat=148.4 usage={'input_tokens': 494, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 494} cost=4.9e-05 err=None
+[139/1200] invoice-024-json clef lat=282.7 usage={'input_tokens': 427, 'output_tokens': 0} cost=0.000102 err=None
+[140/1200] invoice-024-json flash lat=197.1 usage={'input_tokens': 427, 'output_tokens': 0} cost=3.8e-05 err=None
+[141/1200] toolcall-007 jev lat=265.0 usage={'input_tokens': 400, 'output_tokens': 67} cost=1.7e-05 err=None
+[142/1200] toolcall-007 openai lat=198.9 usage={'input_tokens': 328, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 328} cost=3.3e-05 err=None
+[143/1200] toolcall-007 clef lat=446.0 usage={'input_tokens': 290, 'output_tokens': 0} cost=7e-05 err=None
+[144/1200] toolcall-007 flash lat=534.8 usage={'input_tokens': 290, 'output_tokens': 0} cost=2.6e-05 err=None
+[145/1200] guardrail-009 jev lat=278.0 usage={'input_tokens': 422, 'output_tokens': 73} cost=1.8e-05 err=None
+[146/1200] guardrail-009 openai lat=251.8 usage={'input_tokens': 440, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 440} cost=4.4e-05 err=None
+[147/1200] guardrail-009 clef lat=465.7 usage={'input_tokens': 357, 'output_tokens': 0} cost=8.6e-05 err=None
+[148/1200] guardrail-009 flash lat=251.8 usage={'input_tokens': 357, 'output_tokens': 0} cost=3.2e-05 err=None
+[149/1200] invoice-038 jev lat=250.5 usage={'input_tokens': 461, 'output_tokens': 84} cost=1.9e-05 err=None
+[150/1200] invoice-038 openai lat=154.8 usage={'input_tokens': 470, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 470} cost=4.7e-05 err=None
+[151/1200] invoice-038 clef lat=766.4 usage={'input_tokens': 407, 'output_tokens': 0} cost=9.8e-05 err=None
+[152/1200] invoice-038 flash lat=531.9 usage={'input_tokens': 407, 'output_tokens': 0} cost=3.7e-05 err=None
+[153/1200] invoice-024 jev lat=255.7 usage={'input_tokens': 465, 'output_tokens': 83} cost=2e-05 err=None
+[154/1200] invoice-024 openai lat=251.3 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[155/1200] invoice-024 clef lat=524.1 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[156/1200] invoice-024 flash lat=380.0 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[157/1200] support-017-json jev lat=283.7 usage={'input_tokens': 484, 'output_tokens': 73} cost=2e-05 err=None
+[158/1200] support-017-json openai lat=240.0 usage={'input_tokens': 493, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 493} cost=4.9e-05 err=None
+[159/1200] support-017-json clef lat=2495.6 usage={'input_tokens': 404, 'output_tokens': 0} cost=9.7e-05 err=None
+[160/1200] support-017-json flash lat=649.7 usage={'input_tokens': 404, 'output_tokens': 0} cost=3.6e-05 err=None
+[161/1200] security-021 jev lat=277.8 usage={'input_tokens': 427, 'output_tokens': 73} cost=1.8e-05 err=None
+[162/1200] security-021 openai lat=168.6 usage={'input_tokens': 438, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 438} cost=4.4e-05 err=None
+[163/1200] security-021 clef lat=466.3 usage={'input_tokens': 372, 'output_tokens': 0} cost=8.9e-05 err=None
+[164/1200] security-021 flash lat=387.8 usage={'input_tokens': 372, 'output_tokens': 0} cost=3.3e-05 err=None
+[165/1200] toolcall-033 jev lat=239.5 usage={'input_tokens': 389, 'output_tokens': 68} cost=1.6e-05 err=None
+[166/1200] toolcall-033 openai lat=231.6 usage={'input_tokens': 321, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 321} cost=3.2e-05 err=None
+[167/1200] toolcall-033 clef lat=558.8 usage={'input_tokens': 279, 'output_tokens': 0} cost=6.7e-05 err=None
+[168/1200] toolcall-033 flash lat=284.6 usage={'input_tokens': 279, 'output_tokens': 0} cost=2.5e-05 err=None
+[169/1200] guardrail-017 jev lat=262.8 usage={'input_tokens': 423, 'output_tokens': 73} cost=1.8e-05 err=None
+[170/1200] guardrail-017 openai lat=216.9 usage={'input_tokens': 443, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 443} cost=4.4e-05 err=None
+[171/1200] guardrail-017 clef lat=7255.6 usage={'input_tokens': 358, 'output_tokens': 0} cost=8.6e-05 err=None
+[172/1200] guardrail-017 flash lat=381.5 usage={'input_tokens': 358, 'output_tokens': 0} cost=3.2e-05 err=None
+[173/1200] guardrail-011 jev lat=257.7 usage={'input_tokens': 423, 'output_tokens': 73} cost=1.8e-05 err=None
+[174/1200] guardrail-011 openai lat=212.2 usage={'input_tokens': 443, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 443} cost=4.4e-05 err=None
+[175/1200] guardrail-011 clef lat=2395.4 usage={'input_tokens': 358, 'output_tokens': 0} cost=8.6e-05 err=None
+[176/1200] guardrail-011 flash lat=198.9 usage={'input_tokens': 358, 'output_tokens': 0} cost=3.2e-05 err=None
+[177/1200] security-031-para jev lat=264.5 usage={'input_tokens': 425, 'output_tokens': 72} cost=1.8e-05 err=None
+[178/1200] security-031-para openai lat=259.8 usage={'input_tokens': 436, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 436} cost=4.4e-05 err=None
+[179/1200] security-031-para clef lat=674.2 usage={'input_tokens': 370, 'output_tokens': 0} cost=8.9e-05 err=None
+[180/1200] security-031-para flash lat=471.7 usage={'input_tokens': 370, 'output_tokens': 0} cost=3.3e-05 err=None
+[181/1200] invoice-014 jev lat=248.8 usage={'input_tokens': 461, 'output_tokens': 84} cost=1.9e-05 err=None
+[182/1200] invoice-014 openai lat=152.8 usage={'input_tokens': 470, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 470} cost=4.7e-05 err=None
+[183/1200] invoice-014 clef lat=287.1 usage={'input_tokens': 407, 'output_tokens': 0} cost=9.8e-05 err=None
+[184/1200] invoice-014 flash lat=339.6 usage={'input_tokens': 407, 'output_tokens': 0} cost=3.7e-05 err=None
+[185/1200] security-037 jev lat=277.0 usage={'input_tokens': 427, 'output_tokens': 73} cost=1.8e-05 err=None
+[186/1200] security-037 openai lat=300.6 usage={'input_tokens': 438, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 438} cost=4.4e-05 err=None
+[187/1200] security-037 clef lat=329.2 usage={'input_tokens': 372, 'output_tokens': 0} cost=8.9e-05 err=None
+[188/1200] security-037 flash lat=327.6 usage={'input_tokens': 372, 'output_tokens': 0} cost=3.3e-05 err=None
+[189/1200] support-025 jev lat=246.4 usage={'input_tokens': 455, 'output_tokens': 73} cost=1.9e-05 err=None
+[190/1200] support-025 openai lat=266.0 usage={'input_tokens': 474, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 474} cost=4.7e-05 err=None
+[191/1200] support-025 clef lat=452.2 usage={'input_tokens': 390, 'output_tokens': 0} cost=9.4e-05 err=None
+[192/1200] support-025 flash lat=214.5 usage={'input_tokens': 390, 'output_tokens': 0} cost=3.5e-05 err=None
+[193/1200] guardrail-028 jev lat=275.4 usage={'input_tokens': 408, 'output_tokens': 73} cost=1.7e-05 err=None
+[194/1200] guardrail-028 openai lat=207.0 usage={'input_tokens': 429, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 429} cost=4.3e-05 err=None
+[195/1200] guardrail-028 clef lat=321.8 usage={'input_tokens': 343, 'output_tokens': 0} cost=8.2e-05 err=None
+[196/1200] guardrail-028 flash lat=434.2 usage={'input_tokens': 343, 'output_tokens': 0} cost=3.1e-05 err=None
+[197/1200] support-045 jev lat=281.2 usage={'input_tokens': 466, 'output_tokens': 73} cost=2e-05 err=None
+[198/1200] support-045 openai lat=185.7 usage={'input_tokens': 481, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 481} cost=4.8e-05 err=None
+[199/1200] support-045 clef lat=231.7 usage={'input_tokens': 398, 'output_tokens': 0} cost=9.6e-05 err=None
+[200/1200] support-045 flash lat=587.1 usage={'input_tokens': 398, 'output_tokens': 0} cost=3.6e-05 err=None
+[201/1200] toolcall-030 jev lat=288.4 usage={'input_tokens': 395, 'output_tokens': 65} cost=1.7e-05 err=None
+[202/1200] toolcall-030 openai lat=174.0 usage={'input_tokens': 325, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 325} cost=3.2e-05 err=None
+[203/1200] toolcall-030 clef lat=509.5 usage={'input_tokens': 285, 'output_tokens': 0} cost=6.8e-05 err=None
+[204/1200] toolcall-030 flash lat=304.6 usage={'input_tokens': 285, 'output_tokens': 0} cost=2.6e-05 err=None
+[205/1200] security-044 jev lat=264.7 usage={'input_tokens': 419, 'output_tokens': 73} cost=1.8e-05 err=None
+[206/1200] security-044 openai lat=149.9 usage={'input_tokens': 430, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 430} cost=4.3e-05 err=None
+[207/1200] security-044 clef lat=868.1 usage={'input_tokens': 364, 'output_tokens': 0} cost=8.7e-05 err=None
+[208/1200] security-044 flash lat=338.6 usage={'input_tokens': 364, 'output_tokens': 0} cost=3.3e-05 err=None
+[209/1200] guardrail-015 jev lat=275.7 usage={'input_tokens': 423, 'output_tokens': 73} cost=1.8e-05 err=None
+[210/1200] guardrail-015 openai lat=159.1 usage={'input_tokens': 440, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 440} cost=4.4e-05 err=None
+[211/1200] guardrail-015 clef lat=410.4 usage={'input_tokens': 358, 'output_tokens': 0} cost=8.6e-05 err=None
+[212/1200] guardrail-015 flash lat=481.6 usage={'input_tokens': 358, 'output_tokens': 0} cost=3.2e-05 err=None
+[213/1200] invoice-003 jev lat=268.5 usage={'input_tokens': 465, 'output_tokens': 85} cost=2e-05 err=None
+[214/1200] invoice-003 openai lat=237.4 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[215/1200] invoice-003 clef lat=1454.0 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[216/1200] invoice-003 flash lat=318.8 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[217/1200] security-016 jev lat=262.8 usage={'input_tokens': 423, 'output_tokens': 73} cost=1.8e-05 err=None
+[218/1200] security-016 openai lat=228.6 usage={'input_tokens': 433, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 433} cost=4.3e-05 err=None
+[219/1200] security-016 clef lat=278.4 usage={'input_tokens': 368, 'output_tokens': 0} cost=8.8e-05 err=None
+[220/1200] security-016 flash lat=646.2 usage={'input_tokens': 368, 'output_tokens': 0} cost=3.3e-05 err=None
+[221/1200] toolcall-016 jev lat=258.9 usage={'input_tokens': 397, 'output_tokens': 65} cost=1.7e-05 err=None
+[222/1200] toolcall-016 openai lat=199.1 usage={'input_tokens': 325, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 325} cost=3.2e-05 err=None
+[223/1200] toolcall-016 clef lat=347.1 usage={'input_tokens': 287, 'output_tokens': 0} cost=6.9e-05 err=None
+[224/1200] toolcall-016 flash lat=230.2 usage={'input_tokens': 287, 'output_tokens': 0} cost=2.6e-05 err=None
+[225/1200] invoice-030-para jev lat=319.4 usage={'input_tokens': 469, 'output_tokens': 84} cost=2e-05 err=None
+[226/1200] invoice-030-para openai lat=143.8 usage={'input_tokens': 478, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 478} cost=4.8e-05 err=None
+[227/1200] invoice-030-para clef lat=801.8 usage={'input_tokens': 415, 'output_tokens': 0} cost=0.0001 err=None
+[228/1200] invoice-030-para flash lat=299.3 usage={'input_tokens': 415, 'output_tokens': 0} cost=3.7e-05 err=None
+[229/1200] support-052 jev lat=248.7 usage={'input_tokens': 455, 'output_tokens': 73} cost=1.9e-05 err=None
+[230/1200] support-052 openai lat=247.7 usage={'input_tokens': 474, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 474} cost=4.7e-05 err=None
+[231/1200] support-052 clef lat=1235.4 usage={'input_tokens': 390, 'output_tokens': 0} cost=9.4e-05 err=None
+[232/1200] support-052 flash lat=339.2 usage={'input_tokens': 390, 'output_tokens': 0} cost=3.5e-05 err=None
+[233/1200] invoice-030 jev lat=264.2 usage={'input_tokens': 461, 'output_tokens': 84} cost=1.9e-05 err=None
+[234/1200] invoice-030 openai lat=147.5 usage={'input_tokens': 470, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 470} cost=4.7e-05 err=None
+[235/1200] invoice-030 clef lat=3459.7 usage={'input_tokens': 407, 'output_tokens': 0} cost=9.8e-05 err=None
+[236/1200] invoice-030 flash lat=307.8 usage={'input_tokens': 407, 'output_tokens': 0} cost=3.7e-05 err=None
+[237/1200] invoice-031-json jev lat=243.0 usage={'input_tokens': 496, 'output_tokens': 85} cost=2.1e-05 err=None
+[238/1200] invoice-031-json openai lat=277.4 usage={'input_tokens': 494, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 494} cost=4.9e-05 err=None
+[239/1200] invoice-031-json clef lat=2811.7 usage={'input_tokens': 427, 'output_tokens': 0} cost=0.000102 err=None
+[240/1200] invoice-031-json flash lat=472.5 usage={'input_tokens': 427, 'output_tokens': 0} cost=3.8e-05 err=None
+[241/1200] support-022 jev lat=253.5 usage={'input_tokens': 452, 'output_tokens': 73} cost=1.9e-05 err=None
+[242/1200] support-022 openai lat=226.3 usage={'input_tokens': 469, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 469} cost=4.7e-05 err=None
+[243/1200] support-022 clef lat=511.5 usage={'input_tokens': 387, 'output_tokens': 0} cost=9.3e-05 err=None
+[244/1200] support-022 flash lat=199.1 usage={'input_tokens': 387, 'output_tokens': 0} cost=3.5e-05 err=None
+[245/1200] invoice-005 jev lat=258.5 usage={'input_tokens': 482, 'output_tokens': 83} cost=2e-05 err=None
+[246/1200] invoice-005 openai lat=451.4 usage={'input_tokens': 484, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 484} cost=4.8e-05 err=None
+[247/1200] invoice-005 clef lat=3994.9 usage={'input_tokens': 428, 'output_tokens': 0} cost=0.000103 err=None
+[248/1200] invoice-005 flash lat=520.1 usage={'input_tokens': 428, 'output_tokens': 0} cost=3.9e-05 err=None
+[249/1200] invoice-031 jev lat=293.2 usage={'input_tokens': 465, 'output_tokens': 85} cost=2e-05 err=None
+[250/1200] invoice-031 openai lat=271.5 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[251/1200] invoice-031 clef lat=231.3 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[252/1200] invoice-031 flash lat=319.9 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[253/1200] toolcall-021 jev lat=308.0 usage={'input_tokens': 389, 'output_tokens': 68} cost=1.6e-05 err=None
+[254/1200] toolcall-021 openai lat=158.0 usage={'input_tokens': 321, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 321} cost=3.2e-05 err=None
+[255/1200] toolcall-021 clef lat=574.7 usage={'input_tokens': 279, 'output_tokens': 0} cost=6.7e-05 err=None
+[256/1200] toolcall-021 flash lat=313.8 usage={'input_tokens': 279, 'output_tokens': 0} cost=2.5e-05 err=None
+[257/1200] toolcall-038-para jev lat=284.7 usage={'input_tokens': 410, 'output_tokens': 67} cost=1.7e-05 err=None
+[258/1200] toolcall-038-para openai lat=155.1 usage={'input_tokens': 341, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 341} cost=3.4e-05 err=None
+[259/1200] toolcall-038-para clef lat=442.6 usage={'input_tokens': 300, 'output_tokens': 0} cost=7.2e-05 err=None
+[260/1200] toolcall-038-para flash lat=194.1 usage={'input_tokens': 300, 'output_tokens': 0} cost=2.7e-05 err=None
+[261/1200] invoice-029 jev lat=255.7 usage={'input_tokens': 483, 'output_tokens': 83} cost=2e-05 err=None
+[262/1200] invoice-029 openai lat=213.9 usage={'input_tokens': 485, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 485} cost=4.9e-05 err=None
+[263/1200] invoice-029 clef lat=1047.3 usage={'input_tokens': 429, 'output_tokens': 0} cost=0.000103 err=None
+[264/1200] invoice-029 flash lat=293.8 usage={'input_tokens': 429, 'output_tokens': 0} cost=3.9e-05 err=None
+[265/1200] support-023 jev lat=270.9 usage={'input_tokens': 456, 'output_tokens': 73} cost=1.9e-05 err=None
+[266/1200] support-023 openai lat=232.3 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[267/1200] support-023 clef lat=1325.1 usage={'input_tokens': 391, 'output_tokens': 0} cost=9.4e-05 err=None
+[268/1200] support-023 flash lat=211.8 usage={'input_tokens': 391, 'output_tokens': 0} cost=3.5e-05 err=None
+[269/1200] invoice-035-para jev lat=267.7 usage={'input_tokens': 473, 'output_tokens': 85} cost=2e-05 err=None
+[270/1200] invoice-035-para openai lat=299.8 usage={'input_tokens': 481, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 481} cost=4.8e-05 err=None
+[271/1200] invoice-035-para clef lat=400.7 usage={'input_tokens': 419, 'output_tokens': 0} cost=0.000101 err=None
+[272/1200] invoice-035-para flash lat=351.4 usage={'input_tokens': 419, 'output_tokens': 0} cost=3.8e-05 err=None
+[273/1200] toolcall-035 jev lat=255.7 usage={'input_tokens': 398, 'output_tokens': 67} cost=1.7e-05 err=None
+[274/1200] toolcall-035 openai lat=213.6 usage={'input_tokens': 329, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 329} cost=3.3e-05 err=None
+[275/1200] toolcall-035 clef lat=294.4 usage={'input_tokens': 288, 'output_tokens': 0} cost=6.9e-05 err=None
+[276/1200] toolcall-035 flash lat=236.5 usage={'input_tokens': 288, 'output_tokens': 0} cost=2.6e-05 err=None
+[277/1200] toolcall-031 jev lat=278.6 usage={'input_tokens': 400, 'output_tokens': 67} cost=1.7e-05 err=None
+[278/1200] toolcall-031 openai lat=150.0 usage={'input_tokens': 328, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 328} cost=3.3e-05 err=None
+[279/1200] toolcall-031 clef lat=362.5 usage={'input_tokens': 290, 'output_tokens': 0} cost=7e-05 err=None
+[280/1200] toolcall-031 flash lat=491.6 usage={'input_tokens': 290, 'output_tokens': 0} cost=2.6e-05 err=None
+[281/1200] toolcall-020 jev lat=287.9 usage={'input_tokens': 400, 'output_tokens': 67} cost=1.7e-05 err=None
+[282/1200] toolcall-020 openai lat=174.1 usage={'input_tokens': 331, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 331} cost=3.3e-05 err=None
+[283/1200] toolcall-020 clef lat=1916.1 usage={'input_tokens': 290, 'output_tokens': 0} cost=7e-05 err=None
+[284/1200] toolcall-020 flash lat=211.4 usage={'input_tokens': 290, 'output_tokens': 0} cost=2.6e-05 err=None
+[285/1200] guardrail-021 jev lat=264.9 usage={'input_tokens': 411, 'output_tokens': 73} cost=1.7e-05 err=None
+[286/1200] guardrail-021 openai lat=146.2 usage={'input_tokens': 431, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 431} cost=4.3e-05 err=None
+[287/1200] guardrail-021 clef lat=2911.5 usage={'input_tokens': 346, 'output_tokens': 0} cost=8.3e-05 err=None
+[288/1200] guardrail-021 flash lat=323.3 usage={'input_tokens': 346, 'output_tokens': 0} cost=3.1e-05 err=None
+[289/1200] support-014 jev lat=324.4 usage={'input_tokens': 456, 'output_tokens': 73} cost=1.9e-05 err=None
+[290/1200] support-014 openai lat=198.4 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[291/1200] support-014 clef lat=1085.7 usage={'input_tokens': 391, 'output_tokens': 0} cost=9.4e-05 err=None
+[292/1200] support-014 flash lat=221.6 usage={'input_tokens': 391, 'output_tokens': 0} cost=3.5e-05 err=None
+[293/1200] security-041-json jev lat=308.1 usage={'input_tokens': 460, 'output_tokens': 73} cost=1.9e-05 err=None
+[294/1200] security-041-json openai lat=152.2 usage={'input_tokens': 461, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 461} cost=4.6e-05 err=None
+[295/1200] security-041-json clef lat=348.1 usage={'input_tokens': 390, 'output_tokens': 0} cost=9.4e-05 err=None
+[296/1200] security-041-json flash lat=518.1 usage={'input_tokens': 390, 'output_tokens': 0} cost=3.5e-05 err=None
+[297/1200] security-021-json jev lat=305.0 usage={'input_tokens': 458, 'output_tokens': 73} cost=1.9e-05 err=None
+[298/1200] security-021-json openai lat=205.1 usage={'input_tokens': 459, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 459} cost=4.6e-05 err=None
+[299/1200] security-021-json clef lat=1091.6 usage={'input_tokens': 388, 'output_tokens': 0} cost=9.3e-05 err=None
+[300/1200] security-021-json flash lat=283.4 usage={'input_tokens': 388, 'output_tokens': 0} cost=3.5e-05 err=None
+[301/1200] support-046 jev lat=353.4 usage={'input_tokens': 464, 'output_tokens': 73} cost=1.9e-05 err=None
+[302/1200] support-046 openai lat=229.9 usage={'input_tokens': 479, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 479} cost=4.8e-05 err=None
+[303/1200] support-046 clef lat=898.1 usage={'input_tokens': 396, 'output_tokens': 0} cost=9.5e-05 err=None
+[304/1200] support-046 flash lat=304.5 usage={'input_tokens': 396, 'output_tokens': 0} cost=3.6e-05 err=None
+[305/1200] invoice-025 jev lat=298.5 usage={'input_tokens': 483, 'output_tokens': 83} cost=2e-05 err=None
+[306/1200] invoice-025 openai lat=258.3 usage={'input_tokens': 485, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 485} cost=4.9e-05 err=None
+[307/1200] invoice-025 clef lat=272.1 usage={'input_tokens': 429, 'output_tokens': 0} cost=0.000103 err=None
+[308/1200] invoice-025 flash lat=385.3 usage={'input_tokens': 429, 'output_tokens': 0} cost=3.9e-05 err=None
+[309/1200] support-048-para jev lat=273.3 usage={'input_tokens': 461, 'output_tokens': 73} cost=1.9e-05 err=None
+[310/1200] support-048-para openai lat=239.6 usage={'input_tokens': 478, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 478} cost=4.8e-05 err=None
+[311/1200] support-048-para clef lat=586.6 usage={'input_tokens': 395, 'output_tokens': 0} cost=9.5e-05 err=None
+[312/1200] support-048-para flash lat=473.6 usage={'input_tokens': 395, 'output_tokens': 0} cost=3.6e-05 err=None
+[313/1200] support-022-para jev lat=286.4 usage={'input_tokens': 460, 'output_tokens': 73} cost=1.9e-05 err=None
+[314/1200] support-022-para openai lat=166.5 usage={'input_tokens': 475, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 475} cost=4.8e-05 err=None
+[315/1200] support-022-para clef lat=639.1 usage={'input_tokens': 394, 'output_tokens': 0} cost=9.5e-05 err=None
+[316/1200] support-022-para flash lat=930.9 usage={'input_tokens': 394, 'output_tokens': 0} cost=3.5e-05 err=None
+[317/1200] support-016-para jev lat=500.1 usage={'input_tokens': 463, 'output_tokens': 73} cost=1.9e-05 err=None
+[318/1200] support-016-para openai lat=175.2 usage={'input_tokens': 482, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 482} cost=4.8e-05 err=None
+[319/1200] support-016-para clef lat=607.6 usage={'input_tokens': 398, 'output_tokens': 0} cost=9.6e-05 err=None
+[320/1200] support-016-para flash lat=253.9 usage={'input_tokens': 398, 'output_tokens': 0} cost=3.6e-05 err=None
+[321/1200] toolcall-033-para jev lat=248.0 usage={'input_tokens': 397, 'output_tokens': 68} cost=1.7e-05 err=None
+[322/1200] toolcall-033-para openai lat=178.6 usage={'input_tokens': 329, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 329} cost=3.3e-05 err=None
+[323/1200] toolcall-033-para clef lat=475.1 usage={'input_tokens': 287, 'output_tokens': 0} cost=6.9e-05 err=None
+[324/1200] toolcall-033-para flash lat=478.5 usage={'input_tokens': 287, 'output_tokens': 0} cost=2.6e-05 err=None
+[325/1200] guardrail-020 jev lat=259.4 usage={'input_tokens': 423, 'output_tokens': 73} cost=1.8e-05 err=None
+[326/1200] guardrail-020 openai lat=205.5 usage={'input_tokens': 443, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 443} cost=4.4e-05 err=None
+[327/1200] guardrail-020 clef lat=432.6 usage={'input_tokens': 358, 'output_tokens': 0} cost=8.6e-05 err=None
+[328/1200] guardrail-020 flash lat=255.3 usage={'input_tokens': 358, 'output_tokens': 0} cost=3.2e-05 err=None
+[329/1200] toolcall-006 jev lat=255.0 usage={'input_tokens': 394, 'output_tokens': 65} cost=1.7e-05 err=None
+[330/1200] toolcall-006 openai lat=241.2 usage={'input_tokens': 325, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 325} cost=3.2e-05 err=None
+[331/1200] toolcall-006 clef lat=352.0 usage={'input_tokens': 284, 'output_tokens': 0} cost=6.8e-05 err=None
+[332/1200] toolcall-006 flash lat=316.5 usage={'input_tokens': 284, 'output_tokens': 0} cost=2.6e-05 err=None
+[333/1200] invoice-042 jev lat=288.9 usage={'input_tokens': 461, 'output_tokens': 84} cost=1.9e-05 err=None
+[334/1200] invoice-042 openai lat=144.1 usage={'input_tokens': 470, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 470} cost=4.7e-05 err=None
+[335/1200] invoice-042 clef lat=380.6 usage={'input_tokens': 407, 'output_tokens': 0} cost=9.8e-05 err=None
+[336/1200] invoice-042 flash lat=310.2 usage={'input_tokens': 407, 'output_tokens': 0} cost=3.7e-05 err=None
+[337/1200] invoice-020 jev lat=240.7 usage={'input_tokens': 465, 'output_tokens': 84} cost=2e-05 err=None
+[338/1200] invoice-020 openai lat=251.3 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[339/1200] invoice-020 clef lat=487.8 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[340/1200] invoice-020 flash lat=215.0 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[341/1200] guardrail-002 jev lat=265.5 usage={'input_tokens': 422, 'output_tokens': 73} cost=1.8e-05 err=None
+[342/1200] guardrail-002 openai lat=160.6 usage={'input_tokens': 443, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 443} cost=4.4e-05 err=None
+[343/1200] guardrail-002 clef lat=415.6 usage={'input_tokens': 357, 'output_tokens': 0} cost=8.6e-05 err=None
+[344/1200] guardrail-002 flash lat=290.1 usage={'input_tokens': 357, 'output_tokens': 0} cost=3.2e-05 err=None
+[345/1200] support-005 jev lat=245.5 usage={'input_tokens': 456, 'output_tokens': 73} cost=1.9e-05 err=None
+[346/1200] support-005 openai lat=222.5 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[347/1200] support-005 clef lat=349.9 usage={'input_tokens': 391, 'output_tokens': 0} cost=9.4e-05 err=None
+[348/1200] support-005 flash lat=196.3 usage={'input_tokens': 391, 'output_tokens': 0} cost=3.5e-05 err=None
+[349/1200] support-010-json jev lat=285.6 usage={'input_tokens': 495, 'output_tokens': 73} cost=2.1e-05 err=None
+[350/1200] support-010-json openai lat=253.0 usage={'input_tokens': 500, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 500} cost=5e-05 err=None
+[351/1200] support-010-json clef lat=3499.4 usage={'input_tokens': 412, 'output_tokens': 0} cost=9.9e-05 err=None
+[352/1200] support-010-json flash lat=639.8 usage={'input_tokens': 412, 'output_tokens': 0} cost=3.7e-05 err=None
+[353/1200] security-002-json jev lat=273.7 usage={'input_tokens': 458, 'output_tokens': 72} cost=1.9e-05 err=None
+[354/1200] security-002-json openai lat=209.1 usage={'input_tokens': 458, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 458} cost=4.6e-05 err=None
+[355/1200] security-002-json clef lat=1929.9 usage={'input_tokens': 389, 'output_tokens': 0} cost=9.3e-05 err=None
+[356/1200] security-002-json flash lat=388.8 usage={'input_tokens': 389, 'output_tokens': 0} cost=3.5e-05 err=None
+[357/1200] invoice-034 jev lat=245.2 usage={'input_tokens': 461, 'output_tokens': 84} cost=1.9e-05 err=None
+[358/1200] invoice-034 openai lat=215.3 usage={'input_tokens': 470, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 470} cost=4.7e-05 err=None
+[359/1200] invoice-034 clef lat=3085.9 usage={'input_tokens': 407, 'output_tokens': 0} cost=9.8e-05 err=None
+[360/1200] invoice-034 flash lat=220.5 usage={'input_tokens': 407, 'output_tokens': 0} cost=3.7e-05 err=None
+[361/1200] support-010 jev lat=285.9 usage={'input_tokens': 464, 'output_tokens': 73} cost=1.9e-05 err=None
+[362/1200] support-010 openai lat=159.4 usage={'input_tokens': 479, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 479} cost=4.8e-05 err=None
+[363/1200] support-010 clef lat=360.5 usage={'input_tokens': 396, 'output_tokens': 0} cost=9.5e-05 err=None
+[364/1200] support-010 flash lat=349.9 usage={'input_tokens': 396, 'output_tokens': 0} cost=3.6e-05 err=None
+[365/1200] guardrail-005 jev lat=324.5 usage={'input_tokens': 422, 'output_tokens': 73} cost=1.8e-05 err=None
+[366/1200] guardrail-005 openai lat=252.3 usage={'input_tokens': 443, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 443} cost=4.4e-05 err=None
+[367/1200] guardrail-005 clef lat=2834.2 usage={'input_tokens': 357, 'output_tokens': 0} cost=8.6e-05 err=None
+[368/1200] guardrail-005 flash lat=320.0 usage={'input_tokens': 357, 'output_tokens': 0} cost=3.2e-05 err=None
+[369/1200] support-002 jev lat=250.5 usage={'input_tokens': 458, 'output_tokens': 73} cost=1.9e-05 err=None
+[370/1200] support-002 openai lat=153.0 usage={'input_tokens': 475, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 475} cost=4.8e-05 err=None
+[371/1200] support-002 clef lat=617.5 usage={'input_tokens': 393, 'output_tokens': 0} cost=9.4e-05 err=None
+[372/1200] support-002 flash lat=224.3 usage={'input_tokens': 393, 'output_tokens': 0} cost=3.5e-05 err=None
+[373/1200] invoice-010-para jev lat=287.5 usage={'input_tokens': 469, 'output_tokens': 84} cost=2e-05 err=None
+[374/1200] invoice-010-para openai lat=159.4 usage={'input_tokens': 478, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 478} cost=4.8e-05 err=None
+[375/1200] invoice-010-para clef lat=406.7 usage={'input_tokens': 415, 'output_tokens': 0} cost=0.0001 err=None
+[376/1200] invoice-010-para flash lat=225.8 usage={'input_tokens': 415, 'output_tokens': 0} cost=3.7e-05 err=None
+[377/1200] security-024-para jev lat=345.6 usage={'input_tokens': 427, 'output_tokens': 73} cost=1.8e-05 err=None
+[378/1200] security-024-para openai lat=234.9 usage={'input_tokens': 438, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 438} cost=4.4e-05 err=None
+[379/1200] security-024-para clef lat=553.7 usage={'input_tokens': 371, 'output_tokens': 0} cost=8.9e-05 err=None
+[380/1200] security-024-para flash lat=203.5 usage={'input_tokens': 371, 'output_tokens': 0} cost=3.3e-05 err=None
+[381/1200] invoice-036 jev lat=255.1 usage={'input_tokens': 465, 'output_tokens': 83} cost=2e-05 err=None
+[382/1200] invoice-036 openai lat=201.4 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[383/1200] invoice-036 clef lat=389.4 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[384/1200] invoice-036 flash lat=293.5 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[385/1200] invoice-016 jev lat=278.5 usage={'input_tokens': 465, 'output_tokens': 83} cost=2e-05 err=None
+[386/1200] invoice-016 openai lat=149.1 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[387/1200] invoice-016 clef lat=649.7 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[388/1200] invoice-016 flash lat=268.9 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[389/1200] invoice-002 jev lat=318.9 usage={'input_tokens': 461, 'output_tokens': 84} cost=1.9e-05 err=None
+[390/1200] invoice-002 openai lat=228.0 usage={'input_tokens': 470, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 470} cost=4.7e-05 err=None
+[391/1200] invoice-002 clef lat=1681.6 usage={'input_tokens': 407, 'output_tokens': 0} cost=9.8e-05 err=None
+[392/1200] invoice-002 flash lat=174.5 usage={'input_tokens': 407, 'output_tokens': 0} cost=3.7e-05 err=None
+[393/1200] security-042 jev lat=275.1 usage={'input_tokens': 424, 'output_tokens': 72} cost=1.8e-05 err=None
+[394/1200] security-042 openai lat=225.7 usage={'input_tokens': 433, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 433} cost=4.3e-05 err=None
+[395/1200] security-042 clef lat=389.5 usage={'input_tokens': 369, 'output_tokens': 0} cost=8.9e-05 err=None
+[396/1200] security-042 flash lat=627.0 usage={'input_tokens': 369, 'output_tokens': 0} cost=3.3e-05 err=None
+[397/1200] toolcall-038 jev lat=244.7 usage={'input_tokens': 402, 'output_tokens': 67} cost=1.7e-05 err=None
+[398/1200] toolcall-038 openai lat=228.4 usage={'input_tokens': 333, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 333} cost=3.3e-05 err=None
+[399/1200] toolcall-038 clef lat=666.9 usage={'input_tokens': 292, 'output_tokens': 0} cost=7e-05 err=None
+[400/1200] toolcall-038 flash lat=249.3 usage={'input_tokens': 292, 'output_tokens': 0} cost=2.6e-05 err=None
+[401/1200] toolcall-009 jev lat=258.2 usage={'input_tokens': 388, 'output_tokens': 68} cost=1.6e-05 err=None
+[402/1200] toolcall-009 openai lat=230.7 usage={'input_tokens': 321, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 321} cost=3.2e-05 err=None
+[403/1200] toolcall-009 clef lat=250.6 usage={'input_tokens': 278, 'output_tokens': 0} cost=6.7e-05 err=None
+[404/1200] toolcall-009 flash lat=237.4 usage={'input_tokens': 278, 'output_tokens': 0} cost=2.5e-05 err=None
+[405/1200] security-011 jev lat=295.8 usage={'input_tokens': 416, 'output_tokens': 72} cost=1.7e-05 err=None
+[406/1200] security-011 openai lat=253.7 usage={'input_tokens': 426, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 426} cost=4.3e-05 err=None
+[407/1200] security-011 clef lat=622.5 usage={'input_tokens': 362, 'output_tokens': 0} cost=8.7e-05 err=None
+[408/1200] security-011 flash lat=254.2 usage={'input_tokens': 362, 'output_tokens': 0} cost=3.3e-05 err=None
+[409/1200] guardrail-026-json jev lat=265.3 usage={'input_tokens': 443, 'output_tokens': 73} cost=1.9e-05 err=None
+[410/1200] guardrail-026-json openai lat=170.7 usage={'input_tokens': 454, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 454} cost=4.5e-05 err=None
+[411/1200] guardrail-026-json clef lat=552.3 usage={'input_tokens': 363, 'output_tokens': 0} cost=8.7e-05 err=None
+[412/1200] guardrail-026-json flash lat=415.2 usage={'input_tokens': 363, 'output_tokens': 0} cost=3.3e-05 err=None
+[413/1200] toolcall-026-para jev lat=267.2 usage={'input_tokens': 407, 'output_tokens': 67} cost=1.7e-05 err=None
+[414/1200] toolcall-026-para openai lat=246.9 usage={'input_tokens': 338, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 338} cost=3.4e-05 err=None
+[415/1200] toolcall-026-para clef lat=452.3 usage={'input_tokens': 297, 'output_tokens': 0} cost=7.1e-05 err=None
+[416/1200] toolcall-026-para flash lat=226.1 usage={'input_tokens': 297, 'output_tokens': 0} cost=2.7e-05 err=None
+[417/1200] toolcall-030-para jev lat=298.4 usage={'input_tokens': 403, 'output_tokens': 65} cost=1.7e-05 err=None
+[418/1200] toolcall-030-para openai lat=231.5 usage={'input_tokens': 333, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 333} cost=3.3e-05 err=None
+[419/1200] toolcall-030-para clef lat=262.5 usage={'input_tokens': 293, 'output_tokens': 0} cost=7e-05 err=None
+[420/1200] toolcall-030-para flash lat=1344.8 usage={'input_tokens': 293, 'output_tokens': 0} cost=2.6e-05 err=None
+[421/1200] security-027-para jev lat=309.3 usage={'input_tokens': 432, 'output_tokens': 72} cost=1.8e-05 err=None
+[422/1200] security-027-para openai lat=156.3 usage={'input_tokens': 443, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 443} cost=4.4e-05 err=None
+[423/1200] security-027-para clef lat=914.3 usage={'input_tokens': 377, 'output_tokens': 0} cost=9e-05 err=None
+[424/1200] security-027-para flash lat=483.3 usage={'input_tokens': 377, 'output_tokens': 0} cost=3.4e-05 err=None
+[425/1200] support-006 jev lat=244.1 usage={'input_tokens': 454, 'output_tokens': 73} cost=1.9e-05 err=None
+[426/1200] support-006 openai lat=150.4 usage={'input_tokens': 471, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 471} cost=4.7e-05 err=None
+[427/1200] support-006 clef lat=854.5 usage={'input_tokens': 389, 'output_tokens': 0} cost=9.3e-05 err=None
+[428/1200] support-006 flash lat=305.9 usage={'input_tokens': 389, 'output_tokens': 0} cost=3.5e-05 err=None
+[429/1200] support-036 jev lat=320.9 usage={'input_tokens': 464, 'output_tokens': 73} cost=1.9e-05 err=None
+[430/1200] support-036 openai lat=1001.6 usage={'input_tokens': 479, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 479} cost=4.8e-05 err=None
+[431/1200] support-036 clef lat=668.2 usage={'input_tokens': 396, 'output_tokens': 0} cost=9.5e-05 err=None
+[432/1200] support-036 flash lat=451.5 usage={'input_tokens': 396, 'output_tokens': 0} cost=3.6e-05 err=None
+[433/1200] security-007 jev lat=264.8 usage={'input_tokens': 416, 'output_tokens': 72} cost=1.7e-05 err=None
+[434/1200] security-007 openai lat=3115.8 usage={'input_tokens': 428, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 428} cost=4.3e-05 err=None
+[435/1200] security-007 clef lat=461.8 usage={'input_tokens': 361, 'output_tokens': 0} cost=8.7e-05 err=None
+[436/1200] security-007 flash lat=278.3 usage={'input_tokens': 361, 'output_tokens': 0} cost=3.2e-05 err=None
+[437/1200] toolcall-032 jev lat=280.1 usage={'input_tokens': 399, 'output_tokens': 67} cost=1.7e-05 err=None
+[438/1200] toolcall-032 openai lat=4110.9 usage={'input_tokens': 331, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 331} cost=3.3e-05 err=None
+[439/1200] toolcall-032 clef lat=441.2 usage={'input_tokens': 289, 'output_tokens': 0} cost=6.9e-05 err=None
+[440/1200] toolcall-032 flash lat=218.3 usage={'input_tokens': 289, 'output_tokens': 0} cost=2.6e-05 err=None
+[441/1200] security-020 jev lat=313.9 usage={'input_tokens': 419, 'output_tokens': 73} cost=1.8e-05 err=None
+[442/1200] security-020 openai lat=236.2 usage={'input_tokens': 430, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 430} cost=4.3e-05 err=None
+[443/1200] security-020 clef lat=455.1 usage={'input_tokens': 364, 'output_tokens': 0} cost=8.7e-05 err=None
+[444/1200] security-020 flash lat=595.3 usage={'input_tokens': 364, 'output_tokens': 0} cost=3.3e-05 err=None
+[445/1200] support-012 jev lat=355.8 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[446/1200] support-012 openai lat=166.9 usage={'input_tokens': 472, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 472} cost=4.7e-05 err=None
+[447/1200] support-012 clef lat=355.0 usage={'input_tokens': 388, 'output_tokens': 0} cost=9.3e-05 err=None
+[448/1200] support-012 flash lat=321.1 usage={'input_tokens': 388, 'output_tokens': 0} cost=3.5e-05 err=None
+[449/1200] support-007 jev lat=266.2 usage={'input_tokens': 455, 'output_tokens': 73} cost=1.9e-05 err=None
+[450/1200] support-007 openai lat=175.7 usage={'input_tokens': 474, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 474} cost=4.7e-05 err=None
+[451/1200] support-007 clef lat=318.8 usage={'input_tokens': 390, 'output_tokens': 0} cost=9.4e-05 err=None
+[452/1200] support-007 flash lat=453.1 usage={'input_tokens': 390, 'output_tokens': 0} cost=3.5e-05 err=None
+[453/1200] support-037-para jev lat=288.4 usage={'input_tokens': 470, 'output_tokens': 73} cost=2e-05 err=None
+[454/1200] support-037-para openai lat=164.3 usage={'input_tokens': 485, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 485} cost=4.9e-05 err=None
+[455/1200] support-037-para clef lat=277.3 usage={'input_tokens': 403, 'output_tokens': 0} cost=9.7e-05 err=None
+[456/1200] support-037-para flash lat=324.1 usage={'input_tokens': 403, 'output_tokens': 0} cost=3.6e-05 err=None
+[457/1200] invoice-026-long jev lat=360.8 usage={'input_tokens': 17456, 'output_tokens': 84} cost=0.000733 err=None
+[458/1200] invoice-026-long openai lat=4482.6 usage={'input_tokens': 12074, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 12074} cost=0.001207 err=None
+[459/1200] invoice-026-long clef lat=3056.9 usage={'input_tokens': 17403, 'output_tokens': 0} cost=0.004177 err=None
+[460/1200] invoice-026-long flash lat=1434.7 usage={'input_tokens': 17403, 'output_tokens': 0} cost=0.001566 err=None
+[461/1200] guardrail-027 jev lat=290.6 usage={'input_tokens': 408, 'output_tokens': 73} cost=1.7e-05 err=None
+[462/1200] guardrail-027 openai lat=156.2 usage={'input_tokens': 429, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 429} cost=4.3e-05 err=None
+[463/1200] guardrail-027 clef lat=4252.2 usage={'input_tokens': 343, 'output_tokens': 0} cost=8.2e-05 err=None
+[464/1200] guardrail-027 flash lat=233.0 usage={'input_tokens': 343, 'output_tokens': 0} cost=3.1e-05 err=None
+[465/1200] invoice-010 jev lat=258.1 usage={'input_tokens': 461, 'output_tokens': 84} cost=1.9e-05 err=None
+[466/1200] invoice-010 openai lat=2308.5 usage={'input_tokens': 470, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 470} cost=4.7e-05 err=None
+[467/1200] invoice-010 clef lat=577.1 usage={'input_tokens': 407, 'output_tokens': 0} cost=9.8e-05 err=None
+[468/1200] invoice-010 flash lat=331.8 usage={'input_tokens': 407, 'output_tokens': 0} cost=3.7e-05 err=None
+[469/1200] toolcall-027-para jev lat=276.3 usage={'input_tokens': 398, 'output_tokens': 68} cost=1.7e-05 err=None
+[470/1200] toolcall-027-para openai lat=226.4 usage={'input_tokens': 330, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 330} cost=3.3e-05 err=None
+[471/1200] toolcall-027-para clef lat=4084.8 usage={'input_tokens': 288, 'output_tokens': 0} cost=6.9e-05 err=None
+[472/1200] toolcall-027-para flash lat=320.4 usage={'input_tokens': 288, 'output_tokens': 0} cost=2.6e-05 err=None
+[473/1200] support-038-json jev lat=250.5 usage={'input_tokens': 489, 'output_tokens': 73} cost=2.1e-05 err=None
+[474/1200] support-038-json openai lat=279.0 usage={'input_tokens': 496, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 496} cost=5e-05 err=None
+[475/1200] support-038-json clef lat=1968.5 usage={'input_tokens': 409, 'output_tokens': 0} cost=9.8e-05 err=None
+[476/1200] support-038-json flash lat=244.2 usage={'input_tokens': 409, 'output_tokens': 0} cost=3.7e-05 err=None
+[477/1200] invoice-027 jev lat=257.7 usage={'input_tokens': 465, 'output_tokens': 85} cost=2e-05 err=None
+[478/1200] invoice-027 openai lat=204.0 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[479/1200] invoice-027 clef lat=5838.5 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[480/1200] invoice-027 flash lat=200.0 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[481/1200] invoice-033 jev lat=255.9 usage={'input_tokens': 483, 'output_tokens': 83} cost=2e-05 err=None
+[482/1200] invoice-033 openai lat=151.9 usage={'input_tokens': 485, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 485} cost=4.9e-05 err=None
+[483/1200] invoice-033 clef lat=283.9 usage={'input_tokens': 429, 'output_tokens': 0} cost=0.000103 err=None
+[484/1200] invoice-033 flash lat=380.9 usage={'input_tokens': 429, 'output_tokens': 0} cost=3.9e-05 err=None
+[485/1200] security-043-json jev lat=279.9 usage={'input_tokens': 448, 'output_tokens': 72} cost=1.9e-05 err=None
+[486/1200] security-043-json openai lat=152.9 usage={'input_tokens': 450, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 450} cost=4.5e-05 err=None
+[487/1200] security-043-json clef lat=301.1 usage={'input_tokens': 378, 'output_tokens': 0} cost=9.1e-05 err=None
+[488/1200] security-043-json flash lat=334.5 usage={'input_tokens': 378, 'output_tokens': 0} cost=3.4e-05 err=None
+[489/1200] support-044 jev lat=279.0 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[490/1200] support-044 openai lat=157.7 usage={'input_tokens': 472, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 472} cost=4.7e-05 err=None
+[491/1200] support-044 clef lat=580.6 usage={'input_tokens': 388, 'output_tokens': 0} cost=9.3e-05 err=None
+[492/1200] support-044 flash lat=474.8 usage={'input_tokens': 388, 'output_tokens': 0} cost=3.5e-05 err=None
+[493/1200] invoice-037 jev lat=274.3 usage={'input_tokens': 483, 'output_tokens': 83} cost=2e-05 err=None
+[494/1200] invoice-037 openai lat=152.7 usage={'input_tokens': 485, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 485} cost=4.9e-05 err=None
+[495/1200] invoice-037 clef lat=1460.5 usage={'input_tokens': 429, 'output_tokens': 0} cost=0.000103 err=None
+[496/1200] invoice-037 flash lat=336.4 usage={'input_tokens': 429, 'output_tokens': 0} cost=3.9e-05 err=None
+[497/1200] toolcall-023 jev lat=275.9 usage={'input_tokens': 400, 'output_tokens': 67} cost=1.7e-05 err=None
+[498/1200] toolcall-023 openai lat=164.1 usage={'input_tokens': 332, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 332} cost=3.3e-05 err=None
+[499/1200] toolcall-023 clef lat=966.4 usage={'input_tokens': 290, 'output_tokens': 0} cost=7e-05 err=None
+[500/1200] toolcall-023 flash lat=224.2 usage={'input_tokens': 290, 'output_tokens': 0} cost=2.6e-05 err=None
+[501/1200] invoice-023-json jev lat=286.9 usage={'input_tokens': 496, 'output_tokens': 85} cost=2.1e-05 err=None
+[502/1200] invoice-023-json openai lat=164.5 usage={'input_tokens': 494, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 494} cost=4.9e-05 err=None
+[503/1200] invoice-023-json clef lat=2209.7 usage={'input_tokens': 427, 'output_tokens': 0} cost=0.000102 err=None
+[504/1200] invoice-023-json flash lat=208.5 usage={'input_tokens': 427, 'output_tokens': 0} cost=3.8e-05 err=None
+[505/1200] toolcall-028-json jev lat=260.0 usage={'input_tokens': 428, 'output_tokens': 65} cost=1.8e-05 err=None
+[506/1200] toolcall-028-json openai lat=157.6 usage={'input_tokens': 346, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 346} cost=3.5e-05 err=None
+[507/1200] toolcall-028-json clef lat=3372.5 usage={'input_tokens': 303, 'output_tokens': 0} cost=7.3e-05 err=None
+[508/1200] toolcall-028-json flash lat=652.9 usage={'input_tokens': 303, 'output_tokens': 0} cost=2.7e-05 err=None
+[509/1200] invoice-015 jev lat=236.3 usage={'input_tokens': 465, 'output_tokens': 85} cost=2e-05 err=None
+[510/1200] invoice-015 openai lat=163.4 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[511/1200] invoice-015 clef lat=1165.3 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[512/1200] invoice-015 flash lat=354.0 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[513/1200] guardrail-023 jev lat=278.6 usage={'input_tokens': 417, 'output_tokens': 73} cost=1.8e-05 err=None
+[514/1200] guardrail-023 openai lat=154.2 usage={'input_tokens': 436, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 436} cost=4.4e-05 err=None
+[515/1200] guardrail-023 clef lat=1012.6 usage={'input_tokens': 352, 'output_tokens': 0} cost=8.4e-05 err=None
+[516/1200] guardrail-023 flash lat=346.1 usage={'input_tokens': 352, 'output_tokens': 0} cost=3.2e-05 err=None
+[517/1200] security-014-json jev lat=267.2 usage={'input_tokens': 459, 'output_tokens': 72} cost=1.9e-05 err=None
+[518/1200] security-014-json openai lat=275.2 usage={'input_tokens': 458, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 458} cost=4.6e-05 err=None
+[519/1200] security-014-json clef lat=549.7 usage={'input_tokens': 390, 'output_tokens': 0} cost=9.4e-05 err=None
+[520/1200] security-014-json flash lat=543.5 usage={'input_tokens': 390, 'output_tokens': 0} cost=3.5e-05 err=None
+[521/1200] support-030 jev lat=237.9 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[522/1200] support-030 openai lat=148.0 usage={'input_tokens': 472, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 472} cost=4.7e-05 err=None
+[523/1200] support-030 clef lat=2286.0 usage={'input_tokens': 388, 'output_tokens': 0} cost=9.3e-05 err=None
+[524/1200] support-030 flash lat=304.8 usage={'input_tokens': 388, 'output_tokens': 0} cost=3.5e-05 err=None
+[525/1200] toolcall-002 jev lat=344.0 usage={'input_tokens': 401, 'output_tokens': 67} cost=1.7e-05 err=None
+[526/1200] toolcall-002 openai lat=147.5 usage={'input_tokens': 333, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 333} cost=3.3e-05 err=None
+[527/1200] toolcall-002 clef lat=247.5 usage={'input_tokens': 291, 'output_tokens': 0} cost=7e-05 err=None
+[528/1200] toolcall-002 flash lat=211.7 usage={'input_tokens': 291, 'output_tokens': 0} cost=2.6e-05 err=None
+[529/1200] support-033-json jev lat=282.2 usage={'input_tokens': 485, 'output_tokens': 73} cost=2e-05 err=None
+[530/1200] support-033-json openai lat=515.0 usage={'input_tokens': 492, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 492} cost=4.9e-05 err=None
+[531/1200] support-033-json clef lat=418.5 usage={'input_tokens': 405, 'output_tokens': 0} cost=9.7e-05 err=None
+[532/1200] support-033-json flash lat=221.9 usage={'input_tokens': 405, 'output_tokens': 0} cost=3.6e-05 err=None
+[533/1200] support-027 jev lat=242.4 usage={'input_tokens': 466, 'output_tokens': 73} cost=2e-05 err=None
+[534/1200] support-027 openai lat=224.5 usage={'input_tokens': 481, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 481} cost=4.8e-05 err=None
+[535/1200] support-027 clef lat=438.8 usage={'input_tokens': 398, 'output_tokens': 0} cost=9.6e-05 err=None
+[536/1200] support-027 flash lat=501.1 usage={'input_tokens': 398, 'output_tokens': 0} cost=3.6e-05 err=None
+[537/1200] support-039-json jev lat=235.7 usage={'input_tokens': 484, 'output_tokens': 73} cost=2e-05 err=None
+[538/1200] support-039-json openai lat=141.8 usage={'input_tokens': 493, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 493} cost=4.9e-05 err=None
+[539/1200] support-039-json clef lat=344.6 usage={'input_tokens': 404, 'output_tokens': 0} cost=9.7e-05 err=None
+[540/1200] support-039-json flash lat=313.5 usage={'input_tokens': 404, 'output_tokens': 0} cost=3.6e-05 err=None
+[541/1200] toolcall-010 jev lat=249.3 usage={'input_tokens': 400, 'output_tokens': 65} cost=1.7e-05 err=None
+[542/1200] toolcall-010 openai lat=161.1 usage={'input_tokens': 330, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 330} cost=3.3e-05 err=None
+[543/1200] toolcall-010 clef lat=254.5 usage={'input_tokens': 290, 'output_tokens': 0} cost=7e-05 err=None
+[544/1200] toolcall-010 flash lat=264.6 usage={'input_tokens': 290, 'output_tokens': 0} cost=2.6e-05 err=None
+[545/1200] guardrail-014 jev lat=287.3 usage={'input_tokens': 423, 'output_tokens': 73} cost=1.8e-05 err=None
+[546/1200] guardrail-014 openai lat=245.3 usage={'input_tokens': 443, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 443} cost=4.4e-05 err=None
+[547/1200] guardrail-014 clef lat=294.7 usage={'input_tokens': 358, 'output_tokens': 0} cost=8.6e-05 err=None
+[548/1200] guardrail-014 flash lat=478.0 usage={'input_tokens': 358, 'output_tokens': 0} cost=3.2e-05 err=None
+[549/1200] invoice-023 jev lat=277.2 usage={'input_tokens': 465, 'output_tokens': 85} cost=2e-05 err=None
+[550/1200] invoice-023 openai lat=193.2 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[551/1200] invoice-023 clef lat=363.7 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[552/1200] invoice-023 flash lat=293.0 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[553/1200] toolcall-009-long jev lat=359.1 usage={'input_tokens': 17383, 'output_tokens': 68} cost=0.00073 err=None
+[554/1200] toolcall-009-long openai lat=193.2 usage={'input_tokens': 11925, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 11925} cost=0.001192 err=None
+[555/1200] toolcall-009-long clef lat=3171.9 usage={'input_tokens': 17274, 'output_tokens': 0} cost=0.004146 err=None
+[556/1200] toolcall-009-long flash lat=1015.3 usage={'input_tokens': 17274, 'output_tokens': 0} cost=0.001555 err=None
+[557/1200] guardrail-006 jev lat=281.0 usage={'input_tokens': 422, 'output_tokens': 73} cost=1.8e-05 err=None
+[558/1200] guardrail-006 openai lat=185.0 usage={'input_tokens': 440, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 440} cost=4.4e-05 err=None
+[559/1200] guardrail-006 clef lat=329.0 usage={'input_tokens': 357, 'output_tokens': 0} cost=8.6e-05 err=None
+[560/1200] guardrail-006 flash lat=334.6 usage={'input_tokens': 357, 'output_tokens': 0} cost=3.2e-05 err=None
+[561/1200] invoice-018 jev lat=249.5 usage={'input_tokens': 461, 'output_tokens': 84} cost=1.9e-05 err=None
+[562/1200] invoice-018 openai lat=150.5 usage={'input_tokens': 470, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 470} cost=4.7e-05 err=None
+[563/1200] invoice-018 clef lat=423.7 usage={'input_tokens': 407, 'output_tokens': 0} cost=9.8e-05 err=None
+[564/1200] invoice-018 flash lat=505.6 usage={'input_tokens': 407, 'output_tokens': 0} cost=3.7e-05 err=None
+[565/1200] invoice-040 jev lat=272.4 usage={'input_tokens': 465, 'output_tokens': 83} cost=2e-05 err=None
+[566/1200] invoice-040 openai lat=181.6 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[567/1200] invoice-040 clef lat=2895.3 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[568/1200] invoice-040 flash lat=213.7 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[569/1200] invoice-008 jev lat=315.2 usage={'input_tokens': 465, 'output_tokens': 83} cost=2e-05 err=None
+[570/1200] invoice-008 openai lat=189.5 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[571/1200] invoice-008 clef lat=910.1 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[572/1200] invoice-008 flash lat=702.2 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[573/1200] guardrail-025 jev lat=301.2 usage={'input_tokens': 409, 'output_tokens': 73} cost=1.7e-05 err=None
+[574/1200] guardrail-025 openai lat=163.8 usage={'input_tokens': 429, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 429} cost=4.3e-05 err=None
+[575/1200] guardrail-025 clef lat=302.0 usage={'input_tokens': 344, 'output_tokens': 0} cost=8.3e-05 err=None
+[576/1200] guardrail-025 flash lat=328.2 usage={'input_tokens': 344, 'output_tokens': 0} cost=3.1e-05 err=None
+[577/1200] invoice-035 jev lat=258.8 usage={'input_tokens': 465, 'output_tokens': 85} cost=2e-05 err=None
+[578/1200] invoice-035 openai lat=157.7 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[579/1200] invoice-035 clef lat=856.5 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[580/1200] invoice-035 flash lat=246.1 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[581/1200] toolcall-015 jev lat=268.1 usage={'input_tokens': 390, 'output_tokens': 68} cost=1.6e-05 err=None
+[582/1200] toolcall-015 openai lat=255.5 usage={'input_tokens': 322, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 322} cost=3.2e-05 err=None
+[583/1200] toolcall-015 clef lat=16361.2 usage={'input_tokens': 280, 'output_tokens': 0} cost=6.7e-05 err=None
+[584/1200] toolcall-015 flash lat=330.1 usage={'input_tokens': 280, 'output_tokens': 0} cost=2.5e-05 err=None
+[585/1200] toolcall-017 jev lat=251.1 usage={'input_tokens': 398, 'output_tokens': 67} cost=1.7e-05 err=None
+[586/1200] toolcall-017 openai lat=215.8 usage={'input_tokens': 329, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 329} cost=3.3e-05 err=None
+[587/1200] toolcall-017 clef lat=1592.8 usage={'input_tokens': 288, 'output_tokens': 0} cost=6.9e-05 err=None
+[588/1200] toolcall-017 flash lat=257.0 usage={'input_tokens': 288, 'output_tokens': 0} cost=2.6e-05 err=None
+[589/1200] security-030 jev lat=264.0 usage={'input_tokens': 424, 'output_tokens': 72} cost=1.8e-05 err=None
+[590/1200] security-030 openai lat=164.0 usage={'input_tokens': 433, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 433} cost=4.3e-05 err=None
+[591/1200] security-030 clef lat=421.8 usage={'input_tokens': 369, 'output_tokens': 0} cost=8.9e-05 err=None
+[592/1200] security-030 flash lat=281.8 usage={'input_tokens': 369, 'output_tokens': 0} cost=3.3e-05 err=None
+[593/1200] guardrail-024-para jev lat=227.8 usage={'input_tokens': 415, 'output_tokens': 73} cost=1.7e-05 err=None
+[594/1200] guardrail-024-para openai lat=150.8 usage={'input_tokens': 436, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 436} cost=4.4e-05 err=None
+[595/1200] guardrail-024-para clef lat=544.0 usage={'input_tokens': 350, 'output_tokens': 0} cost=8.4e-05 err=None
+[596/1200] guardrail-024-para flash lat=340.4 usage={'input_tokens': 350, 'output_tokens': 0} cost=3.1e-05 err=None
+[597/1200] security-038 jev lat=313.9 usage={'input_tokens': 428, 'output_tokens': 72} cost=1.8e-05 err=None
+[598/1200] security-038 openai lat=179.9 usage={'input_tokens': 437, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 437} cost=4.4e-05 err=None
+[599/1200] security-038 clef lat=2954.7 usage={'input_tokens': 374, 'output_tokens': 0} cost=9e-05 err=None
+[600/1200] security-038 flash lat=258.6 usage={'input_tokens': 374, 'output_tokens': 0} cost=3.4e-05 err=None
+[601/1200] toolcall-011 jev lat=281.9 usage={'input_tokens': 401, 'output_tokens': 67} cost=1.7e-05 err=None
+[602/1200] toolcall-011 openai lat=162.8 usage={'input_tokens': 332, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 332} cost=3.3e-05 err=None
+[603/1200] toolcall-011 clef lat=767.0 usage={'input_tokens': 291, 'output_tokens': 0} cost=7e-05 err=None
+[604/1200] toolcall-011 flash lat=216.3 usage={'input_tokens': 291, 'output_tokens': 0} cost=2.6e-05 err=None
+[605/1200] guardrail-020-json jev lat=284.8 usage={'input_tokens': 454, 'output_tokens': 73} cost=1.9e-05 err=None
+[606/1200] guardrail-020-json openai lat=145.5 usage={'input_tokens': 464, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 464} cost=4.6e-05 err=None
+[607/1200] guardrail-020-json clef lat=555.0 usage={'input_tokens': 374, 'output_tokens': 0} cost=9e-05 err=None
+[608/1200] guardrail-020-json flash lat=188.6 usage={'input_tokens': 374, 'output_tokens': 0} cost=3.4e-05 err=None
+[609/1200] toolcall-026 jev lat=249.1 usage={'input_tokens': 399, 'output_tokens': 67} cost=1.7e-05 err=None
+[610/1200] toolcall-026 openai lat=198.1 usage={'input_tokens': 330, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 330} cost=3.3e-05 err=None
+[611/1200] toolcall-026 clef lat=362.9 usage={'input_tokens': 289, 'output_tokens': 0} cost=6.9e-05 err=None
+[612/1200] toolcall-026 flash lat=281.5 usage={'input_tokens': 289, 'output_tokens': 0} cost=2.6e-05 err=None
+[613/1200] toolcall-013 jev lat=288.3 usage={'input_tokens': 401, 'output_tokens': 65} cost=1.7e-05 err=None
+[614/1200] toolcall-013 openai lat=237.9 usage={'input_tokens': 329, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 329} cost=3.3e-05 err=None
+[615/1200] toolcall-013 clef lat=523.4 usage={'input_tokens': 291, 'output_tokens': 0} cost=7e-05 err=None
+[616/1200] toolcall-013 flash lat=490.8 usage={'input_tokens': 291, 'output_tokens': 0} cost=2.6e-05 err=None
+[617/1200] support-003 jev lat=335.8 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[618/1200] support-003 openai lat=237.7 usage={'input_tokens': 472, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 472} cost=4.7e-05 err=None
+[619/1200] support-003 clef lat=255.4 usage={'input_tokens': 388, 'output_tokens': 0} cost=9.3e-05 err=None
+[620/1200] support-003 flash lat=493.3 usage={'input_tokens': 388, 'output_tokens': 0} cost=3.5e-05 err=None
+[621/1200] support-019 jev lat=288.9 usage={'input_tokens': 464, 'output_tokens': 73} cost=1.9e-05 err=None
+[622/1200] support-019 openai lat=252.7 usage={'input_tokens': 479, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 479} cost=4.8e-05 err=None
+[623/1200] support-019 clef lat=317.0 usage={'input_tokens': 396, 'output_tokens': 0} cost=9.5e-05 err=None
+[624/1200] support-019 flash lat=239.6 usage={'input_tokens': 396, 'output_tokens': 0} cost=3.6e-05 err=None
+[625/1200] toolcall-019 jev lat=300.8 usage={'input_tokens': 400, 'output_tokens': 67} cost=1.7e-05 err=None
+[626/1200] toolcall-019 openai lat=151.3 usage={'input_tokens': 328, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 328} cost=3.3e-05 err=None
+[627/1200] toolcall-019 clef lat=483.7 usage={'input_tokens': 290, 'output_tokens': 0} cost=7e-05 err=None
+[628/1200] toolcall-019 flash lat=343.2 usage={'input_tokens': 290, 'output_tokens': 0} cost=2.6e-05 err=None
+[629/1200] toolcall-020-long jev lat=361.7 usage={'input_tokens': 17395, 'output_tokens': 67} cost=0.000731 err=None
+[630/1200] toolcall-020-long openai lat=177.8 usage={'input_tokens': 11935, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 11935} cost=0.001194 err=None
+[631/1200] toolcall-020-long clef lat=3268.2 usage={'input_tokens': 17286, 'output_tokens': 0} cost=0.004149 err=None
+[632/1200] toolcall-020-long flash lat=1012.0 usage={'input_tokens': 17286, 'output_tokens': 0} cost=0.001556 err=None
+[633/1200] invoice-022 jev lat=245.6 usage={'input_tokens': 461, 'output_tokens': 84} cost=1.9e-05 err=None
+[634/1200] invoice-022 openai lat=223.0 usage={'input_tokens': 470, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 470} cost=4.7e-05 err=None
+[635/1200] invoice-022 clef lat=419.8 usage={'input_tokens': 407, 'output_tokens': 0} cost=9.8e-05 err=None
+[636/1200] invoice-022 flash lat=642.2 usage={'input_tokens': 407, 'output_tokens': 0} cost=3.7e-05 err=None
+[637/1200] support-034 jev lat=284.9 usage={'input_tokens': 455, 'output_tokens': 73} cost=1.9e-05 err=None
+[638/1200] support-034 openai lat=152.1 usage={'input_tokens': 474, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 474} cost=4.7e-05 err=None
+[639/1200] support-034 clef lat=275.4 usage={'input_tokens': 390, 'output_tokens': 0} cost=9.4e-05 err=None
+[640/1200] support-034 flash lat=206.1 usage={'input_tokens': 390, 'output_tokens': 0} cost=3.5e-05 err=None
+[641/1200] security-002 jev lat=256.8 usage={'input_tokens': 427, 'output_tokens': 72} cost=1.8e-05 err=None
+[642/1200] security-002 openai lat=160.3 usage={'input_tokens': 437, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 437} cost=4.4e-05 err=None
+[643/1200] security-002 clef lat=418.0 usage={'input_tokens': 373, 'output_tokens': 0} cost=9e-05 err=None
+[644/1200] security-002 flash lat=232.7 usage={'input_tokens': 373, 'output_tokens': 0} cost=3.4e-05 err=None
+[645/1200] guardrail-023-para jev lat=305.0 usage={'input_tokens': 425, 'output_tokens': 73} cost=1.8e-05 err=None
+[646/1200] guardrail-023-para openai lat=161.0 usage={'input_tokens': 444, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 444} cost=4.4e-05 err=None
+[647/1200] guardrail-023-para clef lat=1361.1 usage={'input_tokens': 360, 'output_tokens': 0} cost=8.6e-05 err=None
+[648/1200] guardrail-023-para flash lat=1150.1 usage={'input_tokens': 360, 'output_tokens': 0} cost=3.2e-05 err=None
+[649/1200] invoice-007 jev lat=263.6 usage={'input_tokens': 465, 'output_tokens': 85} cost=2e-05 err=None
+[650/1200] invoice-007 openai lat=154.7 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[651/1200] invoice-007 clef lat=2039.7 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[652/1200] invoice-007 flash lat=215.0 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[653/1200] support-043-para jev lat=281.9 usage={'input_tokens': 462, 'output_tokens': 73} cost=1.9e-05 err=None
+[654/1200] support-043-para openai lat=206.0 usage={'input_tokens': 481, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 481} cost=4.8e-05 err=None
+[655/1200] support-043-para clef lat=518.8 usage={'input_tokens': 397, 'output_tokens': 0} cost=9.5e-05 err=None
+[656/1200] support-043-para flash lat=340.9 usage={'input_tokens': 397, 'output_tokens': 0} cost=3.6e-05 err=None
+[657/1200] support-053 jev lat=265.9 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[658/1200] support-053 openai lat=202.4 usage={'input_tokens': 472, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 472} cost=4.7e-05 err=None
+[659/1200] support-053 clef lat=722.1 usage={'input_tokens': 388, 'output_tokens': 0} cost=9.3e-05 err=None
+[660/1200] support-053 flash lat=388.8 usage={'input_tokens': 388, 'output_tokens': 0} cost=3.5e-05 err=None
+[661/1200] invoice-012 jev lat=286.7 usage={'input_tokens': 465, 'output_tokens': 83} cost=2e-05 err=None
+[662/1200] invoice-012 openai lat=152.0 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[663/1200] invoice-012 clef lat=725.6 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[664/1200] invoice-012 flash lat=195.9 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[665/1200] guardrail-013 jev lat=252.5 usage={'input_tokens': 430, 'output_tokens': 73} cost=1.8e-05 err=None
+[666/1200] guardrail-013 openai lat=184.1 usage={'input_tokens': 446, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 446} cost=4.5e-05 err=None
+[667/1200] guardrail-013 clef lat=560.8 usage={'input_tokens': 365, 'output_tokens': 0} cost=8.8e-05 err=None
+[668/1200] guardrail-013 flash lat=242.0 usage={'input_tokens': 365, 'output_tokens': 0} cost=3.3e-05 err=None
+[669/1200] security-034 jev lat=277.3 usage={'input_tokens': 420, 'output_tokens': 72} cost=1.8e-05 err=None
+[670/1200] security-034 openai lat=174.4 usage={'input_tokens': 430, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 430} cost=4.3e-05 err=None
+[671/1200] security-034 clef lat=5070.1 usage={'input_tokens': 364, 'output_tokens': 0} cost=8.7e-05 err=None
+[672/1200] security-034 flash lat=1049.1 usage={'input_tokens': 364, 'output_tokens': 0} cost=3.3e-05 err=None
+[673/1200] security-045 jev lat=259.8 usage={'input_tokens': 431, 'output_tokens': 73} cost=1.8e-05 err=None
+[674/1200] security-045 openai lat=139.9 usage={'input_tokens': 440, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 440} cost=4.4e-05 err=None
+[675/1200] security-045 clef lat=504.8 usage={'input_tokens': 375, 'output_tokens': 0} cost=9e-05 err=None
+[676/1200] security-045 flash lat=310.8 usage={'input_tokens': 375, 'output_tokens': 0} cost=3.4e-05 err=None
+[677/1200] guardrail-010 jev lat=295.3 usage={'input_tokens': 429, 'output_tokens': 73} cost=1.8e-05 err=None
+[678/1200] guardrail-010 openai lat=171.8 usage={'input_tokens': 446, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 446} cost=4.5e-05 err=None
+[679/1200] guardrail-010 clef lat=435.5 usage={'input_tokens': 364, 'output_tokens': 0} cost=8.7e-05 err=None
+[680/1200] guardrail-010 flash lat=337.2 usage={'input_tokens': 364, 'output_tokens': 0} cost=3.3e-05 err=None
+[681/1200] toolcall-024 jev lat=278.7 usage={'input_tokens': 388, 'output_tokens': 67} cost=1.6e-05 err=None
+[682/1200] toolcall-024 openai lat=161.4 usage={'input_tokens': 320, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 320} cost=3.2e-05 err=None
+[683/1200] toolcall-024 clef lat=518.9 usage={'input_tokens': 278, 'output_tokens': 0} cost=6.7e-05 err=None
+[684/1200] toolcall-024 flash lat=212.0 usage={'input_tokens': 278, 'output_tokens': 0} cost=2.5e-05 err=None
+[685/1200] security-008 jev lat=266.2 usage={'input_tokens': 418, 'output_tokens': 73} cost=1.8e-05 err=None
+[686/1200] security-008 openai lat=156.6 usage={'input_tokens': 430, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 430} cost=4.3e-05 err=None
+[687/1200] security-008 clef lat=767.0 usage={'input_tokens': 363, 'output_tokens': 0} cost=8.7e-05 err=None
+[688/1200] security-008 flash lat=230.6 usage={'input_tokens': 363, 'output_tokens': 0} cost=3.3e-05 err=None
+[689/1200] guardrail-029 jev lat=265.1 usage={'input_tokens': 407, 'output_tokens': 73} cost=1.7e-05 err=None
+[690/1200] guardrail-029 openai lat=292.0 usage={'input_tokens': 428, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 428} cost=4.3e-05 err=None
+[691/1200] guardrail-029 clef lat=245.4 usage={'input_tokens': 342, 'output_tokens': 0} cost=8.2e-05 err=None
+[692/1200] guardrail-029 flash lat=221.1 usage={'input_tokens': 342, 'output_tokens': 0} cost=3.1e-05 err=None
+[693/1200] toolcall-014 jev lat=250.6 usage={'input_tokens': 401, 'output_tokens': 67} cost=1.7e-05 err=None
+[694/1200] toolcall-014 openai lat=152.8 usage={'input_tokens': 333, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 333} cost=3.3e-05 err=None
+[695/1200] toolcall-014 clef lat=464.7 usage={'input_tokens': 291, 'output_tokens': 0} cost=7e-05 err=None
+[696/1200] toolcall-014 flash lat=357.5 usage={'input_tokens': 291, 'output_tokens': 0} cost=2.6e-05 err=None
+[697/1200] toolcall-015-long jev lat=331.9 usage={'input_tokens': 17385, 'output_tokens': 68} cost=0.00073 err=None
+[698/1200] toolcall-015-long openai lat=215.9 usage={'input_tokens': 11926, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 11926} cost=0.001193 err=None
+[699/1200] toolcall-015-long clef lat=3086.4 usage={'input_tokens': 17276, 'output_tokens': 0} cost=0.004146 err=None
+[700/1200] toolcall-015-long flash lat=1567.9 usage={'input_tokens': 17276, 'output_tokens': 0} cost=0.001555 err=None
+[701/1200] toolcall-040 jev lat=261.8 usage={'input_tokens': 397, 'output_tokens': 65} cost=1.7e-05 err=None
+[702/1200] toolcall-040 openai lat=149.8 usage={'input_tokens': 325, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 325} cost=3.2e-05 err=None
+[703/1200] toolcall-040 clef lat=3073.8 usage={'input_tokens': 287, 'output_tokens': 0} cost=6.9e-05 err=None
+[704/1200] toolcall-040 flash lat=318.8 usage={'input_tokens': 287, 'output_tokens': 0} cost=2.6e-05 err=None
+[705/1200] guardrail-018 jev lat=279.8 usage={'input_tokens': 423, 'output_tokens': 73} cost=1.8e-05 err=None
+[706/1200] guardrail-018 openai lat=146.8 usage={'input_tokens': 440, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 440} cost=4.4e-05 err=None
+[707/1200] guardrail-018 clef lat=565.4 usage={'input_tokens': 358, 'output_tokens': 0} cost=8.6e-05 err=None
+[708/1200] guardrail-018 flash lat=405.0 usage={'input_tokens': 358, 'output_tokens': 0} cost=3.2e-05 err=None
+[709/1200] toolcall-018-para jev lat=284.7 usage={'input_tokens': 403, 'output_tokens': 65} cost=1.7e-05 err=None
+[710/1200] toolcall-018-para openai lat=234.3 usage={'input_tokens': 333, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 333} cost=3.3e-05 err=None
+[711/1200] toolcall-018-para clef lat=553.0 usage={'input_tokens': 293, 'output_tokens': 0} cost=7e-05 err=None
+[712/1200] toolcall-018-para flash lat=342.6 usage={'input_tokens': 293, 'output_tokens': 0} cost=2.6e-05 err=None
+[713/1200] toolcall-001 jev lat=315.6 usage={'input_tokens': 401, 'output_tokens': 65} cost=1.7e-05 err=None
+[714/1200] toolcall-001 openai lat=207.1 usage={'input_tokens': 329, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 329} cost=3.3e-05 err=None
+[715/1200] toolcall-001 clef lat=633.8 usage={'input_tokens': 291, 'output_tokens': 0} cost=7e-05 err=None
+[716/1200] toolcall-001 flash lat=556.2 usage={'input_tokens': 291, 'output_tokens': 0} cost=2.6e-05 err=None
+[717/1200] toolcall-021-long jev lat=497.5 usage={'input_tokens': 17384, 'output_tokens': 68} cost=0.00073 err=None
+[718/1200] toolcall-021-long openai lat=178.8 usage={'input_tokens': 11925, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 11925} cost=0.001192 err=None
+[719/1200] toolcall-021-long clef lat=11753.2 usage={'input_tokens': 17275, 'output_tokens': 0} cost=0.004146 err=None
+[720/1200] toolcall-021-long flash lat=1479.0 usage={'input_tokens': 17275, 'output_tokens': 0} cost=0.001555 err=None
+[721/1200] security-004 jev lat=271.9 usage={'input_tokens': 422, 'output_tokens': 73} cost=1.8e-05 err=None
+[722/1200] security-004 openai lat=202.1 usage={'input_tokens': 433, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 433} cost=4.3e-05 err=None
+[723/1200] security-004 clef lat=292.9 usage={'input_tokens': 367, 'output_tokens': 0} cost=8.8e-05 err=None
+[724/1200] security-004 flash lat=367.3 usage={'input_tokens': 367, 'output_tokens': 0} cost=3.3e-05 err=None
+[725/1200] guardrail-017-para jev lat=299.9 usage={'input_tokens': 431, 'output_tokens': 73} cost=1.8e-05 err=None
+[726/1200] guardrail-017-para openai lat=230.0 usage={'input_tokens': 451, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 451} cost=4.5e-05 err=None
+[727/1200] guardrail-017-para clef lat=386.9 usage={'input_tokens': 366, 'output_tokens': 0} cost=8.8e-05 err=None
+[728/1200] guardrail-017-para flash lat=291.9 usage={'input_tokens': 366, 'output_tokens': 0} cost=3.3e-05 err=None
+[729/1200] toolcall-028 jev lat=255.6 usage={'input_tokens': 397, 'output_tokens': 65} cost=1.7e-05 err=None
+[730/1200] toolcall-028 openai lat=147.2 usage={'input_tokens': 325, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 325} cost=3.2e-05 err=None
+[731/1200] toolcall-028 clef lat=373.7 usage={'input_tokens': 287, 'output_tokens': 0} cost=6.9e-05 err=None
+[732/1200] toolcall-028 flash lat=387.3 usage={'input_tokens': 287, 'output_tokens': 0} cost=2.6e-05 err=None
+[733/1200] guardrail-001 jev lat=261.9 usage={'input_tokens': 429, 'output_tokens': 73} cost=1.8e-05 err=None
+[734/1200] guardrail-001 openai lat=250.5 usage={'input_tokens': 446, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 446} cost=4.5e-05 err=None
+[735/1200] guardrail-001 clef lat=387.9 usage={'input_tokens': 364, 'output_tokens': 0} cost=8.7e-05 err=None
+[736/1200] guardrail-001 flash lat=247.7 usage={'input_tokens': 364, 'output_tokens': 0} cost=3.3e-05 err=None
+[737/1200] toolcall-008 jev lat=244.8 usage={'input_tokens': 396, 'output_tokens': 67} cost=1.7e-05 err=None
+[738/1200] toolcall-008 openai lat=249.6 usage={'input_tokens': 328, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 328} cost=3.3e-05 err=None
+[739/1200] toolcall-008 clef lat=251.2 usage={'input_tokens': 286, 'output_tokens': 0} cost=6.9e-05 err=None
+[740/1200] toolcall-008 flash lat=522.9 usage={'input_tokens': 286, 'output_tokens': 0} cost=2.6e-05 err=None
+[741/1200] support-018 jev lat=261.6 usage={'input_tokens': 466, 'output_tokens': 73} cost=2e-05 err=None
+[742/1200] support-018 openai lat=165.2 usage={'input_tokens': 481, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 481} cost=4.8e-05 err=None
+[743/1200] support-018 clef lat=275.5 usage={'input_tokens': 398, 'output_tokens': 0} cost=9.6e-05 err=None
+[744/1200] support-018 flash lat=371.4 usage={'input_tokens': 398, 'output_tokens': 0} cost=3.6e-05 err=None
+[745/1200] support-048 jev lat=262.5 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[746/1200] support-048 openai lat=167.0 usage={'input_tokens': 472, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 472} cost=4.7e-05 err=None
+[747/1200] support-048 clef lat=351.3 usage={'input_tokens': 388, 'output_tokens': 0} cost=9.3e-05 err=None
+[748/1200] support-048 flash lat=215.1 usage={'input_tokens': 388, 'output_tokens': 0} cost=3.5e-05 err=None
+[749/1200] support-021 jev lat=272.1 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[750/1200] support-021 openai lat=210.1 usage={'input_tokens': 472, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 472} cost=4.7e-05 err=None
+[751/1200] support-021 clef lat=335.5 usage={'input_tokens': 388, 'output_tokens': 0} cost=9.3e-05 err=None
+[752/1200] support-021 flash lat=186.1 usage={'input_tokens': 388, 'output_tokens': 0} cost=3.5e-05 err=None
+[753/1200] security-031 jev lat=254.9 usage={'input_tokens': 417, 'output_tokens': 72} cost=1.8e-05 err=None
+[754/1200] security-031 openai lat=209.8 usage={'input_tokens': 428, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 428} cost=4.3e-05 err=None
+[755/1200] security-031 clef lat=616.0 usage={'input_tokens': 362, 'output_tokens': 0} cost=8.7e-05 err=None
+[756/1200] security-031 flash lat=450.3 usage={'input_tokens': 362, 'output_tokens': 0} cost=3.3e-05 err=None
+[757/1200] guardrail-012 jev lat=330.7 usage={'input_tokens': 423, 'output_tokens': 73} cost=1.8e-05 err=None
+[758/1200] guardrail-012 openai lat=245.0 usage={'input_tokens': 440, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 440} cost=4.4e-05 err=None
+[759/1200] guardrail-012 clef lat=305.2 usage={'input_tokens': 358, 'output_tokens': 0} cost=8.6e-05 err=None
+[760/1200] guardrail-012 flash lat=302.4 usage={'input_tokens': 358, 'output_tokens': 0} cost=3.2e-05 err=None
+[761/1200] support-041 jev lat=284.5 usage={'input_tokens': 456, 'output_tokens': 73} cost=1.9e-05 err=None
+[762/1200] support-041 openai lat=216.0 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[763/1200] support-041 clef lat=345.3 usage={'input_tokens': 391, 'output_tokens': 0} cost=9.4e-05 err=None
+[764/1200] support-041 flash lat=318.3 usage={'input_tokens': 391, 'output_tokens': 0} cost=3.5e-05 err=None
+[765/1200] security-036 jev lat=293.2 usage={'input_tokens': 419, 'output_tokens': 73} cost=1.8e-05 err=None
+[766/1200] security-036 openai lat=151.9 usage={'input_tokens': 430, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 430} cost=4.3e-05 err=None
+[767/1200] security-036 clef lat=680.1 usage={'input_tokens': 363, 'output_tokens': 0} cost=8.7e-05 err=None
+[768/1200] security-036 flash lat=476.9 usage={'input_tokens': 363, 'output_tokens': 0} cost=3.3e-05 err=None
+[769/1200] security-029 jev lat=260.5 usage={'input_tokens': 431, 'output_tokens': 73} cost=1.8e-05 err=None
+[770/1200] security-029 openai lat=147.2 usage={'input_tokens': 440, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 440} cost=4.4e-05 err=None
+[771/1200] security-029 clef lat=263.8 usage={'input_tokens': 375, 'output_tokens': 0} cost=9e-05 err=None
+[772/1200] security-029 flash lat=206.7 usage={'input_tokens': 375, 'output_tokens': 0} cost=3.4e-05 err=None
+[773/1200] security-023 jev lat=240.2 usage={'input_tokens': 416, 'output_tokens': 72} cost=1.7e-05 err=None
+[774/1200] security-023 openai lat=206.7 usage={'input_tokens': 426, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 426} cost=4.3e-05 err=None
+[775/1200] security-023 clef lat=596.5 usage={'input_tokens': 362, 'output_tokens': 0} cost=8.7e-05 err=None
+[776/1200] security-023 flash lat=279.4 usage={'input_tokens': 362, 'output_tokens': 0} cost=3.3e-05 err=None
+[777/1200] toolcall-005 jev lat=246.3 usage={'input_tokens': 399, 'output_tokens': 67} cost=1.7e-05 err=None
+[778/1200] toolcall-005 openai lat=136.6 usage={'input_tokens': 332, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 332} cost=3.3e-05 err=None
+[779/1200] toolcall-005 clef lat=1067.7 usage={'input_tokens': 289, 'output_tokens': 0} cost=6.9e-05 err=None
+[780/1200] toolcall-005 flash lat=218.9 usage={'input_tokens': 289, 'output_tokens': 0} cost=2.6e-05 err=None
+[781/1200] security-016-para jev lat=305.6 usage={'input_tokens': 431, 'output_tokens': 73} cost=1.8e-05 err=None
+[782/1200] security-016-para openai lat=216.4 usage={'input_tokens': 441, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 441} cost=4.4e-05 err=None
+[783/1200] security-016-para clef lat=340.2 usage={'input_tokens': 376, 'output_tokens': 0} cost=9e-05 err=None
+[784/1200] security-016-para flash lat=323.7 usage={'input_tokens': 376, 'output_tokens': 0} cost=3.4e-05 err=None
+[785/1200] guardrail-019 jev lat=300.1 usage={'input_tokens': 430, 'output_tokens': 73} cost=1.8e-05 err=None
+[786/1200] guardrail-019 openai lat=214.3 usage={'input_tokens': 446, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 446} cost=4.5e-05 err=None
+[787/1200] guardrail-019 clef lat=272.4 usage={'input_tokens': 365, 'output_tokens': 0} cost=8.8e-05 err=None
+[788/1200] guardrail-019 flash lat=248.3 usage={'input_tokens': 365, 'output_tokens': 0} cost=3.3e-05 err=None
+[789/1200] invoice-026 jev lat=257.7 usage={'input_tokens': 461, 'output_tokens': 84} cost=1.9e-05 err=None
+[790/1200] invoice-026 openai lat=239.7 usage={'input_tokens': 470, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 470} cost=4.7e-05 err=None
+[791/1200] invoice-026 clef lat=841.4 usage={'input_tokens': 407, 'output_tokens': 0} cost=9.8e-05 err=None
+[792/1200] invoice-026 flash lat=378.7 usage={'input_tokens': 407, 'output_tokens': 0} cost=3.7e-05 err=None
+[793/1200] guardrail-007 jev lat=267.0 usage={'input_tokens': 429, 'output_tokens': 73} cost=1.8e-05 err=None
+[794/1200] guardrail-007 openai lat=201.5 usage={'input_tokens': 446, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 446} cost=4.5e-05 err=None
+[795/1200] guardrail-007 clef lat=390.6 usage={'input_tokens': 364, 'output_tokens': 0} cost=8.7e-05 err=None
+[796/1200] guardrail-007 flash lat=559.7 usage={'input_tokens': 364, 'output_tokens': 0} cost=3.3e-05 err=None
+[797/1200] toolcall-012-para jev lat=287.3 usage={'input_tokens': 396, 'output_tokens': 67} cost=1.7e-05 err=None
+[798/1200] toolcall-012-para openai lat=316.8 usage={'input_tokens': 328, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 328} cost=3.3e-05 err=None
+[799/1200] toolcall-012-para clef lat=336.0 usage={'input_tokens': 286, 'output_tokens': 0} cost=6.9e-05 err=None
+[800/1200] toolcall-012-para flash lat=314.8 usage={'input_tokens': 286, 'output_tokens': 0} cost=2.6e-05 err=None
+[801/1200] toolcall-032-json jev lat=290.5 usage={'input_tokens': 430, 'output_tokens': 67} cost=1.8e-05 err=None
+[802/1200] toolcall-032-json openai lat=141.8 usage={'input_tokens': 352, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 352} cost=3.5e-05 err=None
+[803/1200] toolcall-032-json clef lat=838.9 usage={'input_tokens': 305, 'output_tokens': 0} cost=7.3e-05 err=None
+[804/1200] toolcall-032-json flash lat=239.4 usage={'input_tokens': 305, 'output_tokens': 0} cost=2.7e-05 err=None
+[805/1200] guardrail-004 jev lat=263.0 usage={'input_tokens': 429, 'output_tokens': 73} cost=1.8e-05 err=None
+[806/1200] guardrail-004 openai lat=152.5 usage={'input_tokens': 446, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 446} cost=4.5e-05 err=None
+[807/1200] guardrail-004 clef lat=413.9 usage={'input_tokens': 364, 'output_tokens': 0} cost=8.7e-05 err=None
+[808/1200] guardrail-004 flash lat=272.9 usage={'input_tokens': 364, 'output_tokens': 0} cost=3.3e-05 err=None
+[809/1200] toolcall-004 jev lat=262.4 usage={'input_tokens': 397, 'output_tokens': 65} cost=1.7e-05 err=None
+[810/1200] toolcall-004 openai lat=143.3 usage={'input_tokens': 325, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 325} cost=3.2e-05 err=None
+[811/1200] toolcall-004 clef lat=277.3 usage={'input_tokens': 287, 'output_tokens': 0} cost=6.9e-05 err=None
+[812/1200] toolcall-004 flash lat=246.1 usage={'input_tokens': 287, 'output_tokens': 0} cost=2.6e-05 err=None
+[813/1200] support-015 jev lat=300.5 usage={'input_tokens': 450, 'output_tokens': 73} cost=1.9e-05 err=None
+[814/1200] support-015 openai lat=227.9 usage={'input_tokens': 467, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 467} cost=4.7e-05 err=None
+[815/1200] support-015 clef lat=595.3 usage={'input_tokens': 385, 'output_tokens': 0} cost=9.2e-05 err=None
+[816/1200] support-015 flash lat=285.2 usage={'input_tokens': 385, 'output_tokens': 0} cost=3.5e-05 err=None
+[817/1200] support-013-json jev lat=258.3 usage={'input_tokens': 487, 'output_tokens': 73} cost=2e-05 err=None
+[818/1200] support-013-json openai lat=245.9 usage={'input_tokens': 494, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 494} cost=4.9e-05 err=None
+[819/1200] support-013-json clef lat=370.9 usage={'input_tokens': 407, 'output_tokens': 0} cost=9.8e-05 err=None
+[820/1200] support-013-json flash lat=230.6 usage={'input_tokens': 407, 'output_tokens': 0} cost=3.7e-05 err=None
+[821/1200] invoice-021 jev lat=277.8 usage={'input_tokens': 483, 'output_tokens': 83} cost=2e-05 err=None
+[822/1200] invoice-021 openai lat=213.0 usage={'input_tokens': 485, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 485} cost=4.9e-05 err=None
+[823/1200] invoice-021 clef lat=436.9 usage={'input_tokens': 429, 'output_tokens': 0} cost=0.000103 err=None
+[824/1200] invoice-021 flash lat=327.8 usage={'input_tokens': 429, 'output_tokens': 0} cost=3.9e-05 err=None
+[825/1200] invoice-006-json jev lat=273.2 usage={'input_tokens': 492, 'output_tokens': 84} cost=2.1e-05 err=None
+[826/1200] invoice-006-json openai lat=225.1 usage={'input_tokens': 491, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 491} cost=4.9e-05 err=None
+[827/1200] invoice-006-json clef lat=354.3 usage={'input_tokens': 423, 'output_tokens': 0} cost=0.000102 err=None
+[828/1200] invoice-006-json flash lat=347.9 usage={'input_tokens': 423, 'output_tokens': 0} cost=3.8e-05 err=None
+[829/1200] support-040 jev lat=317.3 usage={'input_tokens': 456, 'output_tokens': 73} cost=1.9e-05 err=None
+[830/1200] support-040 openai lat=174.2 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[831/1200] support-040 clef lat=470.5 usage={'input_tokens': 391, 'output_tokens': 0} cost=9.4e-05 err=None
+[832/1200] support-040 flash lat=289.4 usage={'input_tokens': 391, 'output_tokens': 0} cost=3.5e-05 err=None
+[833/1200] support-014-para jev lat=303.9 usage={'input_tokens': 464, 'output_tokens': 73} cost=1.9e-05 err=None
+[834/1200] support-014-para openai lat=165.8 usage={'input_tokens': 481, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 481} cost=4.8e-05 err=None
+[835/1200] support-014-para clef lat=288.6 usage={'input_tokens': 399, 'output_tokens': 0} cost=9.6e-05 err=None
+[836/1200] support-014-para flash lat=320.1 usage={'input_tokens': 399, 'output_tokens': 0} cost=3.6e-05 err=None
+[837/1200] toolcall-039 jev lat=262.5 usage={'input_tokens': 390, 'output_tokens': 68} cost=1.6e-05 err=None
+[838/1200] toolcall-039 openai lat=147.6 usage={'input_tokens': 322, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 322} cost=3.2e-05 err=None
+[839/1200] toolcall-039 clef lat=677.9 usage={'input_tokens': 280, 'output_tokens': 0} cost=6.7e-05 err=None
+[840/1200] toolcall-039 flash lat=626.7 usage={'input_tokens': 280, 'output_tokens': 0} cost=2.5e-05 err=None
+[841/1200] guardrail-002-json jev lat=277.8 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[842/1200] guardrail-002-json openai lat=167.0 usage={'input_tokens': 464, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 464} cost=4.6e-05 err=None
+[843/1200] guardrail-002-json clef lat=378.7 usage={'input_tokens': 373, 'output_tokens': 0} cost=9e-05 err=None
+[844/1200] guardrail-002-json flash lat=218.0 usage={'input_tokens': 373, 'output_tokens': 0} cost=3.4e-05 err=None
+[845/1200] invoice-022-long jev lat=383.6 usage={'input_tokens': 17456, 'output_tokens': 84} cost=0.000733 err=None
+[846/1200] invoice-022-long openai lat=186.1 usage={'input_tokens': 12074, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 12074} cost=0.001207 err=None
+[847/1200] invoice-022-long clef lat=2910.8 usage={'input_tokens': 17403, 'output_tokens': 0} cost=0.004177 err=None
+[848/1200] invoice-022-long flash lat=1262.1 usage={'input_tokens': 17403, 'output_tokens': 0} cost=0.001566 err=None
+[849/1200] invoice-025-para jev lat=292.7 usage={'input_tokens': 491, 'output_tokens': 83} cost=2.1e-05 err=None
+[850/1200] invoice-025-para openai lat=180.7 usage={'input_tokens': 493, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 493} cost=4.9e-05 err=None
+[851/1200] invoice-025-para clef lat=675.7 usage={'input_tokens': 437, 'output_tokens': 0} cost=0.000105 err=None
+[852/1200] invoice-025-para flash lat=456.9 usage={'input_tokens': 437, 'output_tokens': 0} cost=3.9e-05 err=None
+[853/1200] guardrail-003 jev lat=249.6 usage={'input_tokens': 422, 'output_tokens': 73} cost=1.8e-05 err=None
+[854/1200] guardrail-003 openai lat=142.0 usage={'input_tokens': 440, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 440} cost=4.4e-05 err=None
+[855/1200] guardrail-003 clef lat=513.6 usage={'input_tokens': 357, 'output_tokens': 0} cost=8.6e-05 err=None
+[856/1200] guardrail-003 flash lat=214.6 usage={'input_tokens': 357, 'output_tokens': 0} cost=3.2e-05 err=None
+[857/1200] toolcall-034 jev lat=273.3 usage={'input_tokens': 401, 'output_tokens': 65} cost=1.7e-05 err=None
+[858/1200] toolcall-034 openai lat=1513.6 usage={'input_tokens': 330, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 330} cost=3.3e-05 err=None
+[859/1200] toolcall-034 clef lat=361.4 usage={'input_tokens': 291, 'output_tokens': 0} cost=7e-05 err=None
+[860/1200] toolcall-034 flash lat=272.1 usage={'input_tokens': 291, 'output_tokens': 0} cost=2.6e-05 err=None
+[861/1200] security-009 jev lat=271.1 usage={'input_tokens': 429, 'output_tokens': 73} cost=1.8e-05 err=None
+[862/1200] security-009 openai lat=160.0 usage={'input_tokens': 440, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 440} cost=4.4e-05 err=None
+[863/1200] security-009 clef lat=403.7 usage={'input_tokens': 374, 'output_tokens': 0} cost=9e-05 err=None
+[864/1200] security-009 flash lat=247.1 usage={'input_tokens': 374, 'output_tokens': 0} cost=3.4e-05 err=None
+[865/1200] invoice-019 jev lat=259.1 usage={'input_tokens': 465, 'output_tokens': 85} cost=2e-05 err=None
+[866/1200] invoice-019 openai lat=161.0 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[867/1200] invoice-019 clef lat=1022.9 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[868/1200] invoice-019 flash lat=323.4 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[869/1200] security-017 jev lat=273.3 usage={'input_tokens': 423, 'output_tokens': 73} cost=1.8e-05 err=None
+[870/1200] security-017 openai lat=142.2 usage={'input_tokens': 431, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 431} cost=4.3e-05 err=None
+[871/1200] security-017 clef lat=387.7 usage={'input_tokens': 366, 'output_tokens': 0} cost=8.8e-05 err=None
+[872/1200] security-017 flash lat=350.0 usage={'input_tokens': 366, 'output_tokens': 0} cost=3.3e-05 err=None
+[873/1200] toolcall-011-para jev lat=272.1 usage={'input_tokens': 409, 'output_tokens': 67} cost=1.7e-05 err=None
+[874/1200] toolcall-011-para openai lat=207.4 usage={'input_tokens': 340, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 340} cost=3.4e-05 err=None
+[875/1200] toolcall-011-para clef lat=231.4 usage={'input_tokens': 299, 'output_tokens': 0} cost=7.2e-05 err=None
+[876/1200] toolcall-011-para flash lat=428.5 usage={'input_tokens': 299, 'output_tokens': 0} cost=2.7e-05 err=None
+[877/1200] guardrail-016 jev lat=262.0 usage={'input_tokens': 430, 'output_tokens': 73} cost=1.8e-05 err=None
+[878/1200] guardrail-016 openai lat=159.3 usage={'input_tokens': 446, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 446} cost=4.5e-05 err=None
+[879/1200] guardrail-016 clef lat=930.2 usage={'input_tokens': 365, 'output_tokens': 0} cost=8.8e-05 err=None
+[880/1200] guardrail-016 flash lat=314.4 usage={'input_tokens': 365, 'output_tokens': 0} cost=3.3e-05 err=None
+[881/1200] security-012-json jev lat=260.3 usage={'input_tokens': 450, 'output_tokens': 73} cost=1.9e-05 err=None
+[882/1200] security-012-json openai lat=209.4 usage={'input_tokens': 451, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 451} cost=4.5e-05 err=None
+[883/1200] security-012-json clef lat=386.9 usage={'input_tokens': 379, 'output_tokens': 0} cost=9.1e-05 err=None
+[884/1200] security-012-json flash lat=400.3 usage={'input_tokens': 379, 'output_tokens': 0} cost=3.4e-05 err=None
+[885/1200] invoice-045 jev lat=279.1 usage={'input_tokens': 483, 'output_tokens': 83} cost=2e-05 err=None
+[886/1200] invoice-045 openai lat=161.1 usage={'input_tokens': 485, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 485} cost=4.9e-05 err=None
+[887/1200] invoice-045 clef lat=399.9 usage={'input_tokens': 429, 'output_tokens': 0} cost=0.000103 err=None
+[888/1200] invoice-045 flash lat=299.4 usage={'input_tokens': 429, 'output_tokens': 0} cost=3.9e-05 err=None
+[889/1200] support-001 jev lat=246.3 usage={'input_tokens': 462, 'output_tokens': 73} cost=1.9e-05 err=None
+[890/1200] support-001 openai lat=178.6 usage={'input_tokens': 477, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 477} cost=4.8e-05 err=None
+[891/1200] support-001 clef lat=264.8 usage={'input_tokens': 394, 'output_tokens': 0} cost=9.5e-05 err=None
+[892/1200] support-001 flash lat=521.0 usage={'input_tokens': 394, 'output_tokens': 0} cost=3.5e-05 err=None
+[893/1200] support-011-para jev lat=240.5 usage={'input_tokens': 466, 'output_tokens': 73} cost=2e-05 err=None
+[894/1200] support-011-para openai lat=340.2 usage={'input_tokens': 483, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 483} cost=4.8e-05 err=None
+[895/1200] support-011-para clef lat=336.7 usage={'input_tokens': 401, 'output_tokens': 0} cost=9.6e-05 err=None
+[896/1200] support-011-para flash lat=304.4 usage={'input_tokens': 401, 'output_tokens': 0} cost=3.6e-05 err=None
+[897/1200] support-006-para jev lat=277.6 usage={'input_tokens': 462, 'output_tokens': 73} cost=1.9e-05 err=None
+[898/1200] support-006-para openai lat=154.7 usage={'input_tokens': 477, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 477} cost=4.8e-05 err=None
+[899/1200] support-006-para clef lat=406.8 usage={'input_tokens': 396, 'output_tokens': 0} cost=9.5e-05 err=None
+[900/1200] support-006-para flash lat=253.1 usage={'input_tokens': 396, 'output_tokens': 0} cost=3.6e-05 err=None
+[901/1200] support-016 jev lat=271.6 usage={'input_tokens': 455, 'output_tokens': 73} cost=1.9e-05 err=None
+[902/1200] support-016 openai lat=202.9 usage={'input_tokens': 474, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 474} cost=4.7e-05 err=None
+[903/1200] support-016 clef lat=310.1 usage={'input_tokens': 390, 'output_tokens': 0} cost=9.4e-05 err=None
+[904/1200] support-016 flash lat=255.8 usage={'input_tokens': 390, 'output_tokens': 0} cost=3.5e-05 err=None
+[905/1200] security-003 jev lat=268.4 usage={'input_tokens': 423, 'output_tokens': 72} cost=1.8e-05 err=None
+[906/1200] security-003 openai lat=161.5 usage={'input_tokens': 435, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 435} cost=4.4e-05 err=None
+[907/1200] security-003 clef lat=459.9 usage={'input_tokens': 368, 'output_tokens': 0} cost=8.8e-05 err=None
+[908/1200] security-003 flash lat=304.6 usage={'input_tokens': 368, 'output_tokens': 0} cost=3.3e-05 err=None
+[909/1200] invoice-019-para jev lat=254.8 usage={'input_tokens': 473, 'output_tokens': 85} cost=2e-05 err=None
+[910/1200] invoice-019-para openai lat=271.0 usage={'input_tokens': 481, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 481} cost=4.8e-05 err=None
+[911/1200] invoice-019-para clef lat=321.6 usage={'input_tokens': 419, 'output_tokens': 0} cost=0.000101 err=None
+[912/1200] invoice-019-para flash lat=328.6 usage={'input_tokens': 419, 'output_tokens': 0} cost=3.8e-05 err=None
+[913/1200] support-055 jev lat=281.4 usage={'input_tokens': 464, 'output_tokens': 73} cost=1.9e-05 err=None
+[914/1200] support-055 openai lat=151.2 usage={'input_tokens': 479, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 479} cost=4.8e-05 err=None
+[915/1200] support-055 clef lat=291.7 usage={'input_tokens': 396, 'output_tokens': 0} cost=9.5e-05 err=None
+[916/1200] support-055 flash lat=245.6 usage={'input_tokens': 396, 'output_tokens': 0} cost=3.6e-05 err=None
+[917/1200] security-024 jev lat=314.7 usage={'input_tokens': 419, 'output_tokens': 73} cost=1.8e-05 err=None
+[918/1200] security-024 openai lat=198.7 usage={'input_tokens': 430, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 430} cost=4.3e-05 err=None
+[919/1200] security-024 clef lat=345.6 usage={'input_tokens': 363, 'output_tokens': 0} cost=8.7e-05 err=None
+[920/1200] security-024 flash lat=208.5 usage={'input_tokens': 363, 'output_tokens': 0} cost=3.3e-05 err=None
+[921/1200] support-001-json jev lat=292.1 usage={'input_tokens': 493, 'output_tokens': 73} cost=2.1e-05 err=None
+[922/1200] support-001-json openai lat=157.5 usage={'input_tokens': 498, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 498} cost=5e-05 err=None
+[923/1200] support-001-json clef lat=408.7 usage={'input_tokens': 410, 'output_tokens': 0} cost=9.8e-05 err=None
+[924/1200] support-001-json flash lat=236.7 usage={'input_tokens': 410, 'output_tokens': 0} cost=3.7e-05 err=None
+[925/1200] security-005 jev lat=277.0 usage={'input_tokens': 426, 'output_tokens': 73} cost=1.8e-05 err=None
+[926/1200] security-005 openai lat=194.0 usage={'input_tokens': 438, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 438} cost=4.4e-05 err=None
+[927/1200] security-005 clef lat=329.3 usage={'input_tokens': 371, 'output_tokens': 0} cost=8.9e-05 err=None
+[928/1200] security-005 flash lat=294.2 usage={'input_tokens': 371, 'output_tokens': 0} cost=3.3e-05 err=None
+[929/1200] support-043 jev lat=263.2 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[930/1200] support-043 openai lat=164.5 usage={'input_tokens': 472, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 472} cost=4.7e-05 err=None
+[931/1200] support-043 clef lat=380.8 usage={'input_tokens': 388, 'output_tokens': 0} cost=9.3e-05 err=None
+[932/1200] support-043 flash lat=210.2 usage={'input_tokens': 388, 'output_tokens': 0} cost=3.5e-05 err=None
+[933/1200] invoice-006 jev lat=311.3 usage={'input_tokens': 461, 'output_tokens': 84} cost=1.9e-05 err=None
+[934/1200] invoice-006 openai lat=230.7 usage={'input_tokens': 470, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 470} cost=4.7e-05 err=None
+[935/1200] invoice-006 clef lat=470.2 usage={'input_tokens': 407, 'output_tokens': 0} cost=9.8e-05 err=None
+[936/1200] invoice-006 flash lat=361.8 usage={'input_tokens': 407, 'output_tokens': 0} cost=3.7e-05 err=None
+[937/1200] support-031-para jev lat=275.8 usage={'input_tokens': 464, 'output_tokens': 73} cost=1.9e-05 err=None
+[938/1200] support-031-para openai lat=331.8 usage={'input_tokens': 479, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 479} cost=4.8e-05 err=None
+[939/1200] support-031-para clef lat=852.7 usage={'input_tokens': 398, 'output_tokens': 0} cost=9.6e-05 err=None
+[940/1200] support-031-para flash lat=402.2 usage={'input_tokens': 398, 'output_tokens': 0} cost=3.6e-05 err=None
+[941/1200] guardrail-008 jev lat=270.9 usage={'input_tokens': 422, 'output_tokens': 73} cost=1.8e-05 err=None
+[942/1200] guardrail-008 openai lat=150.3 usage={'input_tokens': 443, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 443} cost=4.4e-05 err=None
+[943/1200] guardrail-008 clef lat=357.3 usage={'input_tokens': 357, 'output_tokens': 0} cost=8.6e-05 err=None
+[944/1200] guardrail-008 flash lat=514.4 usage={'input_tokens': 357, 'output_tokens': 0} cost=3.2e-05 err=None
+[945/1200] support-024 jev lat=264.5 usage={'input_tokens': 454, 'output_tokens': 73} cost=1.9e-05 err=None
+[946/1200] support-024 openai lat=192.3 usage={'input_tokens': 471, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 471} cost=4.7e-05 err=None
+[947/1200] support-024 clef lat=542.4 usage={'input_tokens': 389, 'output_tokens': 0} cost=9.3e-05 err=None
+[948/1200] support-024 flash lat=242.3 usage={'input_tokens': 389, 'output_tokens': 0} cost=3.5e-05 err=None
+[949/1200] support-049-long jev lat=384.0 usage={'input_tokens': 17451, 'output_tokens': 73} cost=0.000733 err=None
+[950/1200] support-049-long openai lat=243.9 usage={'input_tokens': 12077, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 12077} cost=0.001208 err=None
+[951/1200] support-049-long clef lat=2992.3 usage={'input_tokens': 17387, 'output_tokens': 0} cost=0.004173 err=None
+[952/1200] support-049-long flash lat=1127.6 usage={'input_tokens': 17387, 'output_tokens': 0} cost=0.001565 err=None
+[953/1200] guardrail-030 jev lat=252.1 usage={'input_tokens': 407, 'output_tokens': 73} cost=1.7e-05 err=None
+[954/1200] guardrail-030 openai lat=231.1 usage={'input_tokens': 428, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 428} cost=4.3e-05 err=None
+[955/1200] guardrail-030 clef lat=311.8 usage={'input_tokens': 342, 'output_tokens': 0} cost=8.2e-05 err=None
+[956/1200] guardrail-030 flash lat=231.5 usage={'input_tokens': 342, 'output_tokens': 0} cost=3.1e-05 err=None
+[957/1200] security-039 jev lat=272.9 usage={'input_tokens': 424, 'output_tokens': 72} cost=1.8e-05 err=None
+[958/1200] security-039 openai lat=148.9 usage={'input_tokens': 435, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 435} cost=4.4e-05 err=None
+[959/1200] security-039 clef lat=338.6 usage={'input_tokens': 369, 'output_tokens': 0} cost=8.9e-05 err=None
+[960/1200] security-039 flash lat=255.9 usage={'input_tokens': 369, 'output_tokens': 0} cost=3.3e-05 err=None
+[961/1200] toolcall-022 jev lat=274.1 usage={'input_tokens': 401, 'output_tokens': 65} cost=1.7e-05 err=None
+[962/1200] toolcall-022 openai lat=157.4 usage={'input_tokens': 330, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 330} cost=3.3e-05 err=None
+[963/1200] toolcall-022 clef lat=485.8 usage={'input_tokens': 291, 'output_tokens': 0} cost=7e-05 err=None
+[964/1200] toolcall-022 flash lat=196.9 usage={'input_tokens': 291, 'output_tokens': 0} cost=2.6e-05 err=None
+[965/1200] support-013 jev lat=294.9 usage={'input_tokens': 456, 'output_tokens': 73} cost=1.9e-05 err=None
+[966/1200] support-013 openai lat=217.3 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[967/1200] support-013 clef lat=346.7 usage={'input_tokens': 391, 'output_tokens': 0} cost=9.4e-05 err=None
+[968/1200] support-013 flash lat=565.2 usage={'input_tokens': 391, 'output_tokens': 0} cost=3.5e-05 err=None
+[969/1200] support-026 jev lat=257.7 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[970/1200] support-026 openai lat=243.7 usage={'input_tokens': 472, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 472} cost=4.7e-05 err=None
+[971/1200] support-026 clef lat=432.1 usage={'input_tokens': 388, 'output_tokens': 0} cost=9.3e-05 err=None
+[972/1200] support-026 flash lat=360.3 usage={'input_tokens': 388, 'output_tokens': 0} cost=3.5e-05 err=None
+[973/1200] security-041 jev lat=239.1 usage={'input_tokens': 429, 'output_tokens': 73} cost=1.8e-05 err=None
+[974/1200] security-041 openai lat=158.0 usage={'input_tokens': 440, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 440} cost=4.4e-05 err=None
+[975/1200] security-041 clef lat=518.5 usage={'input_tokens': 374, 'output_tokens': 0} cost=9e-05 err=None
+[976/1200] security-041 flash lat=212.8 usage={'input_tokens': 374, 'output_tokens': 0} cost=3.4e-05 err=None
+[977/1200] security-034-para jev lat=278.6 usage={'input_tokens': 428, 'output_tokens': 72} cost=1.8e-05 err=None
+[978/1200] security-034-para openai lat=569.1 usage={'input_tokens': 438, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 438} cost=4.4e-05 err=None
+[979/1200] security-034-para clef lat=375.4 usage={'input_tokens': 372, 'output_tokens': 0} cost=8.9e-05 err=None
+[980/1200] security-034-para flash lat=450.6 usage={'input_tokens': 372, 'output_tokens': 0} cost=3.3e-05 err=None
+[981/1200] invoice-044-json jev lat=253.8 usage={'input_tokens': 496, 'output_tokens': 83} cost=2.1e-05 err=None
+[982/1200] invoice-044-json openai lat=179.7 usage={'input_tokens': 494, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 494} cost=4.9e-05 err=None
+[983/1200] invoice-044-json clef lat=341.8 usage={'input_tokens': 427, 'output_tokens': 0} cost=0.000102 err=None
+[984/1200] invoice-044-json flash lat=493.7 usage={'input_tokens': 427, 'output_tokens': 0} cost=3.8e-05 err=None
+[985/1200] security-001-json jev lat=252.2 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[986/1200] security-001-json openai lat=241.4 usage={'input_tokens': 452, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 452} cost=4.5e-05 err=None
+[987/1200] security-001-json clef lat=554.5 usage={'input_tokens': 381, 'output_tokens': 0} cost=9.1e-05 err=None
+[988/1200] security-001-json flash lat=1103.9 usage={'input_tokens': 381, 'output_tokens': 0} cost=3.4e-05 err=None
+[989/1200] security-014 jev lat=266.1 usage={'input_tokens': 428, 'output_tokens': 72} cost=1.8e-05 err=None
+[990/1200] security-014 openai lat=162.1 usage={'input_tokens': 437, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 437} cost=4.4e-05 err=None
+[991/1200] security-014 clef lat=467.4 usage={'input_tokens': 374, 'output_tokens': 0} cost=9e-05 err=None
+[992/1200] security-014 flash lat=352.7 usage={'input_tokens': 374, 'output_tokens': 0} cost=3.4e-05 err=None
+[993/1200] support-020 jev lat=276.7 usage={'input_tokens': 458, 'output_tokens': 73} cost=1.9e-05 err=None
+[994/1200] support-020 openai lat=354.7 usage={'input_tokens': 475, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 475} cost=4.8e-05 err=None
+[995/1200] support-020 clef lat=273.2 usage={'input_tokens': 393, 'output_tokens': 0} cost=9.4e-05 err=None
+[996/1200] support-020 flash lat=492.4 usage={'input_tokens': 393, 'output_tokens': 0} cost=3.5e-05 err=None
+[997/1200] security-025-para jev lat=303.1 usage={'input_tokens': 437, 'output_tokens': 73} cost=1.8e-05 err=None
+[998/1200] security-025-para openai lat=218.1 usage={'input_tokens': 448, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 448} cost=4.5e-05 err=None
+[999/1200] security-025-para clef lat=316.6 usage={'input_tokens': 382, 'output_tokens': 0} cost=9.2e-05 err=None
+[1000/1200] security-025-para flash lat=478.5 usage={'input_tokens': 382, 'output_tokens': 0} cost=3.4e-05 err=None
+[1001/1200] support-053-para jev lat=269.8 usage={'input_tokens': 461, 'output_tokens': 73} cost=1.9e-05 err=None
+[1002/1200] support-053-para openai lat=206.7 usage={'input_tokens': 480, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 480} cost=4.8e-05 err=None
+[1003/1200] support-053-para clef lat=469.9 usage={'input_tokens': 396, 'output_tokens': 0} cost=9.5e-05 err=None
+[1004/1200] support-053-para flash lat=221.3 usage={'input_tokens': 396, 'output_tokens': 0} cost=3.6e-05 err=None
+[1005/1200] invoice-009 jev lat=302.5 usage={'input_tokens': 482, 'output_tokens': 83} cost=2e-05 err=None
+[1006/1200] invoice-009 openai lat=700.8 usage={'input_tokens': 484, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 484} cost=4.8e-05 err=None
+[1007/1200] invoice-009 clef lat=412.1 usage={'input_tokens': 428, 'output_tokens': 0} cost=0.000103 err=None
+[1008/1200] invoice-009 flash lat=926.3 usage={'input_tokens': 428, 'output_tokens': 0} cost=3.9e-05 err=None
+[1009/1200] security-019 jev lat=240.7 usage={'input_tokens': 417, 'output_tokens': 72} cost=1.8e-05 err=None
+[1010/1200] security-019 openai lat=161.7 usage={'input_tokens': 428, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 428} cost=4.3e-05 err=None
+[1011/1200] security-019 clef lat=544.7 usage={'input_tokens': 362, 'output_tokens': 0} cost=8.7e-05 err=None
+[1012/1200] security-019 flash lat=440.6 usage={'input_tokens': 362, 'output_tokens': 0} cost=3.3e-05 err=None
+[1013/1200] invoice-045-para jev lat=337.3 usage={'input_tokens': 491, 'output_tokens': 83} cost=2.1e-05 err=None
+[1014/1200] invoice-045-para openai lat=168.0 usage={'input_tokens': 493, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 493} cost=4.9e-05 err=None
+[1015/1200] invoice-045-para clef lat=287.8 usage={'input_tokens': 437, 'output_tokens': 0} cost=0.000105 err=None
+[1016/1200] invoice-045-para flash lat=479.2 usage={'input_tokens': 437, 'output_tokens': 0} cost=3.9e-05 err=None
+[1017/1200] support-047 jev lat=261.0 usage={'input_tokens': 458, 'output_tokens': 73} cost=1.9e-05 err=None
+[1018/1200] support-047 openai lat=163.9 usage={'input_tokens': 475, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 475} cost=4.8e-05 err=None
+[1019/1200] support-047 clef lat=582.3 usage={'input_tokens': 393, 'output_tokens': 0} cost=9.4e-05 err=None
+[1020/1200] support-047 flash lat=466.2 usage={'input_tokens': 393, 'output_tokens': 0} cost=3.5e-05 err=None
+[1021/1200] guardrail-003-json jev lat=285.7 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[1022/1200] guardrail-003-json openai lat=360.4 usage={'input_tokens': 461, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 461} cost=4.6e-05 err=None
+[1023/1200] guardrail-003-json clef lat=333.0 usage={'input_tokens': 373, 'output_tokens': 0} cost=9e-05 err=None
+[1024/1200] guardrail-003-json flash lat=380.1 usage={'input_tokens': 373, 'output_tokens': 0} cost=3.4e-05 err=None
+[1025/1200] invoice-017 jev lat=287.5 usage={'input_tokens': 483, 'output_tokens': 83} cost=2e-05 err=None
+[1026/1200] invoice-017 openai lat=166.1 usage={'input_tokens': 485, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 485} cost=4.9e-05 err=None
+[1027/1200] invoice-017 clef lat=430.6 usage={'input_tokens': 429, 'output_tokens': 0} cost=0.000103 err=None
+[1028/1200] invoice-017 flash lat=307.9 usage={'input_tokens': 429, 'output_tokens': 0} cost=3.9e-05 err=None
+[1029/1200] invoice-012-para jev lat=256.6 usage={'input_tokens': 473, 'output_tokens': 84} cost=2e-05 err=None
+[1030/1200] invoice-012-para openai lat=242.7 usage={'input_tokens': 481, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 481} cost=4.8e-05 err=None
+[1031/1200] invoice-012-para clef lat=356.3 usage={'input_tokens': 419, 'output_tokens': 0} cost=0.000101 err=None
+[1032/1200] invoice-012-para flash lat=205.5 usage={'input_tokens': 419, 'output_tokens': 0} cost=3.8e-05 err=None
+[1033/1200] guardrail-009-json jev lat=298.1 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[1034/1200] guardrail-009-json openai lat=151.1 usage={'input_tokens': 461, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 461} cost=4.6e-05 err=None
+[1035/1200] guardrail-009-json clef lat=371.9 usage={'input_tokens': 373, 'output_tokens': 0} cost=9e-05 err=None
+[1036/1200] guardrail-009-json flash lat=1085.8 usage={'input_tokens': 373, 'output_tokens': 0} cost=3.4e-05 err=None
+[1037/1200] invoice-044 jev lat=266.1 usage={'input_tokens': 465, 'output_tokens': 83} cost=2e-05 err=None
+[1038/1200] invoice-044 openai lat=165.4 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[1039/1200] invoice-044 clef lat=411.6 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[1040/1200] invoice-044 flash lat=393.3 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[1041/1200] security-028 jev lat=250.8 usage={'input_tokens': 423, 'output_tokens': 73} cost=1.8e-05 err=None
+[1042/1200] security-028 openai lat=145.1 usage={'input_tokens': 433, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 433} cost=4.3e-05 err=None
+[1043/1200] security-028 clef lat=251.7 usage={'input_tokens': 368, 'output_tokens': 0} cost=8.8e-05 err=None
+[1044/1200] security-028 flash lat=1066.2 usage={'input_tokens': 368, 'output_tokens': 0} cost=3.3e-05 err=None
+[1045/1200] invoice-001 jev lat=283.0 usage={'input_tokens': 482, 'output_tokens': 83} cost=2e-05 err=None
+[1046/1200] invoice-001 openai lat=235.0 usage={'input_tokens': 484, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 484} cost=4.8e-05 err=None
+[1047/1200] invoice-001 clef lat=531.8 usage={'input_tokens': 428, 'output_tokens': 0} cost=0.000103 err=None
+[1048/1200] invoice-001 flash lat=467.0 usage={'input_tokens': 428, 'output_tokens': 0} cost=3.9e-05 err=None
+[1049/1200] toolcall-004-long jev lat=348.7 usage={'input_tokens': 17392, 'output_tokens': 65} cost=0.00073 err=None
+[1050/1200] toolcall-004-long openai lat=274.2 usage={'input_tokens': 11929, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 11929} cost=0.001193 err=None
+[1051/1200] toolcall-004-long clef lat=3040.0 usage={'input_tokens': 17283, 'output_tokens': 0} cost=0.004148 err=None
+[1052/1200] toolcall-004-long flash lat=976.0 usage={'input_tokens': 17283, 'output_tokens': 0} cost=0.001555 err=None
+[1053/1200] guardrail-022 jev lat=288.9 usage={'input_tokens': 410, 'output_tokens': 73} cost=1.7e-05 err=None
+[1054/1200] guardrail-022 openai lat=217.8 usage={'input_tokens': 428, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 428} cost=4.3e-05 err=None
+[1055/1200] guardrail-022 clef lat=386.4 usage={'input_tokens': 343, 'output_tokens': 0} cost=8.2e-05 err=None
+[1056/1200] guardrail-022 flash lat=504.9 usage={'input_tokens': 343, 'output_tokens': 0} cost=3.1e-05 err=None
+[1057/1200] support-032 jev lat=293.8 usage={'input_tokens': 456, 'output_tokens': 73} cost=1.9e-05 err=None
+[1058/1200] support-032 openai lat=610.9 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[1059/1200] support-032 clef lat=303.2 usage={'input_tokens': 391, 'output_tokens': 0} cost=9.4e-05 err=None
+[1060/1200] support-032 flash lat=261.6 usage={'input_tokens': 391, 'output_tokens': 0} cost=3.5e-05 err=None
+[1061/1200] support-051 jev lat=251.4 usage={'input_tokens': 454, 'output_tokens': 73} cost=1.9e-05 err=None
+[1062/1200] support-051 openai lat=216.6 usage={'input_tokens': 471, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 471} cost=4.7e-05 err=None
+[1063/1200] support-051 clef lat=276.3 usage={'input_tokens': 389, 'output_tokens': 0} cost=9.3e-05 err=None
+[1064/1200] support-051 flash lat=244.2 usage={'input_tokens': 389, 'output_tokens': 0} cost=3.5e-05 err=None
+[1065/1200] support-028 jev lat=246.9 usage={'input_tokens': 464, 'output_tokens': 73} cost=1.9e-05 err=None
+[1066/1200] support-028 openai lat=246.1 usage={'input_tokens': 479, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 479} cost=4.8e-05 err=None
+[1067/1200] support-028 clef lat=354.5 usage={'input_tokens': 396, 'output_tokens': 0} cost=9.5e-05 err=None
+[1068/1200] support-028 flash lat=211.9 usage={'input_tokens': 396, 'output_tokens': 0} cost=3.6e-05 err=None
+[1069/1200] guardrail-001-para jev lat=268.3 usage={'input_tokens': 437, 'output_tokens': 73} cost=1.8e-05 err=None
+[1070/1200] guardrail-001-para openai lat=146.1 usage={'input_tokens': 454, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 454} cost=4.5e-05 err=None
+[1071/1200] guardrail-001-para clef lat=389.3 usage={'input_tokens': 372, 'output_tokens': 0} cost=8.9e-05 err=None
+[1072/1200] guardrail-001-para flash lat=412.4 usage={'input_tokens': 372, 'output_tokens': 0} cost=3.3e-05 err=None
+[1073/1200] guardrail-026 jev lat=295.0 usage={'input_tokens': 412, 'output_tokens': 73} cost=1.7e-05 err=None
+[1074/1200] guardrail-026 openai lat=168.2 usage={'input_tokens': 433, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 433} cost=4.3e-05 err=None
+[1075/1200] guardrail-026 clef lat=339.2 usage={'input_tokens': 347, 'output_tokens': 0} cost=8.3e-05 err=None
+[1076/1200] guardrail-026 flash lat=468.3 usage={'input_tokens': 347, 'output_tokens': 0} cost=3.1e-05 err=None
+[1077/1200] toolcall-002-para jev lat=275.2 usage={'input_tokens': 409, 'output_tokens': 67} cost=1.7e-05 err=None
+[1078/1200] toolcall-002-para openai lat=246.0 usage={'input_tokens': 341, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 341} cost=3.4e-05 err=None
+[1079/1200] toolcall-002-para clef lat=436.9 usage={'input_tokens': 299, 'output_tokens': 0} cost=7.2e-05 err=None
+[1080/1200] toolcall-002-para flash lat=285.0 usage={'input_tokens': 299, 'output_tokens': 0} cost=2.7e-05 err=None
+[1081/1200] toolcall-037 jev lat=295.2 usage={'input_tokens': 401, 'output_tokens': 65} cost=1.7e-05 err=None
+[1082/1200] toolcall-037 openai lat=161.8 usage={'input_tokens': 329, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 329} cost=3.3e-05 err=None
+[1083/1200] toolcall-037 clef lat=351.8 usage={'input_tokens': 291, 'output_tokens': 0} cost=7e-05 err=None
+[1084/1200] toolcall-037 flash lat=379.0 usage={'input_tokens': 291, 'output_tokens': 0} cost=2.6e-05 err=None
+[1085/1200] support-046-para jev lat=238.7 usage={'input_tokens': 470, 'output_tokens': 73} cost=2e-05 err=None
+[1086/1200] support-046-para openai lat=257.1 usage={'input_tokens': 485, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 485} cost=4.9e-05 err=None
+[1087/1200] support-046-para clef lat=383.0 usage={'input_tokens': 403, 'output_tokens': 0} cost=9.7e-05 err=None
+[1088/1200] support-046-para flash lat=411.2 usage={'input_tokens': 403, 'output_tokens': 0} cost=3.6e-05 err=None
+[1089/1200] support-050 jev lat=245.4 usage={'input_tokens': 454, 'output_tokens': 73} cost=1.9e-05 err=None
+[1090/1200] support-050 openai lat=180.4 usage={'input_tokens': 471, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 471} cost=4.7e-05 err=None
+[1091/1200] support-050 clef lat=294.4 usage={'input_tokens': 389, 'output_tokens': 0} cost=9.3e-05 err=None
+[1092/1200] support-050 flash lat=251.4 usage={'input_tokens': 389, 'output_tokens': 0} cost=3.5e-05 err=None
+[1093/1200] support-049 jev lat=273.5 usage={'input_tokens': 456, 'output_tokens': 73} cost=1.9e-05 err=None
+[1094/1200] support-049 openai lat=158.8 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[1095/1200] support-049 clef lat=374.4 usage={'input_tokens': 391, 'output_tokens': 0} cost=9.4e-05 err=None
+[1096/1200] support-049 flash lat=373.0 usage={'input_tokens': 391, 'output_tokens': 0} cost=3.5e-05 err=None
+[1097/1200] invoice-043 jev lat=294.7 usage={'input_tokens': 465, 'output_tokens': 85} cost=2e-05 err=None
+[1098/1200] invoice-043 openai lat=218.5 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[1099/1200] invoice-043 clef lat=513.3 usage={'input_tokens': 411, 'output_tokens': 0} cost=9.9e-05 err=None
+[1100/1200] invoice-043 flash lat=248.5 usage={'input_tokens': 411, 'output_tokens': 0} cost=3.7e-05 err=None
+[1101/1200] guardrail-024 jev lat=268.9 usage={'input_tokens': 407, 'output_tokens': 73} cost=1.7e-05 err=None
+[1102/1200] guardrail-024 openai lat=222.2 usage={'input_tokens': 428, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 428} cost=4.3e-05 err=None
+[1103/1200] guardrail-024 clef lat=443.7 usage={'input_tokens': 342, 'output_tokens': 0} cost=8.2e-05 err=None
+[1104/1200] guardrail-024 flash lat=317.0 usage={'input_tokens': 342, 'output_tokens': 0} cost=3.1e-05 err=None
+[1105/1200] toolcall-040-json jev lat=260.5 usage={'input_tokens': 428, 'output_tokens': 65} cost=1.8e-05 err=None
+[1106/1200] toolcall-040-json openai lat=168.4 usage={'input_tokens': 346, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 346} cost=3.5e-05 err=None
+[1107/1200] toolcall-040-json clef lat=298.4 usage={'input_tokens': 303, 'output_tokens': 0} cost=7.3e-05 err=None
+[1108/1200] toolcall-040-json flash lat=320.7 usage={'input_tokens': 303, 'output_tokens': 0} cost=2.7e-05 err=None
+[1109/1200] security-025 jev lat=276.9 usage={'input_tokens': 429, 'output_tokens': 73} cost=1.8e-05 err=None
+[1110/1200] security-025 openai lat=157.1 usage={'input_tokens': 440, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 440} cost=4.4e-05 err=None
+[1111/1200] security-025 clef lat=355.8 usage={'input_tokens': 374, 'output_tokens': 0} cost=9e-05 err=None
+[1112/1200] security-025 flash lat=220.0 usage={'input_tokens': 374, 'output_tokens': 0} cost=3.4e-05 err=None
+[1113/1200] support-003-para jev lat=255.8 usage={'input_tokens': 461, 'output_tokens': 73} cost=1.9e-05 err=None
+[1114/1200] support-003-para openai lat=191.0 usage={'input_tokens': 478, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 478} cost=4.8e-05 err=None
+[1115/1200] support-003-para clef lat=475.8 usage={'input_tokens': 395, 'output_tokens': 0} cost=9.5e-05 err=None
+[1116/1200] support-003-para flash lat=437.4 usage={'input_tokens': 395, 'output_tokens': 0} cost=3.6e-05 err=None
+[1117/1200] invoice-013 jev lat=271.2 usage={'input_tokens': 483, 'output_tokens': 83} cost=2e-05 err=None
+[1118/1200] invoice-013 openai lat=171.1 usage={'input_tokens': 485, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 485} cost=4.9e-05 err=None
+[1119/1200] invoice-013 clef lat=300.5 usage={'input_tokens': 429, 'output_tokens': 0} cost=0.000103 err=None
+[1120/1200] invoice-013 flash lat=508.1 usage={'input_tokens': 429, 'output_tokens': 0} cost=3.9e-05 err=None
+[1121/1200] invoice-007-json jev lat=277.5 usage={'input_tokens': 496, 'output_tokens': 85} cost=2.1e-05 err=None
+[1122/1200] invoice-007-json openai lat=234.0 usage={'input_tokens': 494, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 494} cost=4.9e-05 err=None
+[1123/1200] invoice-007-json clef lat=337.9 usage={'input_tokens': 427, 'output_tokens': 0} cost=0.000102 err=None
+[1124/1200] invoice-007-json flash lat=325.5 usage={'input_tokens': 427, 'output_tokens': 0} cost=3.8e-05 err=None
+[1125/1200] security-010 jev lat=252.8 usage={'input_tokens': 420, 'output_tokens': 72} cost=1.8e-05 err=None
+[1126/1200] security-010 openai lat=270.5 usage={'input_tokens': 430, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 430} cost=4.3e-05 err=None
+[1127/1200] security-010 clef lat=423.1 usage={'input_tokens': 364, 'output_tokens': 0} cost=8.7e-05 err=None
+[1128/1200] security-010 flash lat=290.1 usage={'input_tokens': 364, 'output_tokens': 0} cost=3.3e-05 err=None
+[1129/1200] security-010-para jev lat=257.4 usage={'input_tokens': 428, 'output_tokens': 72} cost=1.8e-05 err=None
+[1130/1200] security-010-para openai lat=168.9 usage={'input_tokens': 438, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 438} cost=4.4e-05 err=None
+[1131/1200] security-010-para clef lat=827.6 usage={'input_tokens': 372, 'output_tokens': 0} cost=8.9e-05 err=None
+[1132/1200] security-010-para flash lat=484.1 usage={'input_tokens': 372, 'output_tokens': 0} cost=3.3e-05 err=None
+[1133/1200] security-043 jev lat=261.2 usage={'input_tokens': 417, 'output_tokens': 72} cost=1.8e-05 err=None
+[1134/1200] security-043 openai lat=153.8 usage={'input_tokens': 428, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 428} cost=4.3e-05 err=None
+[1135/1200] security-043 clef lat=367.5 usage={'input_tokens': 362, 'output_tokens': 0} cost=8.7e-05 err=None
+[1136/1200] security-043 flash lat=233.1 usage={'input_tokens': 362, 'output_tokens': 0} cost=3.3e-05 err=None
+[1137/1200] security-022 jev lat=257.2 usage={'input_tokens': 420, 'output_tokens': 72} cost=1.8e-05 err=None
+[1138/1200] security-022 openai lat=161.5 usage={'input_tokens': 430, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 430} cost=4.3e-05 err=None
+[1139/1200] security-022 clef lat=338.4 usage={'input_tokens': 364, 'output_tokens': 0} cost=8.7e-05 err=None
+[1140/1200] security-022 flash lat=204.3 usage={'input_tokens': 364, 'output_tokens': 0} cost=3.3e-05 err=None
+[1141/1200] security-039-json jev lat=246.9 usage={'input_tokens': 455, 'output_tokens': 72} cost=1.9e-05 err=None
+[1142/1200] security-039-json openai lat=181.1 usage={'input_tokens': 457, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 457} cost=4.6e-05 err=None
+[1143/1200] security-039-json clef lat=288.7 usage={'input_tokens': 385, 'output_tokens': 0} cost=9.2e-05 err=None
+[1144/1200] security-039-json flash lat=688.1 usage={'input_tokens': 385, 'output_tokens': 0} cost=3.5e-05 err=None
+[1145/1200] invoice-027-long jev lat=361.1 usage={'input_tokens': 17460, 'output_tokens': 85} cost=0.000733 err=None
+[1146/1200] invoice-027-long openai lat=186.0 usage={'input_tokens': 12077, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 12077} cost=0.001208 err=None
+[1147/1200] invoice-027-long clef lat=3024.5 usage={'input_tokens': 17407, 'output_tokens': 0} cost=0.004178 err=None
+[1148/1200] invoice-027-long flash lat=1112.7 usage={'input_tokens': 17407, 'output_tokens': 0} cost=0.001567 err=None
+[1149/1200] toolcall-025 jev lat=253.9 usage={'input_tokens': 401, 'output_tokens': 65} cost=1.7e-05 err=None
+[1150/1200] toolcall-025 openai lat=230.4 usage={'input_tokens': 329, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 329} cost=3.3e-05 err=None
+[1151/1200] toolcall-025 clef lat=384.8 usage={'input_tokens': 291, 'output_tokens': 0} cost=7e-05 err=None
+[1152/1200] toolcall-025 flash lat=463.3 usage={'input_tokens': 291, 'output_tokens': 0} cost=2.6e-05 err=None
+[1153/1200] support-017 jev lat=293.7 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[1154/1200] support-017 openai lat=159.4 usage={'input_tokens': 472, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 472} cost=4.7e-05 err=None
+[1155/1200] support-017 clef lat=371.0 usage={'input_tokens': 388, 'output_tokens': 0} cost=9.3e-05 err=None
+[1156/1200] support-017 flash lat=325.2 usage={'input_tokens': 388, 'output_tokens': 0} cost=3.5e-05 err=None
+[1157/1200] support-035 jev lat=248.3 usage={'input_tokens': 453, 'output_tokens': 73} cost=1.9e-05 err=None
+[1158/1200] support-035 openai lat=171.0 usage={'input_tokens': 472, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 472} cost=4.7e-05 err=None
+[1159/1200] support-035 clef lat=319.2 usage={'input_tokens': 388, 'output_tokens': 0} cost=9.3e-05 err=None
+[1160/1200] support-035 flash lat=547.3 usage={'input_tokens': 388, 'output_tokens': 0} cost=3.5e-05 err=None
+[1161/1200] security-020-long jev lat=343.7 usage={'input_tokens': 17414, 'output_tokens': 73} cost=0.000731 err=None
+[1162/1200] security-020-long openai lat=291.2 usage={'input_tokens': 12034, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 12034} cost=0.001203 err=None
+[1163/1200] security-020-long clef lat=2834.1 usage={'input_tokens': 17360, 'output_tokens': 0} cost=0.004166 err=None
+[1164/1200] security-020-long flash lat=1052.2 usage={'input_tokens': 17360, 'output_tokens': 0} cost=0.001562 err=None
+[1165/1200] support-031 jev lat=258.8 usage={'input_tokens': 456, 'output_tokens': 73} cost=1.9e-05 err=None
+[1166/1200] support-031 openai lat=151.3 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[1167/1200] support-031 clef lat=328.1 usage={'input_tokens': 391, 'output_tokens': 0} cost=9.4e-05 err=None
+[1168/1200] support-031 flash lat=210.9 usage={'input_tokens': 391, 'output_tokens': 0} cost=3.5e-05 err=None
+[1169/1200] support-037 jev lat=247.0 usage={'input_tokens': 464, 'output_tokens': 73} cost=1.9e-05 err=None
+[1170/1200] support-037 openai lat=227.9 usage={'input_tokens': 479, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 479} cost=4.8e-05 err=None
+[1171/1200] support-037 clef lat=336.3 usage={'input_tokens': 396, 'output_tokens': 0} cost=9.5e-05 err=None
+[1172/1200] support-037 flash lat=702.2 usage={'input_tokens': 396, 'output_tokens': 0} cost=3.6e-05 err=None
+[1173/1200] support-004 jev lat=270.8 usage={'input_tokens': 456, 'output_tokens': 73} cost=1.9e-05 err=None
+[1174/1200] support-004 openai lat=168.4 usage={'input_tokens': 473, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 473} cost=4.7e-05 err=None
+[1175/1200] support-004 clef lat=465.3 usage={'input_tokens': 391, 'output_tokens': 0} cost=9.4e-05 err=None
+[1176/1200] support-004 flash lat=333.3 usage={'input_tokens': 391, 'output_tokens': 0} cost=3.5e-05 err=None
+[1177/1200] security-013 jev lat=260.3 usage={'input_tokens': 431, 'output_tokens': 73} cost=1.8e-05 err=None
+[1178/1200] security-013 openai lat=162.7 usage={'input_tokens': 440, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 440} cost=4.4e-05 err=None
+[1179/1200] security-013 clef lat=250.8 usage={'input_tokens': 375, 'output_tokens': 0} cost=9e-05 err=None
+[1180/1200] security-013 flash lat=499.0 usage={'input_tokens': 375, 'output_tokens': 0} cost=3.4e-05 err=None
+[1181/1200] security-018 jev lat=276.1 usage={'input_tokens': 424, 'output_tokens': 72} cost=1.8e-05 err=None
+[1182/1200] security-018 openai lat=160.1 usage={'input_tokens': 433, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 433} cost=4.3e-05 err=None
+[1183/1200] security-018 clef lat=430.7 usage={'input_tokens': 369, 'output_tokens': 0} cost=8.9e-05 err=None
+[1184/1200] security-018 flash lat=233.8 usage={'input_tokens': 369, 'output_tokens': 0} cost=3.3e-05 err=None
+[1185/1200] security-036-json jev lat=257.6 usage={'input_tokens': 450, 'output_tokens': 73} cost=1.9e-05 err=None
+[1186/1200] security-036-json openai lat=253.2 usage={'input_tokens': 451, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 451} cost=4.5e-05 err=None
+[1187/1200] security-036-json clef lat=282.3 usage={'input_tokens': 379, 'output_tokens': 0} cost=9.1e-05 err=None
+[1188/1200] security-036-json flash lat=227.1 usage={'input_tokens': 379, 'output_tokens': 0} cost=3.4e-05 err=None
+[1189/1200] support-011 jev lat=263.8 usage={'input_tokens': 458, 'output_tokens': 73} cost=1.9e-05 err=None
+[1190/1200] support-011 openai lat=163.9 usage={'input_tokens': 475, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 475} cost=4.8e-05 err=None
+[1191/1200] support-011 clef lat=291.1 usage={'input_tokens': 393, 'output_tokens': 0} cost=9.4e-05 err=None
+[1192/1200] support-011 flash lat=None usage=None cost=None err=HTTP 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (dd2b3e76-7e2f-47d6-a7a6-6aab3875393d)","code":4006}],"success":false,"result":{},"messages":[]}
+[1193/1200] toolcall-029 jev lat=285.9 usage={'input_tokens': 401, 'output_tokens': 67} cost=1.7e-05 err=None
+[1194/1200] toolcall-029 openai lat=156.8 usage={'input_tokens': 332, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 332} cost=3.3e-05 err=None
+[1195/1200] toolcall-029 clef lat=None usage=None cost=None err=HTTP 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (e9c372fc-bfe5-4891-af95-1048cbc0fbfc)","code":4006}],"success":false,"result":{},"messages":[]}
+[1196/1200] toolcall-029 flash lat=None usage=None cost=None err=HTTP 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (54fd4b91-2366-4e43-8009-f062f48b5dc5)","code":4006}],"success":false,"result":{},"messages":[]}
+[1197/1200] support-033 jev lat=279.5 usage={'input_tokens': 454, 'output_tokens': 73} cost=1.9e-05 err=None
+[1198/1200] support-033 openai lat=233.5 usage={'input_tokens': 471, 'input_tokens_details': {'cached_tokens': 0, 'cache_write_tokens': 0}, 'output_tokens': 0, 'output_tokens_details': {'reasoning_tokens': 0}, 'total_tokens': 471} cost=4.7e-05 err=None
+[1199/1200] support-033 clef lat=None usage=None cost=None err=HTTP 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (7b46b672-8031-4c1c-844e-70a765149461)","code":4006}],"success":false,"result":{},"messages":[]}
+[1200/1200] support-033 flash lat=None usage=None cost=None err=HTTP 429: {"errors":[{"message":"AiError: AiError: you have used up your daily free allocation of 10,000 neurons, please upgrade to Cloudflare's Workers Paid plan if you would like to continue usage. (dcb899db-8fe9-4807-80b7-1061cb614f55)","code":4006}],"success":false,"result":{},"messages":[]}
+spend: {'jev': 0.0127, 'openai': 0.0247, 'clef': 0.0672, 'flash': 0.0252} -> results/full.jsonl
